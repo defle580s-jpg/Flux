@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.flux.downloader"
+    namespace = "com.comfort.app"
     compileSdk = 36
     defaultConfig {
         applicationId = "com.flux.downloader"
