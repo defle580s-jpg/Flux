@@ -30,9 +30,9 @@ android {
     signingConfigs {
         create("release") {
             storeFile = file("../release.keystore")
-            storePassword = "android"
-            keyAlias = "release"
-            keyPassword = "android"
+            storePassword = System.getenv("KEY_STORE_PASSWORD") ?: "android"
+            keyAlias = System.getenv("ALIAS") ?: "release"
+            keyPassword = System.getenv("KEY_PASSWORD") ?: "android"
         }
     }
 
