@@ -6,10 +6,10 @@ plugins {
 }
 
 android {
-    namespace = "com.comfort.app"
+    namespace = "com.flux.downloader"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.comfort.app"
+        applicationId = "com.flux.downloader"
         minSdk = 24
         targetSdk = 36
         // Bump both on every release you publish to github.com/d-gibr1l/comfort — versionName is
