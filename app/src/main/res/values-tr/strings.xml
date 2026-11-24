@@ -110,14 +110,14 @@
     <string name="restore_section">Geri yükle</string>
     <string name="restore_description">Yedekte olanı geri getirir. Kitaplığındaki indirmeler olduğu gibi kalır; yedekteki ayarlar seninkilerin yerini alır.</string>
     <string name="restore_action">Dosyadan geri yükle</string>
-    <string name="restore_not_backup">Bu dosya bir Comfort yedeği değil.</string>
+    <string name="restore_not_backup">Bu dosya bir Flux yedeği değil.</string>
     <string name="restore_dialog_title">Yedeği geri yükle</string>
     <string name="restore_dialog_contains">Bu yedekte %1$s var. Geri yükle:</string>
     <string name="restore_confirm">Geri yükle</string>
     <string name="restore_done">Geri yüklendi: %1$s.</string>
     <string name="restore_failed">Geri yüklenemedi: %1$s</string>
-    <string name="restore_restart_title">Comfort yeniden başlatılsın mı?</string>
-    <string name="restore_restart_text">Geri yüklenen ayarlar Comfort yeniden başladığında geçerli olur.</string>
+    <string name="restore_restart_title">Flux yeniden başlatılsın mı?</string>
+    <string name="restore_restart_text">Geri yüklenen ayarlar Flux yeniden başladığında geçerli olur.</string>
     <string name="restore_restart_now">Yeniden başlat</string>
     <string name="restore_restart_later">Sonra</string>
     <string name="home_link_hint">Bir bağlantı yapıştır veya YouTube\'da ara</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">Yalnızca dokunulan şarkıyı çal</string>
     <string name="play_tapped_only_subtitle">Aksi hâlde Kitaplıktaki diğer şarkılar ardından gelir.</string>
     <string name="keep_queue">Kuyruğu koru</string>
-    <string name="keep_queue_subtitle">Comfort yeniden açıldığında son kuyruğu duraklatılmış olarak geri getirir.</string>
+    <string name="keep_queue_subtitle">Flux yeniden açıldığında son kuyruğu duraklatılmış olarak geri getirir.</string>
     <string name="report_an_issue">Sorun bildir</string>
     <string name="issue_bug">Bir şey çalışmıyor</string>
     <string name="issue_bug_subtitle">Bir çökme, hiçbir şey yapmayan bir düğme, yanlış görünen bir ekran.</string>
     <string name="issue_site">Bir site indirmiyor</string>
     <string name="issue_site_subtitle">Bir sitenin bağlantıları başarısız oluyor ya da yanlış şeyi indiriyor.</string>
     <string name="issue_idea">Fikir öner</string>
-    <string name="issue_idea_subtitle">Comfort\'un yapabileceği ya da daha iyi yapabileceği bir şey.</string>
+    <string name="issue_idea_subtitle">Flux\'un yapabileceği ya da daha iyi yapabileceği bir şey.</string>
     <string name="report_an_issue_subtitle">Sürümünüzün (%1$s) dolu olduğu kısa bir formu GitHub\'da açar.</string>
     <string name="player_background">Kapak arka planı</string>
     <string name="player_background_subtitle">Oynatıcının arka planı şarkının bulanık kapağıdır. Kapalıyken düz koyu bir arka plan.</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">Dosya adlarını kısalt</string>
     <string name="caps_long_titles_at_150_characters">Uzun başlıkları 150 karakterde keser (yalnızca varsayılan dosya adı biçimine uygulanır).</string>
     <string name="download_location">İndirme konumu</string>
-    <string name="saving_to_the_default_download_comfort">Varsayılan Download/Comfort klasörüne kaydediliyor.</string>
+    <string name="saving_to_the_default_download_comfort">Varsayılan Download/Flux klasörüne kaydediliyor.</string>
     <string name="saving_to_x">\"%1$s\" konumuna kaydediliyor.</string>
-    <string name="selected_folder_is_inaccessible_or_permission">Seçilen klasöre erişilemiyor veya izin kaybedildi. Varsayılan Download/Comfort klasörüne dönülüyor.</string>
+    <string name="selected_folder_is_inaccessible_or_permission">Seçilen klasöre erişilemiyor veya izin kaybedildi. Varsayılan Download/Flux klasörüne dönülüyor.</string>
     <string name="custom_folders_won_t_automatically_appear">Özel klasörler Fotoğraflar/Galeri uygulamalarında otomatik görünmez — yalnızca varsayılan konum medya olarak dizinlenir.</string>
     <string name="choose_folder">Klasör seç</string>
     <string name="use_default">Varsayılanı kullan</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">Ya da çerezleri elle yapıştır</string>
     <string name="cookies_txt_contents">cookies.txt içeriği</string>
     <string name="please_paste_cookie_text_first">Lütfen önce çerez metnini yapıştır.</string>
-    <string name="detected_json_format_comfort_requires_netscape">JSON biçimi algılandı. Comfort, Netscape cookies.txt biçimi (sekmeyle ayrılmış sütunlar) gerektirir. Lütfen tarayıcı eklentinden Netscape biçiminde dışa aktar.</string>
-    <string name="detected_http_header_format_name_value">HTTP başlık biçimi (\"name=value\") algılandı. Comfort; alan adı, yol, son kullanma ve değerlerin sekmeyle ayrıldığı Netscape cookies.txt biçimi gerektirir.</string>
+    <string name="detected_json_format_comfort_requires_netscape">JSON biçimi algılandı. Flux, Netscape cookies.txt biçimi (sekmeyle ayrılmış sütunlar) gerektirir. Lütfen tarayıcı eklentinden Netscape biçiminde dışa aktar.</string>
+    <string name="detected_http_header_format_name_value">HTTP başlık biçimi (\"name=value\") algılandı. Flux; alan adı, yol, son kullanma ve değerlerin sekmeyle ayrıldığı Netscape cookies.txt biçimi gerektirir.</string>
     <string name="couldn_t_find_any_valid_cookies">Bu metinde geçerli çerez bulunamadı — gerçek, sekmeyle ayrılmış Netscape biçiminde olmalı (her satırda domain, includeSubdomains, path, secure, expiry, name, value).</string>
     <string name="cookies_saved_and_applied">Çerezler kaydedildi ve uygulandı</string>
     <string name="save_cookies">Çerezleri kaydet</string>
@@ -456,7 +456,7 @@
     <string name="monthly">Aylık</string>
     <string name="x_schedule_time_x">%1$s zamanlama saati: %2$s</string>
     <string name="sharing_mode">Paylaşım modu</string>
-    <string name="what_happens_when_you_share_a">Comfort\'a bir bağlantı paylaştığında ne olur.</string>
+    <string name="what_happens_when_you_share_a">Flux\'a bir bağlantı paylaştığında ne olur.</string>
     <string name="view_cookies_for_site_count">%1$s, %2$s çerezlerini görüntüle</string>
     <string name="updates_and_engines">Güncellemeler ve motorlar</string>
     <string name="which_engines_run">Hangi motorlar çalışır</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">Spotify parçaları, yt-dlp ile</string>
     <string name="about">Hakkında</string>
     <string name="app">Uygulama</string>
-    <string name="comfort_version_x_open_project_page">Comfort sürüm %1$s, proje sayfasını aç</string>
+    <string name="comfort_version_x_open_project_page">Flux sürüm %1$s, proje sayfasını aç</string>
     <string name="version_x">Sürüm %1$s</string>
     <string name="credits">Katkıda bulunanlar</string>
     <string name="python_runtime">Python çalışma ortamı</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">Otomatik güncelleme</string>
     <string name="later">Sonra</string>
     <string name="new_update">Yeni güncelleme</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">Yenilikler</string>
     <string name="update_now">Şimdi güncelle</string>
     <string name="update_now_x">Şimdi güncelle · %1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">Kararlı</string>
     <string name="open_x_website">%1$s web sitesini aç</string>
     <string name="every_supported_site_by_engine">Desteklenen tüm siteler, motora göre</string>
-    <string name="configure_instant_or_always_ask_what">Yapılandır, Anında veya Her zaman sor — Comfort\'un kendisine paylaşılan bir bağlantıyla ne yaptığı.</string>
+    <string name="configure_instant_or_always_ask_what">Yapılandır, Anında veya Her zaman sor — Flux\'un kendisine paylaşılan bir bağlantıyla ne yaptığı.</string>
     <string name="how_downloaded_files_are_named">İndirilen dosyaların nasıl adlandırıldığı.</string>
     <string name="where_downloaded_files_are_saved">İndirilen dosyaların nereye kaydedildiği.</string>
     <string name="how_much_space_downloads_are_using">İndirmelerin ne kadar yer kapladığı.</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">Bu video korumalı</string>
     <string name="not_the_video_you_want">İstediğin video bu değil mi?</string>
     <string name="the_site_uses_copy_protection_drm">Site kopya koruması (DRM) kullanıyor, bu yüzden kaydı oynatılamaz.</string>
-    <string name="this_player_builds_its_video_from">Bu oynatıcı videosunu parçalardan oluşturur. Comfort bunları oynarken kaydedebilir: sayfa yeniden yüklenir, videoyu sonuna kadar oynatırsın, sonra Durdur ve kaydet\'e dokunursun.</string>
+    <string name="this_player_builds_its_video_from">Bu oynatıcı videosunu parçalardan oluşturur. Flux bunları oynarken kaydedebilir: sayfa yeniden yüklenir, videoyu sonuna kadar oynatırsın, sonra Durdur ve kaydet\'e dokunursun.</string>
     <string name="record_while_it_plays">Oynarken kaydet</string>
     <string name="saving_the_recording">Kayıt kaydediliyor…</string>
     <string name="recorded_to_the_end_x">Sonuna kadar kaydedildi · %1$s</string>
@@ -964,7 +964,7 @@
     <string name="shows_download_progress_and_completion">İndirmenin ilerlemesini ve tamamlanmasını gösterir</string>
     <string name="download_results_channel">Biten indirmeler</string>
     <string name="download_results_channel_description">Bir indirme bittiğinde veya başarısız olduğunda bildirir</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort arka planda indiriyor</string>
+    <string name="comfort_is_downloading_in_the_background">Flux arka planda indiriyor</string>
     <string name="starting">Başlatılıyor…</string>
     <string name="download_failed">İndirme başarısız oldu</string>
     <string name="downloading_ellipsis">İndiriliyor…</string>
@@ -1232,9 +1232,9 @@
     <string name="queue_help_errors_body">Ayrıntılar için karttaki ⓘ simgesine, yeniden denemek için Tekrar dene düğmesine dokunun.\n• Gizli, yaş sınırlı ya da oturum açmayı gerektiren gönderiler: hesabınızı Ayarlar › Çerezler ve Oturum bölümünden ekleyin.\n• Hız sınırı: site mola istiyor; indirme bekler ve kendiliğinden devam eder.\n• Bağlantı yok: bekleyen indirmeler yeniden çevrimiçi olunca başlar; çalışan bir indirme başarısız olabilir, o zaman Tekrar dene düğmesine dokunun.\n• Desteklenmeyen bağlantı: sayfadaki medyayı bulmak için Ana Sayfa sayfasında Web\'de gezin ile açın.</string>
     <string name="players">Oynatıcılar</string>
     <string name="videos_in_phone_player">Videoları telefonun oynatıcısında aç</string>
-    <string name="videos_in_phone_player_subtitle">Comfort\'un görüntüleyicisi yerine. Resimler yine Comfort\'ta açılır.</string>
+    <string name="videos_in_phone_player_subtitle">Flux\'un görüntüleyicisi yerine. Resimler yine Flux\'ta açılır.</string>
     <string name="music_in_phone_player">Müziği telefonun oynatıcısında çal</string>
-    <string name="music_in_phone_player_subtitle">Comfort\'un müzik çalarının yerine.</string>
+    <string name="music_in_phone_player_subtitle">Flux\'un müzik çalarının yerine.</string>
     <string name="no_app_to_open_this">Bu telefonda bunu açabilecek uygulama yok</string>
     <string name="video_settings">Video ayarları</string>
     <string name="play_videos_with_sound_subtitle">Videolar sesi açık başlar, sessiz değil.</string>
@@ -1250,7 +1250,7 @@
     <string name="view_items">Öğeleri göster</string>
     <string name="grid_view">Izgara</string>
     <string name="list_view">Liste</string>
-    <string name="batch_item_not_deleted">Android, Comfort\'un bu dosyayı silmesine izin vermedi (yeniden yüklemeden önce kaydedilmiş): galeriden silin.</string>
+    <string name="batch_item_not_deleted">Android, Flux\'un bu dosyayı silmesine izin vermedi (yeniden yüklemeden önce kaydedilmiş): galeriden silin.</string>
     <string name="welcome_skip">Atla</string>
     <string name="welcome_next">İleri</string>
     <string name="welcome_start">Başlayalım</string>
@@ -1262,14 +1262,14 @@
     <string name="welcome_audio_format">Ses biçimi</string>
     <string name="welcome_change_later">Bunların hepsi sonra Ayarlar\'da.</string>
     <string name="welcome_notifications_title">Bittiğini bilin</string>
-    <string name="welcome_notifications_body">Comfort bir indirmenin ilerlemesini gösterir; bittiğinde ya da başarısız olduğunda haber verir.</string>
+    <string name="welcome_notifications_body">Flux bir indirmenin ilerlemesini gösterir; bittiğinde ya da başarısız olduğunda haber verir.</string>
     <string name="welcome_notifications_allow">Bildirimlere izin ver</string>
     <string name="welcome_notifications_on">Bildirimler açık</string>
     <string name="welcome_battery_body">İndirmeler siz başka uygulamaları kullanırken sürsün ve zamanında başlasın diye. Bu olmadan Android\'in pil tasarrufu onları duraklatabilir.</string>
     <string name="comic">Çizgi roman</string>
     <string name="comics">Çizgi romanlar</string>
     <string name="save_chapters_as_cbz">Bölümleri .cbz olarak kaydet</string>
-    <string name="save_chapters_as_cbz_subtitle">Bir manga ya da çizgi roman bölümü, galeride dağınık resimler yerine Comfort\'ta ya da herhangi bir çizgi roman uygulamasında okunan tek bir dosya olarak kaydedilir.</string>
+    <string name="save_chapters_as_cbz_subtitle">Bir manga ya da çizgi roman bölümü, galeride dağınık resimler yerine Flux\'ta ya da herhangi bir çizgi roman uygulamasında okunan tek bir dosya olarak kaydedilir.</string>
     <string name="comic_sites">Çizgi roman siteleri</string>
     <string name="comic_sites_subtitle">Bu sitelerin bölümleri .cbz olarak kaydedilir.</string>
     <string name="comic_site_add_hint">Site ekleyin ya da bağlantı yapıştırın</string>
@@ -1287,7 +1287,7 @@
     <string name="welcome_music_body">Şarkılarınız, sözleriyle</string>
     <string name="welcome_allow">İzin ver</string>
     <string name="media_access_title">Geri yüklenen indirmeleri göster</string>
-    <string name="media_access_body">Bunlar Comfort\'un önceki bir kurulumu tarafından kaydedildi, bu yüzden Android onları bu kuruluma kapalı tutuyor. Burada açmak için fotoğraf, video ve müziğe erişime izin verin.</string>
+    <string name="media_access_body">Bunlar Flux\'un önceki bir kurulumu tarafından kaydedildi, bu yüzden Android onları bu kuruluma kapalı tutuyor. Burada açmak için fotoğraf, video ve müziğe erişime izin verin.</string>
     <string name="media_access_allow">Erişime izin ver</string>
     <string name="comic_converting">.cbz\'ye dönüştürülüyor…</string>
     <string name="reader_settings">Okuyucu ayarları</string>

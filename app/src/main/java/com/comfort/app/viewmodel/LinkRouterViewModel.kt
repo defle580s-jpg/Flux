@@ -171,7 +171,7 @@ class LinkRouterViewModel(application: Application) : AndroidViewModel(applicati
     }
 
     /** Waits for every enqueue started here to finish, its onDone included. The share screen
-     * closes after this so the "started" Toast is posted while Comfort is still on screen:
+     * closes after this so the "started" Toast is posted while Flux is still on screen:
      * posted from the background, Android lets an app only ~3 Toasts in 20 s and drops the rest
      * ("above allowed toast quota", seen live — a run of shares lost their Toasts). */
     suspend fun awaitEnqueues() {

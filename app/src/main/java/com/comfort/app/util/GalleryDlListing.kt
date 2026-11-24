@@ -227,8 +227,8 @@ object GalleryDlListing {
         // start no WebView is open yet to be using it.
         java.io.File(context.cacheDir, "WebView/Default/HTTP Cache").deleteRecursively()
         val installed = AppUpdater.installedVersion(context)
-        context.cacheDir.listFiles { f -> f.isFile && f.name.startsWith("Comfort-") && f.name.endsWith(".apk") }?.forEach { apk ->
-            val version = apk.name.removePrefix("Comfort-").removeSuffix(".apk")
+        context.cacheDir.listFiles { f -> f.isFile && f.name.startsWith("Flux-") && f.name.endsWith(".apk") }?.forEach { apk ->
+            val version = apk.name.removePrefix("Flux-").removeSuffix(".apk")
             if (!AppUpdater.isNewer(version, installed)) apk.delete()
         }
     }

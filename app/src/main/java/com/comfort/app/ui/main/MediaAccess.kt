@@ -60,7 +60,7 @@ object MediaAccess {
         context.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit().putBoolean("asked", true).apply()
 
     /**
-     * With access allowed, points the restored downloads at links this app can open. Comfort saves
+     * With access allowed, points the restored downloads at links this app can open. Flux saves
      * through MediaStore's Downloads collection, and a Downloads link opens only for the app that
      * saved the file, whatever the permissions; the same file's link in the Images / Video / Audio
      * collection (the same row id) opens with them. Each link that's refused is swapped, in the

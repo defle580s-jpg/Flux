@@ -69,7 +69,7 @@ import kotlinx.coroutines.launch
 data class BrowserAction(val label: String, val icon: ImageVector, val onClick: (url: String) -> Unit)
 
 /**
- * Comfort's in-app browser, full screen. Used to sign in to a site (CookieLoginDialog) and meant to
+ * Flux's in-app browser, full screen. Used to sign in to a site (CookieLoginDialog) and meant to
  * be where a page's media gets found later.
  *
  * - Top: close, and a pill address bar — lock + site at rest, the full URL selected once tapped
@@ -1138,7 +1138,7 @@ private fun sharePage(context: Context, url: String, title: String) {
 }
 
 private fun openExternally(context: Context, url: String) {
-    // A chooser, since Comfort itself may be offered for the link.
+    // A chooser, since Flux itself may be offered for the link.
     val view = Intent(Intent.ACTION_VIEW, Uri.parse(url))
     runCatching { context.startActivity(Intent.createChooser(view, null).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
 }

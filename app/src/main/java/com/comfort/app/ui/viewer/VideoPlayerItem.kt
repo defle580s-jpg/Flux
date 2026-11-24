@@ -1,6 +1,6 @@
 /*
- * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Comfort.
- * Adapted for Comfort: package, imports and the pieces Photon's app provides that Comfort doesn't
+ * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Flux.
+ * Adapted for Flux: package, imports and the pieces Photon's app provides that Flux doesn't
  * (see the notes where they were changed).
  */
 package com.comfort.app.ui.viewer
@@ -70,14 +70,14 @@ fun VideoPlayerItem(
     showControls: Boolean,
     modifier: Modifier = Modifier,
     controlsBottomPadding: androidx.compose.ui.unit.Dp = 64.dp,
-    // Comfort: the sound setting lives with the viewer (shared by every video in it), and the
+    // Flux: the sound setting lives with the viewer (shared by every video in it), and the
     // viewer hears whether this video plays (it keeps the controls up while paused).
     muted: Boolean = true,
     onMutedChange: (Boolean) -> Unit = {},
     onPlayingChange: (Boolean) -> Unit = {},
-    // Comfort: the audio and subtitle tracks of the video on screen, for the viewer's ⋮ menu.
+    // Flux: the audio and subtitle tracks of the video on screen, for the viewer's ⋮ menu.
     onTracksChange: (VideoTracks?) -> Unit = {},
-    /** Comfort: on the video itself, not its controls (the viewer's zoom). */
+    /** Flux: on the video itself, not its controls (the viewer's zoom). */
     videoModifier: Modifier = Modifier,
     onTap: (() -> Unit)? = null,
 ) {
@@ -173,10 +173,10 @@ fun VideoPlayerItemWithResolvedUri(
         }
     }
 
-    // Comfort: from the viewer (muted to start, Photon's "Autoplay with sound" default).
+    // Flux: from the viewer (muted to start, Photon's "Autoplay with sound" default).
     val isMuted = muted
 
-    // Comfort: the video's thumbnail until its first frame is up (~0.5 s to start a player), not
+    // Flux: the video's thumbnail until its first frame is up (~0.5 s to start a player), not
     // an empty page.
     var firstFrameShown by remember(uri) { mutableStateOf(false) }
     val untitledTrack = androidx.compose.ui.res.stringResource(R.string.track_n)
@@ -235,7 +235,7 @@ fun VideoPlayerItemWithResolvedUri(
         }
     }
 
-    // Comfort: the video pauses when the app goes to the background (Home, Recents, the screen
+    // Flux: the video pauses when the app goes to the background (Home, Recents, the screen
     // off) and goes on when it comes back, if it was playing then.
     val lifecycleOwner = androidx.compose.ui.platform.LocalLifecycleOwner.current
     val currentPage by androidx.compose.runtime.rememberUpdatedState(isCurrentPage)
@@ -305,9 +305,9 @@ fun VideoPlayerItemWithResolvedUri(
     Box(
         modifier = modifier
             .fillMaxSize()
-            // Comfort: transparent, so the viewer's backdrop shows (black with the controls hidden).
+            // Flux: transparent, so the viewer's backdrop shows (black with the controls hidden).
             .background(Color.Transparent)
-            // Comfort: none without an onTap: the viewer's zoom takes the taps then (a clickable
+            // Flux: none without an onTap: the viewer's zoom takes the taps then (a clickable
             // here took them first).
             .then(if (onTap == null) Modifier else Modifier.clickable(
                 onClick = { onTap() },
@@ -319,7 +319,7 @@ fun VideoPlayerItemWithResolvedUri(
             modifier = Modifier.fillMaxSize().then(videoModifier),
             contentAlignment = Alignment.Center
         ) {
-            // Comfort: the largest box of the video's shape that fits (the Box above centres it).
+            // Flux: the largest box of the video's shape that fits (the Box above centres it).
             // fillMaxSize() first made it width-first only: on a wide screen (landscape, a
             // tablet) a 4:3 or 16:9 video ran off the top and bottom, looking zoomed in.
             val playerModifier = if (videoAspectRatio != null && videoAspectRatio!! > 0f) {
@@ -327,14 +327,14 @@ fun VideoPlayerItemWithResolvedUri(
             } else {
                 Modifier.fillMaxSize()
             }
-            // Comfort: the player's surface only once the video's shape is known (or after a
+            // Flux: the player's surface only once the video's shape is known (or after a
             // moment): a surface laid out full-screen first flashed black over the whole page.
             var surfaceReady by remember(uri) { mutableStateOf(false) }
             LaunchedEffect(uri, videoAspectRatio) {
                 if (videoAspectRatio == null) delay(400)
                 surfaceReady = true
             }
-            // Comfort: the video's own first frame until the player's is up, beneath the player
+            // Flux: the video's own first frame until the player's is up, beneath the player
             // (a TextureView: see viewer_player_view.xml), which covers it once it draws. Not the
             // Library's thumbnail: for a download with an embedded cover that's the site's
             // thumbnail, which flashed up before the video (reported). The frame is where playback
@@ -364,13 +364,13 @@ fun VideoPlayerItemWithResolvedUri(
             if (surfaceReady) AndroidView(
                 factory = { ctx ->
                     (android.view.LayoutInflater.from(ctx).inflate(R.layout.viewer_player_view, null) as PlayerView).apply {
-                        // Comfort: the built-in controller off before the player is attached:
+                        // Flux: the built-in controller off before the player is attached:
                         // attaching it first showed the controller, and turning it off after
                         // only faded it out, so it flashed on every video swiped to.
                         useController = false
                         controllerAutoShow = false
                         player = exoPlayer
-                        // Comfort: no black shutter over the thumbnail shown until the first frame.
+                        // Flux: no black shutter over the thumbnail shown until the first frame.
                         setShutterBackgroundColor(android.graphics.Color.TRANSPARENT)
                         resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_FIT
                         try {
@@ -413,7 +413,7 @@ fun VideoPlayerItemWithResolvedUri(
                     .background(androidx.compose.material3.MaterialTheme.colorScheme.surfaceContainerHighest.copy(alpha = 0.6f), CircleShape)
             ) {
                 Icon(
-                    // Comfort: the filled symbols; the outlined ones Photon ships read as "00" at this size.
+                    // Flux: the filled symbols; the outlined ones Photon ships read as "00" at this size.
                     imageVector = if (isPlaying) androidx.compose.material.icons.Icons.Rounded.Pause else androidx.compose.material.icons.Icons.Rounded.PlayArrow,
                     contentDescription = if (isPlaying) stringResource(R.string.widget_music_pause) else stringResource(R.string.widget_music_play),
                     tint = androidx.compose.material3.MaterialTheme.colorScheme.onSurface,
@@ -435,7 +435,7 @@ fun VideoPlayerItemWithResolvedUri(
             ) + fadeOut(MotionTokens.gentleSpring()),
             modifier = Modifier
                 .align(Alignment.BottomCenter)
-                // Comfort: measured from the top of the navigation bar, like the toolbar under it
+                // Flux: measured from the top of the navigation bar, like the toolbar under it
                 // (navigationBarsPadding there too). Photon's fixed 76dp from the screen's edge
                 // only cleared a gesture bar: over a taller 3-button bar the card sat on the toolbar.
                 .navigationBarsPadding()
@@ -449,7 +449,7 @@ fun VideoPlayerItemWithResolvedUri(
                     .fillMaxWidth()
                     .clickable(enabled = false) {} // Consume clicks so they don't toggle controller
             ) {
-                // Comfort: time, seek bar, time and mute stay in this order in a right-to-left
+                // Flux: time, seek bar, time and mute stay in this order in a right-to-left
                 // language (see MediaLtr).
                 com.comfort.app.ui.MediaLtr {
                 Row(

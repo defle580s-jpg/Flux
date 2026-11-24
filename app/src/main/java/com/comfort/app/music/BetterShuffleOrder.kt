@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-// Ported from Auxio (https://github.com/OxygenCobalt/Auxio), GPL-3.0, like Comfort. Unchanged
+// Ported from Auxio (https://github.com/OxygenCobalt/Auxio), GPL-3.0, like Flux. Unchanged
 // but for its package; MusicService sets it so a shuffle keeps the song on first.
 
 package com.comfort.app.music

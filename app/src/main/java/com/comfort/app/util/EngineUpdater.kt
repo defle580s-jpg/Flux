@@ -120,7 +120,7 @@ object EngineUpdater {
                     connectTimeout = 10_000
                     readTimeout = 15_000
                     instanceFollowRedirects = true
-                    setRequestProperty("User-Agent", "Comfort-App-Updater")
+                    setRequestProperty("User-Agent", "Flux-App-Updater")
                     setRequestProperty("Accept", "application/vnd.github.v3+json, application/json, text/plain, */*")
                 }
                 conn.run {
@@ -152,7 +152,7 @@ object EngineUpdater {
                     connectTimeout = 15_000
                     readTimeout = 60_000
                     instanceFollowRedirects = true
-                    setRequestProperty("User-Agent", "Comfort-App-Updater")
+                    setRequestProperty("User-Agent", "Flux-App-Updater")
                 }
                 conn.run {
                     try {
@@ -247,7 +247,7 @@ object EngineUpdater {
                 instanceFollowRedirects = false
                 connectTimeout = 10_000
                 readTimeout = 15_000
-                setRequestProperty("User-Agent", "Comfort-App-Updater")
+                setRequestProperty("User-Agent", "Flux-App-Updater")
             }
             val location = try { conn.getHeaderField("Location") } finally { conn.disconnect() } ?: return@runCatching null
             val tag = location.substringAfterLast("/tag/", "").takeIf { it.isNotBlank() } ?: return@runCatching null

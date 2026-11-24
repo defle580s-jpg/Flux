@@ -53,7 +53,7 @@ object VideoSiteRouter {
     private fun Set<String>.matchesHost(host: String): Boolean = any { host == it || host.endsWith(".$it") }
 
     // The user's Sites changes (Settings › Updates and engines) — kept here, not read per call, since
-    // classify() has no Context. Loaded at process start (ComfortApp) and after every edit.
+    // classify() has no Context. Loaded at process start (FluxApp) and after every edit.
     @Volatile private var addedYtDlp: Set<String> = emptySet()
     @Volatile private var addedGalleryDl: Set<String> = emptySet()
     @Volatile private var addedBoth: Set<String> = emptySet()

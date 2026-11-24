@@ -951,7 +951,7 @@ internal fun AboutScreen(onBack: () -> Unit, highlightKey: String? = null) {
                     AppIconTile(size = 48.dp)
                     Spacer(Modifier.width(12.dp))
                     Column {
-                        Text("Comfort", style = MaterialTheme.typography.titleSmall)
+                        Text("Flux", style = MaterialTheme.typography.titleSmall)
                         Text(stringResource(R.string.version_x, versionName), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
@@ -1023,7 +1023,7 @@ private fun IssueFormRow(icon: androidx.compose.ui.graphics.vector.ImageVector, 
             haptics.performHapticFeedback(HapticFeedbackType.ContextClick)
             // The form's version field, filled in (the site form names it "versions").
             val field = when (template) { "bug_report.yml" -> "version"; "site_not_working.yml" -> "versions"; else -> null }
-            val url = "https://github.com/d-gibr1l/comfort/issues/new?template=$template" + (field?.let { "&$it=" + Uri.encode(if (it == "versions") "Comfort $version" else version) } ?: "")
+            val url = "https://github.com/d-gibr1l/comfort/issues/new?template=$template" + (field?.let { "&$it=" + Uri.encode(if (it == "versions") "Flux $version" else version) } ?: "")
             runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url))) }
         },
         modifier = Modifier.fillMaxWidth(),
@@ -1131,7 +1131,7 @@ private fun AppUpdateRow(status: AppUpdater.UpdateStatus, downloadProgress: Floa
         Spacer(Modifier.width(12.dp))
         Column(modifier = Modifier.weight(1f)) {
             Text(
-                "Comfort",
+                "Flux",
                 style = MaterialTheme.typography.bodyMedium.copy(fontFamily = com.comfort.app.theme.HeaderFontFamily),
                 fontWeight = FontWeight.SemiBold,
             )

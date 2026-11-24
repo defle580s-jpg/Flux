@@ -13,8 +13,8 @@ import kotlinx.coroutines.launch
 
 /** Process start-up: loads the user's Sites lists into VideoSiteRouter before anything routes a
  * link — the worker can start the process on its own, without any screen — and, once, sorts
- * downloads saved under the old folders into Download/Comfort's and renames old-style names. */
-class ComfortApp : Application() {
+ * downloads saved under the old folders into Download/Flux's and renames old-style names. */
+class FluxApp : Application() {
     // The app's own language before Android 13 (see AppLanguage), for text built from the
     // application context: notifications, workers.
     override fun attachBaseContext(base: android.content.Context) {
@@ -47,13 +47,13 @@ class ComfortApp : Application() {
             // Once: cards that showed a later file than their first (see pointThumbnailsAtFirstItem).
             val prefs = getSharedPreferences("app_repairs", MODE_PRIVATE)
             if (!prefs.getBoolean("thumbnails_first_item", false)) {
-                runCatching { com.comfort.app.data.AppDatabase.getDatabase(this@ComfortApp).downloadDao().pointThumbnailsAtFirstItem() }
+                runCatching { com.comfort.app.data.AppDatabase.getDatabase(this@FluxApp).downloadDao().pointThumbnailsAtFirstItem() }
                     .onSuccess { prefs.edit().putBoolean("thumbnails_first_item", true).apply() }
             }
         }
         CoroutineScope(SupervisorJob() + Dispatchers.IO).launch {
-            VideoSiteRouter.loadSiteRules(this@ComfortApp)
-            com.comfort.app.theme.ThemePreferences.applyNightMode(this@ComfortApp)
+            VideoSiteRouter.loadSiteRules(this@FluxApp)
+            com.comfort.app.theme.ThemePreferences.applyNightMode(this@FluxApp)
         }
         // Every process start, not just the main screen's: the app can run for days on
         // downloads and shares alone. The shortcut clean-up too, but off the main thread: it's
@@ -61,20 +61,20 @@ class ComfortApp : Application() {
         CoroutineScope(SupervisorJob() + Dispatchers.IO).launch {
             kotlinx.coroutines.delay(3_000)
             removeStaleShortcuts()
-            runCatching { com.comfort.app.util.GalleryDlListing.sweepStaleCache(this@ComfortApp) }
-            runCatching { com.comfort.app.worker.EngineUpdateWorker.schedule(this@ComfortApp) }
+            runCatching { com.comfort.app.util.GalleryDlListing.sweepStaleCache(this@FluxApp) }
+            runCatching { com.comfort.app.worker.EngineUpdateWorker.schedule(this@FluxApp) }
         }
         val organize = !GalleryDlPreferences.isSavedFilesOrganized(this)
         val rename = !GalleryDlPreferences.isOldNamesTidied(this)
         if (organize || rename) {
             CoroutineScope(SupervisorJob() + Dispatchers.IO).launch {
                 if (organize) {
-                    MediaStoreHelper.organizeSavedFiles(this@ComfortApp)
-                    GalleryDlPreferences.setSavedFilesOrganized(this@ComfortApp)
+                    MediaStoreHelper.organizeSavedFiles(this@FluxApp)
+                    GalleryDlPreferences.setSavedFilesOrganized(this@FluxApp)
                 }
                 if (rename) {
-                    val dao = AppDatabase.getDatabase(this@ComfortApp).downloadDao()
-                    MediaStoreHelper.tidyOldNames(this@ComfortApp) { dao.urlForSavedFile(it) }
+                    val dao = AppDatabase.getDatabase(this@FluxApp).downloadDao()
+                    MediaStoreHelper.tidyOldNames(this@FluxApp) { dao.urlForSavedFile(it) }
                     // The Library's titles came from the same old naming.
                     runCatching {
                         for (download in dao.getAllOnce()) {
@@ -82,7 +82,7 @@ class ComfortApp : Application() {
                                 ?.let { dao.updateTitle(download.id, it) }
                         }
                     }
-                    GalleryDlPreferences.setOldNamesTidied(this@ComfortApp)
+                    GalleryDlPreferences.setOldNamesTidied(this@FluxApp)
                 }
             }
         }

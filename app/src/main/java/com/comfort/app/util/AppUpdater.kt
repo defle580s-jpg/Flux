@@ -24,8 +24,8 @@ import kotlinx.coroutines.withContext
  * means handing it to Android's own package installer rather than unzipping it in place.
  *
  * Releases are expected to be tagged like "v1.2.0" (a leading "v" is stripped) with the release
- * APKs attached, named like the build's own splits: "Comfort-1.2.0-arm64-v8a.apk", ...,
- * "Comfort-1.2.0-universal.apk" — see fetchLatest for how one is picked. */
+ * APKs attached, named like the build's own splits: "Flux-1.2.0-arm64-v8a.apk", ...,
+ * "Flux-1.2.0-universal.apk" — see fetchLatest for how one is picked. */
 object AppUpdater {
     private const val REPO = "d-gibr1l/comfort"
     private val KNOWN_ABIS = listOf("arm64-v8a", "armeabi-v7a", "armeabi", "x86_64", "x86")
@@ -78,7 +78,7 @@ object AppUpdater {
             connectTimeout = 10_000
             readTimeout = 15_000
             // GitHub's API 403s generic-looking User-Agent-less requests.
-            setRequestProperty("User-Agent", "Comfort-App-Updater")
+            setRequestProperty("User-Agent", "Flux-App-Updater")
             try {
                 inputStream.bufferedReader().use { it.readText() }
             } finally {
@@ -92,7 +92,7 @@ object AppUpdater {
         val apks = (0 until assets.length()).map { assets.getJSONObject(it) }
             .filter { it.getString("name").endsWith(".apk") }
             .associateBy { it.getString("name") }
-        // A release carries the split APKs (Comfort-<version>-arm64-v8a.apk, ...-universal.apk, ...),
+        // A release carries the split APKs (Flux-<version>-arm64-v8a.apk, ...-universal.apk, ...),
         // so take the one built for this phone's CPU, then the universal one, then any APK — the
         // first .apk alone could be another CPU's build, which the installer rejects.
         val preferred = android.os.Build.SUPPORTED_ABIS.firstNotNullOfOrNull { abi -> apks.entries.firstOrNull { it.key.endsWith("-$abi.apk") } }
@@ -132,9 +132,9 @@ object AppUpdater {
         val downloadUrl = status.downloadUrl ?: return
         
         // Clean up any old updates (both incomplete .tmp and old .apk files) so they don't waste space
-        context.cacheDir.listFiles()?.filter { it.name.startsWith("Comfort-") && it.name != "Comfort-${fileVersion(status.latestVersion)}.apk" }?.forEach { it.delete() }
+        context.cacheDir.listFiles()?.filter { it.name.startsWith("Flux-") && it.name != "Flux-${fileVersion(status.latestVersion)}.apk" }?.forEach { it.delete() }
         
-        val apkFile = File(context.cacheDir, "Comfort-${fileVersion(status.latestVersion)}.apk")
+        val apkFile = File(context.cacheDir, "Flux-${fileVersion(status.latestVersion)}.apk")
         
         if (apkFile.exists() && apkFile.length() > 0L) {
             promptInstall(context, apkFile)
@@ -146,7 +146,7 @@ object AppUpdater {
         
         val appContext = context.applicationContext
         
-        val tempFile = File(appContext.cacheDir, "Comfort-${fileVersion(status.latestVersion)}.apk.tmp")
+        val tempFile = File(appContext.cacheDir, "Flux-${fileVersion(status.latestVersion)}.apk.tmp")
         downloadJob = scope.launch {
             runCatching {
                 (URL(downloadUrl).openConnection() as HttpURLConnection).run {

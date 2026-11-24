@@ -110,14 +110,14 @@
     <string name="restore_section">שחזור</string>
     <string name="restore_description">מחזיר את מה שיש בגיבוי. הורדות שכבר בספרייה שלך נשארות כמו שהן; הגדרות שבגיבוי מחליפות את שלך.</string>
     <string name="restore_action">שחזור מקובץ</string>
-    <string name="restore_not_backup">הקובץ הזה אינו גיבוי של Comfort.</string>
+    <string name="restore_not_backup">הקובץ הזה אינו גיבוי של Flux.</string>
     <string name="restore_dialog_title">שחזור גיבוי</string>
     <string name="restore_dialog_contains">בגיבוי הזה יש %1$s. לשחזר:</string>
     <string name="restore_confirm">שחזור</string>
     <string name="restore_done">שוחזר: %1$s.</string>
     <string name="restore_failed">השחזור נכשל: %1$s</string>
-    <string name="restore_restart_title">להפעיל מחדש את Comfort?</string>
-    <string name="restore_restart_text">ההגדרות ששוחזרו ייכנסו לתוקף אחרי ש-Comfort יופעל מחדש.</string>
+    <string name="restore_restart_title">להפעיל מחדש את Flux?</string>
+    <string name="restore_restart_text">ההגדרות ששוחזרו ייכנסו לתוקף אחרי ש-Flux יופעל מחדש.</string>
     <string name="restore_restart_now">הפעלה מחדש</string>
     <string name="restore_restart_later">מאוחר יותר</string>
     <string name="home_link_hint">הדבק קישור או חפש ביוטיוב</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">הפעלת השיר שנבחר בלבד</string>
     <string name="play_tapped_only_subtitle">אחרת שאר שירי הספרייה יבואו אחריו.</string>
     <string name="keep_queue">שמירת התור</string>
-    <string name="keep_queue_subtitle">מחזיר את התור האחרון, מושהה, כש-Comfort נפתחת שוב.</string>
+    <string name="keep_queue_subtitle">מחזיר את התור האחרון, מושהה, כש-Flux נפתחת שוב.</string>
     <string name="report_an_issue">דיווח על בעיה</string>
     <string name="issue_bug">משהו לא עובד</string>
     <string name="issue_bug_subtitle">קריסה, כפתור שלא עושה כלום, מסך שנראה לא נכון.</string>
     <string name="issue_site">אתר לא מוריד</string>
     <string name="issue_site_subtitle">קישורים מאתר מסוים נכשלים, או מורידים את הדבר הלא נכון.</string>
     <string name="issue_idea">הצעת רעיון</string>
-    <string name="issue_idea_subtitle">משהו ש-Comfort יכולה לעשות, או לעשות טוב יותר.</string>
+    <string name="issue_idea_subtitle">משהו ש-Flux יכולה לעשות, או לעשות טוב יותר.</string>
     <string name="report_an_issue_subtitle">פותח טופס קצר ב-GitHub עם הגרסה שלך (%1$s) כבר ממולאת.</string>
     <string name="player_background">רקע העטיפה</string>
     <string name="player_background_subtitle">הרקע של הנגן הוא עטיפת השיר, מטושטשת. כבוי, רקע כהה פשוט.</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">קיצור שמות קבצים</string>
     <string name="caps_long_titles_at_150_characters">חותך כותרות ארוכות ב-150 תווים (חל רק על פורמט שם הקובץ המוגדר כברירת מחדל).</string>
     <string name="download_location">מיקום ההורדה</string>
-    <string name="saving_to_the_default_download_comfort">שמירה בתיקיית ברירת המחדל Download/Comfort.</string>
+    <string name="saving_to_the_default_download_comfort">שמירה בתיקיית ברירת המחדל Download/Flux.</string>
     <string name="saving_to_x">שמירה ב-\"%1$s\".</string>
-    <string name="selected_folder_is_inaccessible_or_permission">התיקייה שנבחרה אינה נגישה או שההרשאה אבדה. חוזר לתיקיית ברירת המחדל Download/Comfort.</string>
+    <string name="selected_folder_is_inaccessible_or_permission">התיקייה שנבחרה אינה נגישה או שההרשאה אבדה. חוזר לתיקיית ברירת המחדל Download/Flux.</string>
     <string name="custom_folders_won_t_automatically_appear">תיקיות מותאמות לא יופיעו אוטומטית באפליקציות התמונות/הגלריה — רק מיקום ברירת המחדל מאונדקס כמדיה.</string>
     <string name="choose_folder">בחירת תיקייה</string>
     <string name="use_default">שימוש בברירת המחדל</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">או הדבק עוגיות ידנית</string>
     <string name="cookies_txt_contents">תוכן cookies.txt</string>
     <string name="please_paste_cookie_text_first">הדבק קודם את טקסט העוגיות.</string>
-    <string name="detected_json_format_comfort_requires_netscape">זוהה פורמט JSON. ‏Comfort דורש פורמט cookies.txt של Netscape (עמודות מופרדות בטאבים). ייצא בפורמט Netscape מתוסף הדפדפן שלך.</string>
-    <string name="detected_http_header_format_name_value">זוהה פורמט כותרת HTTP ‏(\"name=value\"). ‏Comfort דורש פורמט cookies.txt של Netscape עם דומיין, נתיב, תפוגה וערכים מופרדים בטאבים.</string>
+    <string name="detected_json_format_comfort_requires_netscape">זוהה פורמט JSON. ‏Flux דורש פורמט cookies.txt של Netscape (עמודות מופרדות בטאבים). ייצא בפורמט Netscape מתוסף הדפדפן שלך.</string>
+    <string name="detected_http_header_format_name_value">זוהה פורמט כותרת HTTP ‏(\"name=value\"). ‏Flux דורש פורמט cookies.txt של Netscape עם דומיין, נתיב, תפוגה וערכים מופרדים בטאבים.</string>
     <string name="couldn_t_find_any_valid_cookies">לא נמצאו עוגיות תקינות בטקסט הזה — הוא צריך להיות בפורמט Netscape אמיתי מופרד בטאבים (domain‏, includeSubdomains‏, path‏, secure‏, expiry‏, name‏, value בכל שורה).</string>
     <string name="cookies_saved_and_applied">העוגיות נשמרו והוחלו</string>
     <string name="save_cookies">שמירת עוגיות</string>
@@ -456,7 +456,7 @@
     <string name="monthly">כל חודש</string>
     <string name="x_schedule_time_x">זמן %1$s בתזמון: %2$s</string>
     <string name="sharing_mode">מצב שיתוף</string>
-    <string name="what_happens_when_you_share_a">מה קורה כשמשתפים קישור ל-Comfort.</string>
+    <string name="what_happens_when_you_share_a">מה קורה כשמשתפים קישור ל-Flux.</string>
     <string name="view_cookies_for_site_count">הצגת העוגיות של %1$s‏, %2$s</string>
     <string name="updates_and_engines">עדכונים ומנועים</string>
     <string name="which_engines_run">אילו מנועים רצים</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">רצועות Spotify, דרך yt-dlp</string>
     <string name="about">אודות</string>
     <string name="app">אפליקציה</string>
-    <string name="comfort_version_x_open_project_page">Comfort גרסה %1$s, פתיחת דף הפרויקט</string>
+    <string name="comfort_version_x_open_project_page">Flux גרסה %1$s, פתיחת דף הפרויקט</string>
     <string name="version_x">גרסה %1$s</string>
     <string name="credits">קרדיטים</string>
     <string name="python_runtime">סביבת ריצה של Python</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">עדכון אוטומטי</string>
     <string name="later">אחר כך</string>
     <string name="new_update">עדכון חדש</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">מה חדש</string>
     <string name="update_now">עדכון עכשיו</string>
     <string name="update_now_x">עדכון עכשיו · %1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">יציבה</string>
     <string name="open_x_website">פתיחת האתר של %1$s</string>
     <string name="every_supported_site_by_engine">כל האתרים הנתמכים, לפי מנוע</string>
-    <string name="configure_instant_or_always_ask_what">הגדרה, מיידי או לשאול תמיד — מה Comfort עושה עם קישור ששותף איתו.</string>
+    <string name="configure_instant_or_always_ask_what">הגדרה, מיידי או לשאול תמיד — מה Flux עושה עם קישור ששותף איתו.</string>
     <string name="how_downloaded_files_are_named">איך הקבצים שהורדו נקראים.</string>
     <string name="where_downloaded_files_are_saved">איפה הקבצים שהורדו נשמרים.</string>
     <string name="how_much_space_downloads_are_using">כמה מקום ההורדות תופסות.</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">הסרטון הזה מוגן</string>
     <string name="not_the_video_you_want">לא הסרטון שרצית?</string>
     <string name="the_site_uses_copy_protection_drm">האתר משתמש בהגנה מפני העתקה (DRM), כך שהקלטה שלו לא תתנגן.</string>
-    <string name="this_player_builds_its_video_from">הנגן הזה בונה את הסרטון מחלקים. ‏Comfort יכול להקליט אותם בזמן שהוא מתנגן: הדף נטען מחדש, אתה מפעיל את הסרטון עד הסוף, ואז מקיש על עצירה ושמירה.</string>
+    <string name="this_player_builds_its_video_from">הנגן הזה בונה את הסרטון מחלקים. ‏Flux יכול להקליט אותם בזמן שהוא מתנגן: הדף נטען מחדש, אתה מפעיל את הסרטון עד הסוף, ואז מקיש על עצירה ושמירה.</string>
     <string name="record_while_it_plays">הקלטה בזמן הניגון</string>
     <string name="saving_the_recording">שומר את ההקלטה…</string>
     <string name="recorded_to_the_end_x">הוקלט עד הסוף · %1$s</string>
@@ -965,7 +965,7 @@
     <string name="shows_download_progress_and_completion">מציג את התקדמות ההורדה והשלמתה</string>
     <string name="download_results_channel">הורדות שהסתיימו</string>
     <string name="download_results_channel_description">מודיע כשהורדה מסתיימת או נכשלת</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort מוריד ברקע</string>
+    <string name="comfort_is_downloading_in_the_background">Flux מוריד ברקע</string>
     <string name="starting">מתחיל…</string>
     <string name="download_failed">ההורדה נכשלה</string>
     <string name="downloading_ellipsis">מוריד…</string>
@@ -1266,9 +1266,9 @@
     <string name="queue_help_errors_body">הקש על ⓘ בכרטיס לפרטים, ועל נסה שוב כדי לנסות שוב.\n• פוסטים פרטיים, מוגבלי גיל או שדורשים התחברות: הוסף את החשבון שלך בהגדרות › עוגיות והתחברות.\n• הגבלת קצב: האתר מבקש הפסקה; ההורדה ממתינה וממשיכה לבד.\n• אין חיבור: הורדות ממתינות יתחילו כשתחזור לרשת; הורדה פעילה עלולה להיכשל, אז הקש נסה שוב.\n• קישור לא נתמך: פתח אותו עם גלישה באינטרנט בבית כדי למצוא את המדיה בדף.</string>
     <string name="players">נגנים</string>
     <string name="videos_in_phone_player">פתיחת סרטונים בנגן של הטלפון</string>
-    <string name="videos_in_phone_player_subtitle">במקום המציג של Comfort. תמונות עדיין נפתחות ב-Comfort.</string>
+    <string name="videos_in_phone_player_subtitle">במקום המציג של Flux. תמונות עדיין נפתחות ב-Flux.</string>
     <string name="music_in_phone_player">השמעת מוזיקה בנגן של הטלפון</string>
-    <string name="music_in_phone_player_subtitle">במקום נגן המוזיקה של Comfort.</string>
+    <string name="music_in_phone_player_subtitle">במקום נגן המוזיקה של Flux.</string>
     <string name="no_app_to_open_this">אין בטלפון אפליקציה שיכולה לפתוח את זה</string>
     <string name="video_settings">הגדרות וידאו</string>
     <string name="play_videos_with_sound_subtitle">סרטונים מתחילים עם קול, לא מושתקים.</string>
@@ -1284,7 +1284,7 @@
     <string name="view_items">הצגת הפריטים</string>
     <string name="grid_view">רשת</string>
     <string name="list_view">רשימה</string>
-    <string name="batch_item_not_deleted">Android לא איפשר ל-Comfort למחוק את הקובץ (נשמר לפני התקנה מחדש): מחק אותו בגלריה.</string>
+    <string name="batch_item_not_deleted">Android לא איפשר ל-Flux למחוק את הקובץ (נשמר לפני התקנה מחדש): מחק אותו בגלריה.</string>
     <string name="welcome_skip">דילוג</string>
     <string name="welcome_next">הבא</string>
     <string name="welcome_start">בואו נתחיל</string>
@@ -1296,14 +1296,14 @@
     <string name="welcome_audio_format">פורמט אודיו</string>
     <string name="welcome_change_later">את כל זה אפשר למצוא אחר כך בהגדרות.</string>
     <string name="welcome_notifications_title">לדעת מתי זה הסתיים</string>
-    <string name="welcome_notifications_body">Comfort מציג את התקדמות ההורדה ומודיע לך כשהיא הסתיימה או נכשלה.</string>
+    <string name="welcome_notifications_body">Flux מציג את התקדמות ההורדה ומודיע לך כשהיא הסתיימה או נכשלה.</string>
     <string name="welcome_notifications_allow">אישור התראות</string>
     <string name="welcome_notifications_on">ההתראות פועלות</string>
     <string name="welcome_battery_body">כדי שהורדות ימשיכו בזמן שאתה משתמש באפליקציות אחרות ויתחילו בזמן. בלי זה, חיסכון הסוללה של Android עלול להשהות אותן.</string>
     <string name="comic">קומיקס</string>
     <string name="comics">קומיקס</string>
     <string name="save_chapters_as_cbz">שמירת פרקים כ-‎.cbz</string>
-    <string name="save_chapters_as_cbz_subtitle">פרק מנגה או קומיקס נשמר כקובץ קומיקס אחד, לקריאה ב-Comfort או בכל אפליקציית קומיקס, במקום תמונות נפרדות בגלריה.</string>
+    <string name="save_chapters_as_cbz_subtitle">פרק מנגה או קומיקס נשמר כקובץ קומיקס אחד, לקריאה ב-Flux או בכל אפליקציית קומיקס, במקום תמונות נפרדות בגלריה.</string>
     <string name="comic_sites">אתרי קומיקס</string>
     <string name="comic_sites_subtitle">פרקים מאתרים אלה נשמרים כ-‎.cbz.</string>
     <string name="comic_site_add_hint">הוספת אתר או הדבקת קישור</string>
@@ -1321,7 +1321,7 @@
     <string name="welcome_music_body">השירים שלכם, עם המילים</string>
     <string name="welcome_allow">אישור</string>
     <string name="media_access_title">הצגת ההורדות ששוחזרו</string>
-    <string name="media_access_body">הן נשמרו בהתקנה קודמת של Comfort, ולכן Android סוגר אותן בפני ההתקנה הזו. אפשרו גישה לתמונות, לסרטונים ולמוזיקה כדי לפתוח אותן כאן.</string>
+    <string name="media_access_body">הן נשמרו בהתקנה קודמת של Flux, ולכן Android סוגר אותן בפני ההתקנה הזו. אפשרו גישה לתמונות, לסרטונים ולמוזיקה כדי לפתוח אותן כאן.</string>
     <string name="media_access_allow">מתן גישה</string>
     <string name="comic_converting">ממיר ל-‎.cbz…</string>
     <string name="reader_settings">הגדרות הקורא</string>

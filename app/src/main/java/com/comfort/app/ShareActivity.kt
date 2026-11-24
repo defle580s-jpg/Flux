@@ -356,7 +356,7 @@ private fun InstantShareHandler(url: String, router: LinkRouterViewModel, onFini
 
 /** The "Always ask" Sharing mode: a tiny sheet offering "Configure"/"Instant" for this one share —
  * picking either one hands straight off to that mode's own handler, so each path is identical to
- * having that mode set, not a third, subtly-different behavior. Comfort has a single Sharesheet
+ * having that mode set, not a third, subtly-different behavior. Flux has a single Sharesheet
  * entry; a second "Instant" one made Samsung's Sharesheet ask the same question in its own popup. */
 @Composable
 private fun AskShareModeHandler(url: String, router: LinkRouterViewModel, onFinished: () -> Unit) {

@@ -110,14 +110,14 @@
     <string name="restore_section">بازیابی</string>
     <string name="restore_description">آنچه در پشتیبان هست را برمی‌گرداند. دانلودهایی که از قبل در کتابخانه هستند همان‌طور می‌مانند؛ تنظیمات پشتیبان جایگزین تنظیمات شما می‌شوند.</string>
     <string name="restore_action">بازیابی از فایل</string>
-    <string name="restore_not_backup">این فایل پشتیبان Comfort نیست.</string>
+    <string name="restore_not_backup">این فایل پشتیبان Flux نیست.</string>
     <string name="restore_dialog_title">بازیابی پشتیبان</string>
     <string name="restore_dialog_contains">این پشتیبان شامل %1$s است. بازیابی:</string>
     <string name="restore_confirm">بازیابی</string>
     <string name="restore_done">بازیابی شد: %1$s.</string>
     <string name="restore_failed">بازیابی ناموفق بود: %1$s</string>
-    <string name="restore_restart_title">Comfort دوباره راه‌اندازی شود؟</string>
-    <string name="restore_restart_text">تنظیمات بازیابی‌شده پس از راه‌اندازی دوباره Comfort اعمال می‌شوند.</string>
+    <string name="restore_restart_title">Flux دوباره راه‌اندازی شود؟</string>
+    <string name="restore_restart_text">تنظیمات بازیابی‌شده پس از راه‌اندازی دوباره Flux اعمال می‌شوند.</string>
     <string name="restore_restart_now">راه‌اندازی دوباره</string>
     <string name="restore_restart_later">بعداً</string>
     <string name="home_link_hint">پیوندی بچسبانید یا در یوتیوب جستجو کنید</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">فقط آهنگ انتخاب‌شده پخش شود</string>
     <string name="play_tapped_only_subtitle">وگرنه دیگر آهنگ‌های کتابخانه پس از آن پخش می‌شوند.</string>
     <string name="keep_queue">نگه داشتن صف</string>
-    <string name="keep_queue_subtitle">آخرین صف را، متوقف، هنگام باز شدن دوباره Comfort برمی‌گرداند.</string>
+    <string name="keep_queue_subtitle">آخرین صف را، متوقف، هنگام باز شدن دوباره Flux برمی‌گرداند.</string>
     <string name="report_an_issue">گزارش مشکل</string>
     <string name="issue_bug">چیزی کار نمی‌کند</string>
     <string name="issue_bug_subtitle">بسته شدن برنامه، دکمه‌ای که کاری نمی‌کند، صفحه‌ای که درست نیست.</string>
     <string name="issue_site">سایتی دانلود نمی‌شود</string>
     <string name="issue_site_subtitle">لینک‌های یک سایت خطا می‌دهند یا چیز اشتباهی دانلود می‌کنند.</string>
     <string name="issue_idea">پیشنهاد یک ایده</string>
-    <string name="issue_idea_subtitle">کاری که Comfort می‌تواند انجام دهد یا بهتر انجام دهد.</string>
+    <string name="issue_idea_subtitle">کاری که Flux می‌تواند انجام دهد یا بهتر انجام دهد.</string>
     <string name="report_an_issue_subtitle">یک فرم کوتاه در GitHub باز می‌کند که نسخه شما (%1$s) در آن پر شده است.</string>
     <string name="player_background">پس‌زمینه کاور</string>
     <string name="player_background_subtitle">پس‌زمینه پخش‌کننده کاور آهنگ است، محو شده. خاموش، یک پس‌زمینه تیره ساده.</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">کوتاه کردن نام فایل‌ها</string>
     <string name="caps_long_titles_at_150_characters">عنوان‌های طولانی را در ۱۵۰ نویسه کوتاه می‌کند (فقط برای قالب نام فایل پیش‌فرض).</string>
     <string name="download_location">محل دانلود</string>
-    <string name="saving_to_the_default_download_comfort">ذخیره در پوشه پیش‌فرض Download/Comfort.</string>
+    <string name="saving_to_the_default_download_comfort">ذخیره در پوشه پیش‌فرض Download/Flux.</string>
     <string name="saving_to_x">ذخیره در \"%1$s\".</string>
-    <string name="selected_folder_is_inaccessible_or_permission">پوشه انتخاب‌شده در دسترس نیست یا مجوز از دست رفته. به پوشه پیش‌فرض Download/Comfort بازگشت.</string>
+    <string name="selected_folder_is_inaccessible_or_permission">پوشه انتخاب‌شده در دسترس نیست یا مجوز از دست رفته. به پوشه پیش‌فرض Download/Flux بازگشت.</string>
     <string name="custom_folders_won_t_automatically_appear">پوشه‌های سفارشی به‌طور خودکار در برنامه‌های عکس/گالری ظاهر نمی‌شوند — فقط محل پیش‌فرض به‌عنوان رسانه فهرست می‌شود.</string>
     <string name="choose_folder">انتخاب پوشه</string>
     <string name="use_default">استفاده از پیش‌فرض</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">یا کوکی‌ها را دستی بچسبانید</string>
     <string name="cookies_txt_contents">محتوای cookies.txt</string>
     <string name="please_paste_cookie_text_first">لطفاً ابتدا متن کوکی را بچسبانید.</string>
-    <string name="detected_json_format_comfort_requires_netscape">قالب JSON تشخیص داده شد. Comfort به قالب cookies.txt نت‌اسکیپ (ستون‌های جداشده با تب) نیاز دارد. لطفاً از افزونه مرورگرتان با قالب Netscape برون‌برد کنید.</string>
-    <string name="detected_http_header_format_name_value">قالب سرآیند HTTP (\"name=value\") تشخیص داده شد. Comfort به قالب cookies.txt نت‌اسکیپ با دامنه، مسیر، انقضا و مقادیر جداشده با تب نیاز دارد.</string>
+    <string name="detected_json_format_comfort_requires_netscape">قالب JSON تشخیص داده شد. Flux به قالب cookies.txt نت‌اسکیپ (ستون‌های جداشده با تب) نیاز دارد. لطفاً از افزونه مرورگرتان با قالب Netscape برون‌برد کنید.</string>
+    <string name="detected_http_header_format_name_value">قالب سرآیند HTTP (\"name=value\") تشخیص داده شد. Flux به قالب cookies.txt نت‌اسکیپ با دامنه، مسیر، انقضا و مقادیر جداشده با تب نیاز دارد.</string>
     <string name="couldn_t_find_any_valid_cookies">هیچ کوکی معتبری در این متن پیدا نشد — باید در قالب واقعی Netscape با جداکننده تب باشد (domain، includeSubdomains، path، secure، expiry، name، value در هر خط).</string>
     <string name="cookies_saved_and_applied">کوکی‌ها ذخیره و اعمال شدند</string>
     <string name="save_cookies">ذخیره کوکی‌ها</string>
@@ -456,7 +456,7 @@
     <string name="monthly">ماهانه</string>
     <string name="x_schedule_time_x">زمان %1$s زمان‌بندی: %2$s</string>
     <string name="sharing_mode">حالت هم‌رسانی</string>
-    <string name="what_happens_when_you_share_a">وقتی پیوندی را با Comfort هم‌رسانی می‌کنید چه اتفاقی می‌افتد.</string>
+    <string name="what_happens_when_you_share_a">وقتی پیوندی را با Flux هم‌رسانی می‌کنید چه اتفاقی می‌افتد.</string>
     <string name="view_cookies_for_site_count">مشاهده کوکی‌های %1$s، %2$s</string>
     <string name="updates_and_engines">به‌روزرسانی‌ها و موتورها</string>
     <string name="which_engines_run">کدام موتورها اجرا شوند</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">تراک‌های Spotify، از طریق yt-dlp</string>
     <string name="about">درباره</string>
     <string name="app">برنامه</string>
-    <string name="comfort_version_x_open_project_page">Comfort نسخه %1$s، باز کردن صفحه پروژه</string>
+    <string name="comfort_version_x_open_project_page">Flux نسخه %1$s، باز کردن صفحه پروژه</string>
     <string name="version_x">نسخه %1$s</string>
     <string name="credits">قدردانی‌ها</string>
     <string name="python_runtime">محیط اجرای Python</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">به‌روزرسانی خودکار</string>
     <string name="later">بعداً</string>
     <string name="new_update">به‌روزرسانی جدید</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">تازه‌ها</string>
     <string name="update_now">اکنون به‌روزرسانی کن</string>
     <string name="update_now_x">اکنون به‌روزرسانی کن · %1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">پایدار</string>
     <string name="open_x_website">باز کردن وب‌سایت %1$s</string>
     <string name="every_supported_site_by_engine">همه سایت‌های پشتیبانی‌شده، بر اساس موتور</string>
-    <string name="configure_instant_or_always_ask_what">پیکربندی، فوری یا همیشه بپرس — Comfort با پیوندی که با آن هم‌رسانی شده چه می‌کند.</string>
+    <string name="configure_instant_or_always_ask_what">پیکربندی، فوری یا همیشه بپرس — Flux با پیوندی که با آن هم‌رسانی شده چه می‌کند.</string>
     <string name="how_downloaded_files_are_named">فایل‌های دانلودشده چگونه نام‌گذاری می‌شوند.</string>
     <string name="where_downloaded_files_are_saved">فایل‌های دانلودشده کجا ذخیره می‌شوند.</string>
     <string name="how_much_space_downloads_are_using">دانلودها چقدر فضا اشغال کرده‌اند.</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">این ویدیو محافظت‌شده است</string>
     <string name="not_the_video_you_want">ویدیوی موردنظرتان نیست؟</string>
     <string name="the_site_uses_copy_protection_drm">سایت از محافظت در برابر کپی (DRM) استفاده می‌کند، پس ضبط آن پخش نمی‌شود.</string>
-    <string name="this_player_builds_its_video_from">این پخش‌کننده ویدیو را از تکه‌ها می‌سازد. Comfort می‌تواند هنگام پخش آن‌ها را ضبط کند: صفحه دوباره بارگیری می‌شود، ویدیو را تا انتها پخش می‌کنید، سپس روی توقف و ذخیره می‌زنید.</string>
+    <string name="this_player_builds_its_video_from">این پخش‌کننده ویدیو را از تکه‌ها می‌سازد. Flux می‌تواند هنگام پخش آن‌ها را ضبط کند: صفحه دوباره بارگیری می‌شود، ویدیو را تا انتها پخش می‌کنید، سپس روی توقف و ذخیره می‌زنید.</string>
     <string name="record_while_it_plays">ضبط هنگام پخش</string>
     <string name="saving_the_recording">در حال ذخیره ضبط…</string>
     <string name="recorded_to_the_end_x">تا انتها ضبط شد · %1$s</string>
@@ -964,7 +964,7 @@
     <string name="shows_download_progress_and_completion">پیشرفت و پایان دانلود را نشان می‌دهد</string>
     <string name="download_results_channel">دانلودهای تمام‌شده</string>
     <string name="download_results_channel_description">وقتی دانلودی تمام شود یا ناموفق باشد خبر می‌دهد</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort در پس‌زمینه دانلود می‌کند</string>
+    <string name="comfort_is_downloading_in_the_background">Flux در پس‌زمینه دانلود می‌کند</string>
     <string name="starting">در حال شروع…</string>
     <string name="download_failed">دانلود ناموفق بود</string>
     <string name="downloading_ellipsis">در حال دانلود…</string>
@@ -1232,9 +1232,9 @@
     <string name="queue_help_errors_body">روی ⓘ کارت بزنید تا جزئیات را ببینید و تلاش دوباره را برای تلاش دوباره.\n• پست‌های خصوصی، با محدودیت سنی یا نیازمند ورود: حسابتان را در تنظیمات › کوکی‌ها و ورود اضافه کنید.\n• محدودیت درخواست: سایت استراحت می‌خواهد؛ دانلود منتظر می‌ماند و خودش ادامه می‌دهد.\n• بدون اتصال: دانلودهای منتظر وقتی دوباره آنلاین شوید شروع می‌شوند؛ دانلود در حال اجرا ممکن است ناموفق شود، پس تلاش دوباره را بزنید.\n• پیوند پشتیبانی‌نشده: آن را با مرور وب در خانه باز کنید تا رسانهٔ صفحه را پیدا کنید.</string>
     <string name="players">پخش‌کننده‌ها</string>
     <string name="videos_in_phone_player">باز کردن ویدیوها در پخش‌کنندهٔ گوشی</string>
-    <string name="videos_in_phone_player_subtitle">به‌جای نمایشگر Comfort. عکس‌ها همچنان در Comfort باز می‌شوند.</string>
+    <string name="videos_in_phone_player_subtitle">به‌جای نمایشگر Flux. عکس‌ها همچنان در Flux باز می‌شوند.</string>
     <string name="music_in_phone_player">پخش موسیقی در پخش‌کنندهٔ گوشی</string>
-    <string name="music_in_phone_player_subtitle">به‌جای پخش‌کنندهٔ موسیقی Comfort.</string>
+    <string name="music_in_phone_player_subtitle">به‌جای پخش‌کنندهٔ موسیقی Flux.</string>
     <string name="no_app_to_open_this">هیچ برنامه‌ای در این گوشی نمی‌تواند این را باز کند</string>
     <string name="video_settings">تنظیمات ویدیو</string>
     <string name="play_videos_with_sound_subtitle">ویدیوها با صدا شروع می‌شوند، نه بی‌صدا.</string>
@@ -1250,7 +1250,7 @@
     <string name="view_items">دیدن موارد</string>
     <string name="grid_view">شبکه</string>
     <string name="list_view">فهرست</string>
-    <string name="batch_item_not_deleted">Android اجازه نداد Comfort این فایل را حذف کند (پیش از نصب دوباره ذخیره شده): آن را از گالری حذف کنید.</string>
+    <string name="batch_item_not_deleted">Android اجازه نداد Flux این فایل را حذف کند (پیش از نصب دوباره ذخیره شده): آن را از گالری حذف کنید.</string>
     <string name="welcome_skip">رد شدن</string>
     <string name="welcome_next">بعدی</string>
     <string name="welcome_start">شروع کنیم</string>
@@ -1262,14 +1262,14 @@
     <string name="welcome_audio_format">قالب صدا</string>
     <string name="welcome_change_later">همهٔ این‌ها بعداً در تنظیمات هست.</string>
     <string name="welcome_notifications_title">بدانید کی تمام شد</string>
-    <string name="welcome_notifications_body">Comfort پیشرفت دانلود را نشان می‌دهد و وقتی تمام یا ناموفق شد خبرتان می‌کند.</string>
+    <string name="welcome_notifications_body">Flux پیشرفت دانلود را نشان می‌دهد و وقتی تمام یا ناموفق شد خبرتان می‌کند.</string>
     <string name="welcome_notifications_allow">اجازهٔ اعلان‌ها</string>
     <string name="welcome_notifications_on">اعلان‌ها روشن است</string>
     <string name="welcome_battery_body">تا دانلودها هنگام استفاده از برنامه‌های دیگر ادامه پیدا کنند و سر وقت شروع شوند. بدون آن، صرفه‌جوی باتری Android ممکن است متوقفشان کند.</string>
     <string name="comic">کمیک</string>
     <string name="comics">کمیک‌ها</string>
     <string name="save_chapters_as_cbz">ذخیرهٔ فصل‌ها به‌صورت ‎.cbz</string>
-    <string name="save_chapters_as_cbz_subtitle">هر فصل مانگا یا کمیک به‌صورت یک فایل کمیک ذخیره می‌شود که در Comfort یا هر برنامهٔ کمیک خوانده می‌شود، نه عکس‌های پراکنده در گالری.</string>
+    <string name="save_chapters_as_cbz_subtitle">هر فصل مانگا یا کمیک به‌صورت یک فایل کمیک ذخیره می‌شود که در Flux یا هر برنامهٔ کمیک خوانده می‌شود، نه عکس‌های پراکنده در گالری.</string>
     <string name="comic_sites">سایت‌های کمیک</string>
     <string name="comic_sites_subtitle">فصل‌های این سایت‌ها به‌صورت ‎.cbz ذخیره می‌شوند.</string>
     <string name="comic_site_add_hint">سایتی اضافه کنید یا پیوندی بچسبانید</string>
@@ -1287,7 +1287,7 @@
     <string name="welcome_music_body">آهنگ‌هایتان، با متنشان</string>
     <string name="welcome_allow">اجازه دادن</string>
     <string name="media_access_title">دانلودهای بازیابی‌شده را نشان بده</string>
-    <string name="media_access_body">این‌ها را نصب قبلی Comfort ذخیره کرده، برای همین Android آن‌ها را برای این نصب بسته نگه می‌دارد. برای باز کردنشان اینجا، اجازهٔ دسترسی به عکس‌ها، ویدیوها و موسیقی را بدهید.</string>
+    <string name="media_access_body">این‌ها را نصب قبلی Flux ذخیره کرده، برای همین Android آن‌ها را برای این نصب بسته نگه می‌دارد. برای باز کردنشان اینجا، اجازهٔ دسترسی به عکس‌ها، ویدیوها و موسیقی را بدهید.</string>
     <string name="media_access_allow">اجازهٔ دسترسی</string>
     <string name="comic_converting">در حال تبدیل به ‎.cbz…</string>
     <string name="reader_settings">تنظیمات خواننده</string>

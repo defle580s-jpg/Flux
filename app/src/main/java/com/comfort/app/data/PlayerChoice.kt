@@ -8,9 +8,9 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 /**
- * Which player opens a download (Settings › Look & feel › Players): Comfort's own (the media viewer,
+ * Which player opens a download (Settings › Look & feel › Players): Flux's own (the media viewer,
  * the music player) or the phone's, the app Android picks for the file (or asks which, the first
- * time). Pictures always open in Comfort's viewer.
+ * time). Pictures always open in Flux's viewer.
  */
 object PlayerChoice {
     private const val PREFS = "player_choice"
@@ -43,8 +43,8 @@ object PlayerChoice {
     }
 
     /** Opens [download] in the phone's player when the setting for its kind says so. True if it
-     * did (or tried: no app for it gives a toast and true, so Comfort's player doesn't open
-     * instead of what was asked for); false to open it in Comfort's own. */
+     * did (or tried: no app for it gives a toast and true, so Flux's player doesn't open
+     * instead of what was asked for); false to open it in Flux's own. */
     fun openExternallyIfChosen(context: Context, download: DownloadEntity): Boolean {
         val file = (download.mediaUri ?: download.thumbnailPath)?.takeIf { it.isNotBlank() } ?: return false
         val uri = Uri.parse(file)

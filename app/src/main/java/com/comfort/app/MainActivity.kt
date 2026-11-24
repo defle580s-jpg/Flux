@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
     const val SHORTCUT_SEARCH_LIBRARY = "com.comfort.app.action.SEARCH_LIBRARY"
     // The music notification's tap (music/MusicService): opens Now Playing.
     const val ACTION_OPEN_NOW_PLAYING = "com.comfort.app.action.OPEN_NOW_PLAYING"
-    // Tapping a completed download notification or its "Open" action: opens inside Comfort.
+    // Tapping a completed download notification or its "Open" action: opens inside Flux.
     const val ACTION_OPEN_DOWNLOAD = "com.comfort.app.action.OPEN_DOWNLOAD"
     const val EXTRA_OPEN_DOWNLOAD_ID = "open_download_id"
   }
@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
   /** The last shortcut used, with a count so using the same one twice still acts. */
   private val shortcut = mutableStateOf<com.comfort.app.ui.main.ShortcutRequest?>(null)
 
-  /** Open download in Comfort request (from completed download notification). */
+  /** Open download in Flux request (from completed download notification). */
   private val openDownloadRequest = mutableStateOf<com.comfort.app.ui.main.OpenDownloadRequest?>(null)
 
   // A plain Compose State field (not `remember`ed — this Activity, not a composable, owns it) so
@@ -86,7 +86,7 @@ class MainActivity : ComponentActivity() {
       intent.removeExtra(EXTRA_OPEN_DOWNLOAD_ID)
     }
     val action = intent.action
-    // A .cbz opened with Comfort from another app (a file manager): the comic reader.
+    // A .cbz opened with Flux from another app (a file manager): the comic reader.
     if (action == Intent.ACTION_VIEW && intent.data != null) {
       val data = intent.data!!
       val name = runCatching {

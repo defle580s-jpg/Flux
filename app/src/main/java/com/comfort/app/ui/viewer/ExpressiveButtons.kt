@@ -1,6 +1,6 @@
 /*
- * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Comfort.
- * Adapted for Comfort: package, imports and the pieces Photon's app provides that Comfort doesn't
+ * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Flux.
+ * Adapted for Flux: package, imports and the pieces Photon's app provides that Flux doesn't
  * (see the notes where they were changed).
  */
 package com.comfort.app.ui.viewer

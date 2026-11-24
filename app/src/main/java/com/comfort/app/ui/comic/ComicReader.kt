@@ -73,7 +73,7 @@ import java.util.zip.ZipFile
 data class ComicRequest(val uri: Uri, val title: String)
 
 /** The comic open in the reader, over everything (MainActivity draws it): from the Library, or a
- * .cbz opened with Comfort from another app. */
+ * .cbz opened with Flux from another app. */
 object ComicReaderRequest {
     var request by mutableStateOf<ComicRequest?>(null)
 }

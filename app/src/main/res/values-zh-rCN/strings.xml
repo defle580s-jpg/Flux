@@ -110,14 +110,14 @@
     <string name="restore_section">恢复</string>
     <string name="restore_description">恢复备份中的内容。媒体库中已有的下载保持不变；备份中的设置会替换你当前的设置。</string>
     <string name="restore_action">从文件恢复</string>
-    <string name="restore_not_backup">该文件不是 Comfort 备份。</string>
+    <string name="restore_not_backup">该文件不是 Flux 备份。</string>
     <string name="restore_dialog_title">恢复备份</string>
     <string name="restore_dialog_contains">此备份包含 %1$s。恢复：</string>
     <string name="restore_confirm">恢复</string>
     <string name="restore_done">已恢复：%1$s。</string>
     <string name="restore_failed">无法恢复：%1$s</string>
-    <string name="restore_restart_title">重启 Comfort？</string>
-    <string name="restore_restart_text">恢复的设置会在 Comfort 重启后生效。</string>
+    <string name="restore_restart_title">重启 Flux？</string>
+    <string name="restore_restart_text">恢复的设置会在 Flux 重启后生效。</string>
     <string name="restore_restart_now">重启</string>
     <string name="restore_restart_later">稍后</string>
     <string name="home_link_hint">粘贴链接或搜索 YouTube</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">仅播放点按的歌曲</string>
     <string name="play_tapped_only_subtitle">否则资料库中的其他歌曲会接着播放。</string>
     <string name="keep_queue">保留播放队列</string>
-    <string name="keep_queue_subtitle">再次打开 Comfort 时恢复上次的队列（暂停状态）。</string>
+    <string name="keep_queue_subtitle">再次打开 Flux 时恢复上次的队列（暂停状态）。</string>
     <string name="report_an_issue">报告问题</string>
     <string name="issue_bug">有功能不正常</string>
     <string name="issue_bug_subtitle">闪退、按钮没反应、界面显示不对。</string>
     <string name="issue_site">某个网站无法下载</string>
     <string name="issue_site_subtitle">某个网站的链接下载失败，或下载了错误的内容。</string>
     <string name="issue_idea">提出建议</string>
-    <string name="issue_idea_subtitle">Comfort 可以做或可以做得更好的事。</string>
+    <string name="issue_idea_subtitle">Flux 可以做或可以做得更好的事。</string>
     <string name="report_an_issue_subtitle">在 GitHub 上打开一个简短表单，并已填入你的版本（%1$s）。</string>
     <string name="player_background">封面背景</string>
     <string name="player_background_subtitle">播放器背景为歌曲封面的模糊效果。关闭后为纯深色背景。</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">截断文件名</string>
     <string name="caps_long_titles_at_150_characters">将过长的标题截断为 150 个字符（仅适用于默认文件名格式）。</string>
     <string name="download_location">下载位置</string>
-    <string name="saving_to_the_default_download_comfort">保存到默认的 Download/Comfort 文件夹。</string>
+    <string name="saving_to_the_default_download_comfort">保存到默认的 Download/Flux 文件夹。</string>
     <string name="saving_to_x">保存到 \"%1$s\"。</string>
-    <string name="selected_folder_is_inaccessible_or_permission">所选文件夹无法访问或权限已丢失。将改用默认的 Download/Comfort 文件夹。</string>
+    <string name="selected_folder_is_inaccessible_or_permission">所选文件夹无法访问或权限已丢失。将改用默认的 Download/Flux 文件夹。</string>
     <string name="custom_folders_won_t_automatically_appear">自定义文件夹不会自动出现在相册/图库应用中 — 只有默认位置会被作为媒体索引。</string>
     <string name="choose_folder">选择文件夹</string>
     <string name="use_default">使用默认</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">或手动粘贴 Cookie</string>
     <string name="cookies_txt_contents">cookies.txt 内容</string>
     <string name="please_paste_cookie_text_first">请先粘贴 Cookie 文本。</string>
-    <string name="detected_json_format_comfort_requires_netscape">检测到 JSON 格式。Comfort 需要 Netscape cookies.txt 格式（用制表符分隔的列）。请从浏览器扩展以 Netscape 格式导出。</string>
-    <string name="detected_http_header_format_name_value">检测到 HTTP 请求头格式（\"name=value\"）。Comfort 需要 Netscape cookies.txt 格式，域名、路径、过期时间和值用制表符分隔。</string>
+    <string name="detected_json_format_comfort_requires_netscape">检测到 JSON 格式。Flux 需要 Netscape cookies.txt 格式（用制表符分隔的列）。请从浏览器扩展以 Netscape 格式导出。</string>
+    <string name="detected_http_header_format_name_value">检测到 HTTP 请求头格式（\"name=value\"）。Flux 需要 Netscape cookies.txt 格式，域名、路径、过期时间和值用制表符分隔。</string>
     <string name="couldn_t_find_any_valid_cookies">在该文本中找不到有效的 Cookie — 必须是真正的、用制表符分隔的 Netscape 格式（每行包含 domain、includeSubdomains、path、secure、expiry、name、value）。</string>
     <string name="cookies_saved_and_applied">Cookie 已保存并应用</string>
     <string name="save_cookies">保存 Cookie</string>
@@ -456,7 +456,7 @@
     <string name="monthly">每月</string>
     <string name="x_schedule_time_x">定时%1$s时间：%2$s</string>
     <string name="sharing_mode">分享模式</string>
-    <string name="what_happens_when_you_share_a">分享链接到 Comfort 时会发生什么。</string>
+    <string name="what_happens_when_you_share_a">分享链接到 Flux 时会发生什么。</string>
     <string name="view_cookies_for_site_count">查看 %1$s 的 Cookie，%2$s</string>
     <string name="updates_and_engines">更新与引擎</string>
     <string name="which_engines_run">运行哪些引擎</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">Spotify 曲目，通过 yt-dlp</string>
     <string name="about">关于</string>
     <string name="app">应用</string>
-    <string name="comfort_version_x_open_project_page">Comfort 版本 %1$s，打开项目页面</string>
+    <string name="comfort_version_x_open_project_page">Flux 版本 %1$s，打开项目页面</string>
     <string name="version_x">版本 %1$s</string>
     <string name="credits">致谢</string>
     <string name="python_runtime">Python 运行环境</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">自动更新</string>
     <string name="later">以后</string>
     <string name="new_update">新版本</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">新功能</string>
     <string name="update_now">立即更新</string>
     <string name="update_now_x">立即更新 · %1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">稳定版</string>
     <string name="open_x_website">打开 %1$s 网站</string>
     <string name="every_supported_site_by_engine">所有支持的网站，按引擎分类</string>
-    <string name="configure_instant_or_always_ask_what">配置、立即或每次询问 — Comfort 如何处理分享给它的链接。</string>
+    <string name="configure_instant_or_always_ask_what">配置、立即或每次询问 — Flux 如何处理分享给它的链接。</string>
     <string name="how_downloaded_files_are_named">下载文件的命名方式。</string>
     <string name="where_downloaded_files_are_saved">下载文件的保存位置。</string>
     <string name="how_much_space_downloads_are_using">下载占用了多少空间。</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">此视频受保护</string>
     <string name="not_the_video_you_want">不是你想要的视频？</string>
     <string name="the_site_uses_copy_protection_drm">该网站使用了版权保护（DRM），录制后也无法播放。</string>
-    <string name="this_player_builds_its_video_from">此播放器用分段组成视频。Comfort 可以在播放时录制这些分段：页面会重新加载，你将视频播放到结尾，然后点按“停止并保存”。</string>
+    <string name="this_player_builds_its_video_from">此播放器用分段组成视频。Flux 可以在播放时录制这些分段：页面会重新加载，你将视频播放到结尾，然后点按“停止并保存”。</string>
     <string name="record_while_it_plays">边播放边录制</string>
     <string name="saving_the_recording">正在保存录制内容…</string>
     <string name="recorded_to_the_end_x">已录制到结尾 · %1$s</string>
@@ -963,7 +963,7 @@
     <string name="shows_download_progress_and_completion">显示下载进度和完成情况</string>
     <string name="download_results_channel">已完成的下载</string>
     <string name="download_results_channel_description">在下载完成或失败时通知你</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort 正在后台下载</string>
+    <string name="comfort_is_downloading_in_the_background">Flux 正在后台下载</string>
     <string name="starting">正在开始…</string>
     <string name="download_failed">下载失败</string>
     <string name="downloading_ellipsis">正在下载…</string>
@@ -1198,9 +1198,9 @@
     <string name="queue_help_errors_body">点按卡片上的 ⓘ 查看详情，点按重试再试一次。\n• 私密、有年龄限制或需要登录的帖子：在设置 › Cookie 和登录中添加你的账号。\n• 请求受限：网站需要歇一下；下载会等待并自行继续。\n• 没有网络：等待中的下载会在你重新联网后开始；正在进行的可能失败，请点按重试。\n• 不支持的链接：在首页用浏览网页打开它，以找到页面上的媒体。</string>
     <string name="players">播放器</string>
     <string name="videos_in_phone_player">用手机的播放器打开视频</string>
-    <string name="videos_in_phone_player_subtitle">代替 Comfort 的查看器。图片仍在 Comfort 中打开。</string>
+    <string name="videos_in_phone_player_subtitle">代替 Flux 的查看器。图片仍在 Flux 中打开。</string>
     <string name="music_in_phone_player">用手机的播放器播放音乐</string>
-    <string name="music_in_phone_player_subtitle">代替 Comfort 的音乐播放器。</string>
+    <string name="music_in_phone_player_subtitle">代替 Flux 的音乐播放器。</string>
     <string name="no_app_to_open_this">这台手机上没有能打开此内容的应用</string>
     <string name="video_settings">视频设置</string>
     <string name="play_videos_with_sound_subtitle">视频开始播放时带声音，不静音。</string>
@@ -1216,7 +1216,7 @@
     <string name="view_items">查看项目</string>
     <string name="grid_view">网格</string>
     <string name="list_view">列表</string>
-    <string name="batch_item_not_deleted">Android 不允许 Comfort 删除此文件（重新安装前保存的）：请在图库中删除。</string>
+    <string name="batch_item_not_deleted">Android 不允许 Flux 删除此文件（重新安装前保存的）：请在图库中删除。</string>
     <string name="welcome_skip">跳过</string>
     <string name="welcome_next">下一步</string>
     <string name="welcome_start">开始使用</string>
@@ -1228,14 +1228,14 @@
     <string name="welcome_audio_format">音频格式</string>
     <string name="welcome_change_later">这些之后都可以在设置中修改。</string>
     <string name="welcome_notifications_title">完成时通知你</string>
-    <string name="welcome_notifications_body">Comfort 会显示下载进度，并在完成或失败时告诉你。</string>
+    <string name="welcome_notifications_body">Flux 会显示下载进度，并在完成或失败时告诉你。</string>
     <string name="welcome_notifications_allow">允许通知</string>
     <string name="welcome_notifications_on">通知已开启</string>
     <string name="welcome_battery_body">让下载在你使用其他应用时继续进行，并按时开始。否则 Android 的省电功能可能会暂停它们。</string>
     <string name="comic">漫画</string>
     <string name="comics">漫画</string>
     <string name="save_chapters_as_cbz">将章节保存为 .cbz</string>
-    <string name="save_chapters_as_cbz_subtitle">漫画章节保存为一个漫画文件，可在 Comfort 或任意漫画应用中阅读，而不是图库中零散的图片。</string>
+    <string name="save_chapters_as_cbz_subtitle">漫画章节保存为一个漫画文件，可在 Flux 或任意漫画应用中阅读，而不是图库中零散的图片。</string>
     <string name="comic_sites">漫画网站</string>
     <string name="comic_sites_subtitle">这些网站的章节会保存为 .cbz。</string>
     <string name="comic_site_add_hint">添加网站或粘贴链接</string>
@@ -1253,7 +1253,7 @@
     <string name="welcome_music_body">你的歌曲，附带歌词</string>
     <string name="welcome_allow">允许</string>
     <string name="media_access_title">显示恢复的下载</string>
-    <string name="media_access_body">这些文件由之前安装的 Comfort 保存，因此 Android 不允许当前安装打开它们。允许访问照片、视频和音乐即可在这里打开。</string>
+    <string name="media_access_body">这些文件由之前安装的 Flux 保存，因此 Android 不允许当前安装打开它们。允许访问照片、视频和音乐即可在这里打开。</string>
     <string name="media_access_allow">允许访问</string>
     <string name="comic_converting">正在转换为 .cbz…</string>
     <string name="reader_settings">阅读器设置</string>

@@ -9,7 +9,7 @@ object SubscriptionChecks {
     val INTERVAL_CHOICES = listOf(6, 12, 24)
     const val DEFAULT_INTERVAL_HOURS = 24
 
-    /** How many of a source's newest uploads a check asks yt-dlp for. Comfortably more than any
+    /** How many of a source's newest uploads a check asks yt-dlp for. Fluxably more than any
      * channel posts in a day, so nothing slips between two checks; a longer list only makes the
      * check slower. */
     const val FETCH_LIMIT = 30

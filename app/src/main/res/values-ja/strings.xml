@@ -110,14 +110,14 @@
     <string name="restore_section">復元</string>
     <string name="restore_description">バックアップの内容を戻します。ライブラリにあるダウンロードはそのまま残り、バックアップ内の設定が現在の設定を置き換えます。</string>
     <string name="restore_action">ファイルから復元</string>
-    <string name="restore_not_backup">このファイルは Comfort のバックアップではありません。</string>
+    <string name="restore_not_backup">このファイルは Flux のバックアップではありません。</string>
     <string name="restore_dialog_title">バックアップを復元</string>
     <string name="restore_dialog_contains">このバックアップには %1$s が含まれています。復元する項目:</string>
     <string name="restore_confirm">復元</string>
     <string name="restore_done">復元しました: %1$s。</string>
     <string name="restore_failed">復元できませんでした: %1$s</string>
-    <string name="restore_restart_title">Comfort を再起動しますか?</string>
-    <string name="restore_restart_text">復元した設定は Comfort の再起動後に反映されます。</string>
+    <string name="restore_restart_title">Flux を再起動しますか?</string>
+    <string name="restore_restart_text">復元した設定は Flux の再起動後に反映されます。</string>
     <string name="restore_restart_now">再起動</string>
     <string name="restore_restart_later">後で</string>
     <string name="home_link_hint">リンクを貼り付けるか YouTube を検索</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">タップした曲だけ再生</string>
     <string name="play_tapped_only_subtitle">オフにするとライブラリの他の曲が続きます。</string>
     <string name="keep_queue">キューを保持</string>
-    <string name="keep_queue_subtitle">Comfort を再び開いたとき、前回のキューを一時停止状態で戻します。</string>
+    <string name="keep_queue_subtitle">Flux を再び開いたとき、前回のキューを一時停止状態で戻します。</string>
     <string name="report_an_issue">問題を報告</string>
     <string name="issue_bug">うまく動かない</string>
     <string name="issue_bug_subtitle">アプリが落ちる、ボタンが反応しない、画面の表示がおかしい。</string>
     <string name="issue_site">サイトからダウンロードできない</string>
     <string name="issue_site_subtitle">あるサイトのリンクが失敗する、または違うものがダウンロードされる。</string>
     <string name="issue_idea">アイデアを提案</string>
-    <string name="issue_idea_subtitle">Comfort にできそうなこと、もっと良くできること。</string>
+    <string name="issue_idea_subtitle">Flux にできそうなこと、もっと良くできること。</string>
     <string name="report_an_issue_subtitle">バージョン (%1$s) が入力済みの短いフォームを GitHub で開きます。</string>
     <string name="player_background">ジャケットの背景</string>
     <string name="player_background_subtitle">プレーヤーの背景を曲のジャケットのぼかしにします。オフにすると無地の暗い背景になります。</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">ファイル名を短縮</string>
     <string name="caps_long_titles_at_150_characters">長いタイトルを 150 文字で切り詰めます(既定のファイル名形式のみ)。</string>
     <string name="download_location">保存先</string>
-    <string name="saving_to_the_default_download_comfort">既定の Download/Comfort フォルダに保存しています。</string>
+    <string name="saving_to_the_default_download_comfort">既定の Download/Flux フォルダに保存しています。</string>
     <string name="saving_to_x">\"%1$s\" に保存しています。</string>
-    <string name="selected_folder_is_inaccessible_or_permission">選択したフォルダにアクセスできないか、権限が失われました。既定の Download/Comfort フォルダに戻します。</string>
+    <string name="selected_folder_is_inaccessible_or_permission">選択したフォルダにアクセスできないか、権限が失われました。既定の Download/Flux フォルダに戻します。</string>
     <string name="custom_folders_won_t_automatically_appear">カスタムフォルダは写真・ギャラリーアプリに自動で表示されません。メディアとしてインデックスされるのは既定の場所だけです。</string>
     <string name="choose_folder">フォルダを選択</string>
     <string name="use_default">既定を使用</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">または Cookie を手動で貼り付け</string>
     <string name="cookies_txt_contents">cookies.txt の内容</string>
     <string name="please_paste_cookie_text_first">まず Cookie のテキストを貼り付けてください。</string>
-    <string name="detected_json_format_comfort_requires_netscape">JSON 形式が検出されました。Comfort には Netscape の cookies.txt 形式(タブ区切りの列)が必要です。ブラウザ拡張機能から Netscape 形式で書き出してください。</string>
-    <string name="detected_http_header_format_name_value">HTTP ヘッダー形式(\"name=value\")が検出されました。Comfort には、ドメイン、パス、有効期限、値がタブで区切られた Netscape の cookies.txt 形式が必要です。</string>
+    <string name="detected_json_format_comfort_requires_netscape">JSON 形式が検出されました。Flux には Netscape の cookies.txt 形式(タブ区切りの列)が必要です。ブラウザ拡張機能から Netscape 形式で書き出してください。</string>
+    <string name="detected_http_header_format_name_value">HTTP ヘッダー形式(\"name=value\")が検出されました。Flux には、ドメイン、パス、有効期限、値がタブで区切られた Netscape の cookies.txt 形式が必要です。</string>
     <string name="couldn_t_find_any_valid_cookies">このテキストに有効な Cookie が見つかりませんでした。タブ区切りの本物の Netscape 形式(各行に domain、includeSubdomains、path、secure、expiry、name、value)である必要があります。</string>
     <string name="cookies_saved_and_applied">Cookie を保存して適用しました</string>
     <string name="save_cookies">Cookie を保存</string>
@@ -456,7 +456,7 @@
     <string name="monthly">毎月</string>
     <string name="x_schedule_time_x">スケジュールの%1$s時刻: %2$s</string>
     <string name="sharing_mode">共有モード</string>
-    <string name="what_happens_when_you_share_a">Comfort にリンクを共有したときの動作。</string>
+    <string name="what_happens_when_you_share_a">Flux にリンクを共有したときの動作。</string>
     <string name="view_cookies_for_site_count">%1$s の Cookie を表示、%2$s</string>
     <string name="updates_and_engines">アップデートとエンジン</string>
     <string name="which_engines_run">使用するエンジン</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">Spotify のトラック(yt-dlp 経由)</string>
     <string name="about">このアプリについて</string>
     <string name="app">アプリ</string>
-    <string name="comfort_version_x_open_project_page">Comfort バージョン %1$s、プロジェクトページを開く</string>
+    <string name="comfort_version_x_open_project_page">Flux バージョン %1$s、プロジェクトページを開く</string>
     <string name="version_x">バージョン %1$s</string>
     <string name="credits">クレジット</string>
     <string name="python_runtime">Python ランタイム</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">自動更新</string>
     <string name="later">後で</string>
     <string name="new_update">新しいアップデート</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">新機能</string>
     <string name="update_now">今すぐ更新</string>
     <string name="update_now_x">今すぐ更新・%1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">安定版</string>
     <string name="open_x_website">%1$s のウェブサイトを開く</string>
     <string name="every_supported_site_by_engine">対応しているすべてのサイト(エンジン別)</string>
-    <string name="configure_instant_or_always_ask_what">設定、即時、毎回確認 — 共有されたリンクを Comfort がどう扱うか。</string>
+    <string name="configure_instant_or_always_ask_what">設定、即時、毎回確認 — 共有されたリンクを Flux がどう扱うか。</string>
     <string name="how_downloaded_files_are_named">ダウンロードしたファイルの名前の付け方。</string>
     <string name="where_downloaded_files_are_saved">ダウンロードしたファイルの保存先。</string>
     <string name="how_much_space_downloads_are_using">ダウンロードが使用している容量。</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">この動画は保護されています</string>
     <string name="not_the_video_you_want">目的の動画ではありませんか?</string>
     <string name="the_site_uses_copy_protection_drm">このサイトはコピー防止(DRM)を使っているため、録画しても再生できません。</string>
-    <string name="this_player_builds_its_video_from">このプレーヤーは動画を断片から組み立てています。Comfort は再生中にそれを録画できます。ページが再読み込みされたら動画を最後まで再生し、「停止して保存」をタップしてください。</string>
+    <string name="this_player_builds_its_video_from">このプレーヤーは動画を断片から組み立てています。Flux は再生中にそれを録画できます。ページが再読み込みされたら動画を最後まで再生し、「停止して保存」をタップしてください。</string>
     <string name="record_while_it_plays">再生しながら録画</string>
     <string name="saving_the_recording">録画を保存中…</string>
     <string name="recorded_to_the_end_x">最後まで録画しました · %1$s</string>
@@ -963,7 +963,7 @@
     <string name="shows_download_progress_and_completion">ダウンロードの進行状況と完了を表示します</string>
     <string name="download_results_channel">完了したダウンロード</string>
     <string name="download_results_channel_description">ダウンロードの完了や失敗をお知らせします</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort がバックグラウンドでダウンロード中です</string>
+    <string name="comfort_is_downloading_in_the_background">Flux がバックグラウンドでダウンロード中です</string>
     <string name="starting">開始中…</string>
     <string name="download_failed">ダウンロードに失敗しました</string>
     <string name="downloading_ellipsis">ダウンロード中…</string>
@@ -1198,9 +1198,9 @@
     <string name="queue_help_errors_body">カードの ⓘ で詳細を、再試行 でもう一度試せます。\n• 非公開・年齢制限・ログインが必要な投稿：設定 › Cookie とログイン でアカウントを追加してください。\n• レート制限：サイトが休憩を求めています。ダウンロードは待ってから自動で続きます。\n• 接続なし：待機中のダウンロードはオンラインに戻ると始まります。実行中のものは失敗することがあるので 再試行 をタップしてください。\n• 対応していないリンク：ホーム の ウェブを閲覧 で開き、ページ内のメディアを探してください。</string>
     <string name="players">プレーヤー</string>
     <string name="videos_in_phone_player">動画をスマートフォンのプレーヤーで開く</string>
-    <string name="videos_in_phone_player_subtitle">Comfort のビューアの代わりに。画像はこれまでどおり Comfort で開きます。</string>
+    <string name="videos_in_phone_player_subtitle">Flux のビューアの代わりに。画像はこれまでどおり Flux で開きます。</string>
     <string name="music_in_phone_player">音楽をスマートフォンのプレーヤーで再生</string>
-    <string name="music_in_phone_player_subtitle">Comfort の音楽プレーヤーの代わりに。</string>
+    <string name="music_in_phone_player_subtitle">Flux の音楽プレーヤーの代わりに。</string>
     <string name="no_app_to_open_this">このスマートフォンには開けるアプリがありません</string>
     <string name="video_settings">動画の設定</string>
     <string name="play_videos_with_sound_subtitle">動画をミュートではなく音声ありで再生します。</string>
@@ -1216,7 +1216,7 @@
     <string name="view_items">項目を表示</string>
     <string name="grid_view">グリッド</string>
     <string name="list_view">リスト</string>
-    <string name="batch_item_not_deleted">Android が Comfort にこのファイルの削除を許可しませんでした（再インストール前に保存）。ギャラリーで削除してください。</string>
+    <string name="batch_item_not_deleted">Android が Flux にこのファイルの削除を許可しませんでした（再インストール前に保存）。ギャラリーで削除してください。</string>
     <string name="welcome_skip">スキップ</string>
     <string name="welcome_next">次へ</string>
     <string name="welcome_start">はじめる</string>
@@ -1228,14 +1228,14 @@
     <string name="welcome_audio_format">音声の形式</string>
     <string name="welcome_change_later">これらはあとで設定からも変更できます。</string>
     <string name="welcome_notifications_title">完了がわかる</string>
-    <string name="welcome_notifications_body">Comfort はダウンロードの進行状況を表示し、完了や失敗をお知らせします。</string>
+    <string name="welcome_notifications_body">Flux はダウンロードの進行状況を表示し、完了や失敗をお知らせします。</string>
     <string name="welcome_notifications_allow">通知を許可</string>
     <string name="welcome_notifications_on">通知はオンです</string>
     <string name="welcome_battery_body">他のアプリを使っている間もダウンロードが続き、時間どおりに始まるようにします。許可しないと、Android の省電力機能が一時停止することがあります。</string>
     <string name="comic">コミック</string>
     <string name="comics">コミック</string>
     <string name="save_chapters_as_cbz">チャプターを .cbz で保存</string>
-    <string name="save_chapters_as_cbz_subtitle">マンガやコミックのチャプターを、ギャラリーにバラバラの画像としてではなく、Comfort や他のコミックアプリで読める 1 つのファイルとして保存します。</string>
+    <string name="save_chapters_as_cbz_subtitle">マンガやコミックのチャプターを、ギャラリーにバラバラの画像としてではなく、Flux や他のコミックアプリで読める 1 つのファイルとして保存します。</string>
     <string name="comic_sites">コミックサイト</string>
     <string name="comic_sites_subtitle">これらのサイトのチャプターは .cbz で保存されます。</string>
     <string name="comic_site_add_hint">サイトを追加またはリンクを貼り付け</string>
@@ -1253,7 +1253,7 @@
     <string name="welcome_music_body">歌詞つきで曲を再生</string>
     <string name="welcome_allow">許可</string>
     <string name="media_access_title">復元したダウンロードを表示</string>
-    <string name="media_access_body">以前にインストールした Comfort が保存したため、Android はこのアプリから開けないようにしています。ここで開くには、写真・動画・音楽へのアクセスを許可してください。</string>
+    <string name="media_access_body">以前にインストールした Flux が保存したため、Android はこのアプリから開けないようにしています。ここで開くには、写真・動画・音楽へのアクセスを許可してください。</string>
     <string name="media_access_allow">アクセスを許可</string>
     <string name="comic_converting">.cbz に変換中…</string>
     <string name="reader_settings">リーダー設定</string>

@@ -110,14 +110,14 @@
     <string name="restore_section">استعادة</string>
     <string name="restore_description">يعيد ما تحتويه النسخة الاحتياطية. التنزيلات الموجودة في مكتبتك تبقى كما هي؛ والإعدادات في النسخة الاحتياطية تحل محل إعداداتك.</string>
     <string name="restore_action">استعادة من ملف</string>
-    <string name="restore_not_backup">هذا الملف ليس نسخة احتياطية من Comfort.</string>
+    <string name="restore_not_backup">هذا الملف ليس نسخة احتياطية من Flux.</string>
     <string name="restore_dialog_title">استعادة النسخة الاحتياطية</string>
     <string name="restore_dialog_contains">تحتوي هذه النسخة الاحتياطية على %1$s. استعادة:</string>
     <string name="restore_confirm">استعادة</string>
     <string name="restore_done">تمت الاستعادة: %1$s.</string>
     <string name="restore_failed">تعذّرت الاستعادة: %1$s</string>
-    <string name="restore_restart_title">إعادة تشغيل Comfort؟</string>
-    <string name="restore_restart_text">تسري الإعدادات المستعادة بعد إعادة تشغيل Comfort.</string>
+    <string name="restore_restart_title">إعادة تشغيل Flux؟</string>
+    <string name="restore_restart_text">تسري الإعدادات المستعادة بعد إعادة تشغيل Flux.</string>
     <string name="restore_restart_now">إعادة التشغيل</string>
     <string name="restore_restart_later">لاحقًا</string>
     <string name="home_link_hint">الصق رابطًا أو ابحث في يوتيوب</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">تشغيل الأغنية المختارة فقط</string>
     <string name="play_tapped_only_subtitle">وإلا تتبعها أغاني المكتبة الأخرى.</string>
     <string name="keep_queue">الاحتفاظ بقائمة التشغيل</string>
-    <string name="keep_queue_subtitle">يعيد آخر قائمة تشغيل، متوقفة، عند فتح Comfort مجددًا.</string>
+    <string name="keep_queue_subtitle">يعيد آخر قائمة تشغيل، متوقفة، عند فتح Flux مجددًا.</string>
     <string name="report_an_issue">الإبلاغ عن مشكلة</string>
     <string name="issue_bug">شيء لا يعمل</string>
     <string name="issue_bug_subtitle">تعطّل، أو زر لا يفعل شيئًا، أو شاشة تبدو خاطئة.</string>
     <string name="issue_site">موقع لا يتم التنزيل منه</string>
     <string name="issue_site_subtitle">روابط موقع ما تفشل، أو تنزّل شيئًا خاطئًا.</string>
     <string name="issue_idea">اقترح فكرة</string>
-    <string name="issue_idea_subtitle">شيء يمكن لـ Comfort فعله، أو فعله بشكل أفضل.</string>
+    <string name="issue_idea_subtitle">شيء يمكن لـ Flux فعله، أو فعله بشكل أفضل.</string>
     <string name="report_an_issue_subtitle">يفتح نموذجًا قصيرًا على GitHub مع ملء إصدارك (%1$s).</string>
     <string name="player_background">خلفية الغلاف</string>
     <string name="player_background_subtitle">خلفية المشغّل هي غلاف الأغنية مموّهًا. عند الإيقاف، خلفية داكنة بسيطة.</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">تقصير أسماء الملفات</string>
     <string name="caps_long_titles_at_150_characters">يقصّ العناوين الطويلة عند 150 حرفًا (ينطبق فقط على صيغة اسم الملف الافتراضية).</string>
     <string name="download_location">مكان التنزيل</string>
-    <string name="saving_to_the_default_download_comfort">الحفظ في المجلد الافتراضي Download/Comfort.</string>
+    <string name="saving_to_the_default_download_comfort">الحفظ في المجلد الافتراضي Download/Flux.</string>
     <string name="saving_to_x">الحفظ في \"%1$s\".</string>
-    <string name="selected_folder_is_inaccessible_or_permission">المجلد المحدد غير متاح أو فُقد الإذن. سيُستخدم المجلد الافتراضي Download/Comfort.</string>
+    <string name="selected_folder_is_inaccessible_or_permission">المجلد المحدد غير متاح أو فُقد الإذن. سيُستخدم المجلد الافتراضي Download/Flux.</string>
     <string name="custom_folders_won_t_automatically_appear">لن تظهر المجلدات المخصصة تلقائيًا في تطبيقات الصور/المعرض — يُفهرَس المكان الافتراضي فقط كوسائط.</string>
     <string name="choose_folder">اختيار مجلد</string>
     <string name="use_default">استخدام الافتراضي</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">أو الصق ملفات تعريف الارتباط يدويًا</string>
     <string name="cookies_txt_contents">محتوى cookies.txt</string>
     <string name="please_paste_cookie_text_first">يُرجى لصق نص ملفات تعريف الارتباط أولًا.</string>
-    <string name="detected_json_format_comfort_requires_netscape">تم اكتشاف صيغة JSON. يتطلب Comfort صيغة cookies.txt من Netscape (أعمدة مفصولة بعلامات جدولة). يُرجى التصدير بصيغة Netscape من إضافة متصفحك.</string>
-    <string name="detected_http_header_format_name_value">تم اكتشاف صيغة ترويسة HTTP (\"name=value\"). يتطلب Comfort صيغة cookies.txt من Netscape مع النطاق والمسار وتاريخ الانتهاء والقيم مفصولة بعلامات جدولة.</string>
+    <string name="detected_json_format_comfort_requires_netscape">تم اكتشاف صيغة JSON. يتطلب Flux صيغة cookies.txt من Netscape (أعمدة مفصولة بعلامات جدولة). يُرجى التصدير بصيغة Netscape من إضافة متصفحك.</string>
+    <string name="detected_http_header_format_name_value">تم اكتشاف صيغة ترويسة HTTP (\"name=value\"). يتطلب Flux صيغة cookies.txt من Netscape مع النطاق والمسار وتاريخ الانتهاء والقيم مفصولة بعلامات جدولة.</string>
     <string name="couldn_t_find_any_valid_cookies">تعذّر العثور على أي ملفات تعريف ارتباط صالحة في هذا النص — يجب أن يكون بصيغة Netscape حقيقية مفصولة بعلامات جدولة (domain وincludeSubdomains وpath وsecure وexpiry وname وvalue في كل سطر).</string>
     <string name="cookies_saved_and_applied">تم حفظ ملفات تعريف الارتباط وتطبيقها</string>
     <string name="save_cookies">حفظ ملفات تعريف الارتباط</string>
@@ -456,7 +456,7 @@
     <string name="monthly">شهريًا</string>
     <string name="x_schedule_time_x">وقت %1$s في الجدولة: %2$s</string>
     <string name="sharing_mode">وضع المشاركة</string>
-    <string name="what_happens_when_you_share_a">ما يحدث عندما تشارك رابطًا مع Comfort.</string>
+    <string name="what_happens_when_you_share_a">ما يحدث عندما تشارك رابطًا مع Flux.</string>
     <string name="view_cookies_for_site_count">عرض ملفات تعريف الارتباط لـ %1$s، %2$s</string>
     <string name="updates_and_engines">التحديثات والمحركات</string>
     <string name="which_engines_run">المحركات التي تعمل</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">مقاطع Spotify، عبر yt-dlp</string>
     <string name="about">حول</string>
     <string name="app">التطبيق</string>
-    <string name="comfort_version_x_open_project_page">Comfort الإصدار %1$s، فتح صفحة المشروع</string>
+    <string name="comfort_version_x_open_project_page">Flux الإصدار %1$s، فتح صفحة المشروع</string>
     <string name="version_x">الإصدار %1$s</string>
     <string name="credits">الشكر والتقدير</string>
     <string name="python_runtime">بيئة تشغيل Python</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">التحديث التلقائي</string>
     <string name="later">لاحقًا</string>
     <string name="new_update">تحديث جديد</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">الجديد</string>
     <string name="update_now">حدّث الآن</string>
     <string name="update_now_x">حدّث الآن · %1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">مستقر</string>
     <string name="open_x_website">فتح موقع %1$s</string>
     <string name="every_supported_site_by_engine">كل المواقع المدعومة، حسب المحرك</string>
-    <string name="configure_instant_or_always_ask_what">«إعداد» أو «فوري» أو «السؤال دائمًا» — ما يفعله Comfort بالرابط الذي يُشارَك معه.</string>
+    <string name="configure_instant_or_always_ask_what">«إعداد» أو «فوري» أو «السؤال دائمًا» — ما يفعله Flux بالرابط الذي يُشارَك معه.</string>
     <string name="how_downloaded_files_are_named">كيف تُسمّى الملفات المنزَّلة.</string>
     <string name="where_downloaded_files_are_saved">أين تُحفظ الملفات المنزَّلة.</string>
     <string name="how_much_space_downloads_are_using">المساحة التي تستخدمها التنزيلات.</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">هذا الفيديو محمي</string>
     <string name="not_the_video_you_want">ليس الفيديو الذي تريده؟</string>
     <string name="the_site_uses_copy_protection_drm">يستخدم الموقع حماية النسخ (DRM)، لذا لن يعمل تسجيله.</string>
-    <string name="this_player_builds_its_video_from">يبني هذا المشغل الفيديو من أجزاء. يمكن لـ Comfort تسجيلها أثناء التشغيل: تُعاد تحميل الصفحة، فتشغّل الفيديو حتى نهايته، ثم تنقر «إيقاف وحفظ».</string>
+    <string name="this_player_builds_its_video_from">يبني هذا المشغل الفيديو من أجزاء. يمكن لـ Flux تسجيلها أثناء التشغيل: تُعاد تحميل الصفحة، فتشغّل الفيديو حتى نهايته، ثم تنقر «إيقاف وحفظ».</string>
     <string name="record_while_it_plays">التسجيل أثناء التشغيل</string>
     <string name="saving_the_recording">جارٍ حفظ التسجيل…</string>
     <string name="recorded_to_the_end_x">سُجِّل حتى النهاية · %1$s</string>
@@ -968,7 +968,7 @@
     <string name="shows_download_progress_and_completion">يعرض تقدم التنزيل واكتماله</string>
     <string name="download_results_channel">التنزيلات المكتملة</string>
     <string name="download_results_channel_description">ينبّهك عند اكتمال التنزيل أو فشله</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort ينزّل في الخلفية</string>
+    <string name="comfort_is_downloading_in_the_background">Flux ينزّل في الخلفية</string>
     <string name="starting">جارٍ البدء…</string>
     <string name="download_failed">فشل التنزيل</string>
     <string name="downloading_ellipsis">جارٍ التنزيل…</string>
@@ -1368,9 +1368,9 @@
     <string name="queue_help_errors_body">اضغط ⓘ على البطاقة للتفاصيل، وإعادة المحاولة للمحاولة مجددًا.\n• منشورات خاصة أو مقيدة بالعمر أو تتطلب تسجيل الدخول: أضف حسابك في الإعدادات › ملفات تعريف الارتباط وتسجيل الدخول.\n• تقييد المعدل: يريد الموقع استراحة؛ ينتظر التنزيل ويكمل وحده.\n• لا اتصال: تبدأ التنزيلات المنتظرة عند عودتك للاتصال؛ وقد يفشل الجاري، فاضغط إعادة المحاولة.\n• رابط غير مدعوم: افتحه عبر تصفح الويب في الرئيسية للعثور على الوسائط في الصفحة.</string>
     <string name="players">المشغّلات</string>
     <string name="videos_in_phone_player">فتح الفيديوهات في مشغّل الهاتف</string>
-    <string name="videos_in_phone_player_subtitle">بدلًا من عارض Comfort. تبقى الصور في Comfort.</string>
+    <string name="videos_in_phone_player_subtitle">بدلًا من عارض Flux. تبقى الصور في Flux.</string>
     <string name="music_in_phone_player">تشغيل الموسيقى في مشغّل الهاتف</string>
-    <string name="music_in_phone_player_subtitle">بدلًا من مشغّل الموسيقى في Comfort.</string>
+    <string name="music_in_phone_player_subtitle">بدلًا من مشغّل الموسيقى في Flux.</string>
     <string name="no_app_to_open_this">لا يوجد تطبيق على هذا الهاتف يمكنه فتح هذا</string>
     <string name="video_settings">إعدادات الفيديو</string>
     <string name="play_videos_with_sound_subtitle">تبدأ الفيديوهات بالصوت، لا مكتومة.</string>
@@ -1386,7 +1386,7 @@
     <string name="view_items">عرض العناصر</string>
     <string name="grid_view">شبكة</string>
     <string name="list_view">قائمة</string>
-    <string name="batch_item_not_deleted">لم يسمح Android لـ Comfort بحذف هذا الملف (حُفظ قبل إعادة التثبيت): احذفه من المعرض.</string>
+    <string name="batch_item_not_deleted">لم يسمح Android لـ Flux بحذف هذا الملف (حُفظ قبل إعادة التثبيت): احذفه من المعرض.</string>
     <string name="welcome_skip">تخطٍّ</string>
     <string name="welcome_next">التالي</string>
     <string name="welcome_start">لنبدأ</string>
@@ -1398,14 +1398,14 @@
     <string name="welcome_audio_format">صيغة الصوت</string>
     <string name="welcome_change_later">كل هذا موجود في الإعدادات لاحقًا.</string>
     <string name="welcome_notifications_title">اعرف متى ينتهي</string>
-    <string name="welcome_notifications_body">يعرض Comfort تقدّم التنزيل، ويخبرك عند انتهائه أو فشله.</string>
+    <string name="welcome_notifications_body">يعرض Flux تقدّم التنزيل، ويخبرك عند انتهائه أو فشله.</string>
     <string name="welcome_notifications_allow">السماح بالإشعارات</string>
     <string name="welcome_notifications_on">الإشعارات مفعّلة</string>
     <string name="welcome_battery_body">لتستمر التنزيلات أثناء استخدامك لتطبيقات أخرى وتبدأ في موعدها. دون ذلك قد يوقفها موفّر البطارية في Android.</string>
     <string name="comic">قصة مصورة</string>
     <string name="comics">القصص المصورة</string>
     <string name="save_chapters_as_cbz">حفظ الفصول بصيغة ‎.cbz</string>
-    <string name="save_chapters_as_cbz_subtitle">يُحفظ فصل المانغا أو القصة المصورة كملف واحد يُقرأ في Comfort أو أي تطبيق قصص مصورة، بدل صور متفرقة في المعرض.</string>
+    <string name="save_chapters_as_cbz_subtitle">يُحفظ فصل المانغا أو القصة المصورة كملف واحد يُقرأ في Flux أو أي تطبيق قصص مصورة، بدل صور متفرقة في المعرض.</string>
     <string name="comic_sites">مواقع القصص المصورة</string>
     <string name="comic_sites_subtitle">تُحفظ فصول هذه المواقع بصيغة ‎.cbz.</string>
     <string name="comic_site_add_hint">أضف موقعًا أو الصق رابطًا</string>
@@ -1423,7 +1423,7 @@
     <string name="welcome_music_body">أغانيك مع كلماتها</string>
     <string name="welcome_allow">السماح</string>
     <string name="media_access_title">اعرض تنزيلاتك المستعادة</string>
-    <string name="media_access_body">حُفظت بواسطة تثبيت سابق لـ Comfort، لذا يُبقيها Android مغلقة أمام هذا التثبيت. اسمح بالوصول إلى صورك وفيديوهاتك وموسيقاك لفتحها هنا.</string>
+    <string name="media_access_body">حُفظت بواسطة تثبيت سابق لـ Flux، لذا يُبقيها Android مغلقة أمام هذا التثبيت. اسمح بالوصول إلى صورك وفيديوهاتك وموسيقاك لفتحها هنا.</string>
     <string name="media_access_allow">السماح بالوصول</string>
     <string name="comic_converting">جارٍ التحويل إلى ‎.cbz…</string>
     <string name="reader_settings">إعدادات القارئ</string>

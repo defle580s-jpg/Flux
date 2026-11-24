@@ -863,7 +863,7 @@ private fun TimePickerButton(
     }
 }
 
-/** What sharing a link to Comfort does: "Configure" (open the picker/preview sheet), "Instant"
+/** What sharing a link to Flux does: "Configure" (open the picker/preview sheet), "Instant"
  * (download right away), or "Always ask" (a small sheet asking which, per share). A 3-segment chip row (same connected-group shape as the Queue
  * card's Pause/Cancel chips) rather than a Switch — this replaced a plain on/off toggle once a
  * genuine third option (Always ask) existed that a boolean couldn't represent. */

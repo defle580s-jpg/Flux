@@ -110,14 +110,14 @@
     <string name="restore_section">रीस्टोर</string>
     <string name="restore_description">बैकअप में जो है उसे वापस लाता है। लाइब्रेरी में पहले से मौजूद डाउनलोड जैसे हैं वैसे रहते हैं; बैकअप की सेटिंग आपकी सेटिंग की जगह ले लेती हैं।</string>
     <string name="restore_action">फ़ाइल से रीस्टोर करें</string>
-    <string name="restore_not_backup">यह फ़ाइल Comfort का बैकअप नहीं है।</string>
+    <string name="restore_not_backup">यह फ़ाइल Flux का बैकअप नहीं है।</string>
     <string name="restore_dialog_title">बैकअप रीस्टोर करें</string>
     <string name="restore_dialog_contains">इस बैकअप में %1$s है। रीस्टोर करें:</string>
     <string name="restore_confirm">रीस्टोर करें</string>
     <string name="restore_done">रीस्टोर किया गया: %1$s।</string>
     <string name="restore_failed">रीस्टोर नहीं हो सका: %1$s</string>
-    <string name="restore_restart_title">Comfort फिर से शुरू करें?</string>
-    <string name="restore_restart_text">रीस्टोर की गई सेटिंग Comfort के फिर से शुरू होने पर लागू होंगी।</string>
+    <string name="restore_restart_title">Flux फिर से शुरू करें?</string>
+    <string name="restore_restart_text">रीस्टोर की गई सेटिंग Flux के फिर से शुरू होने पर लागू होंगी।</string>
     <string name="restore_restart_now">फिर से शुरू करें</string>
     <string name="restore_restart_later">बाद में</string>
     <string name="home_link_hint">लिंक चिपकाएँ या YouTube पर खोजें</string>
@@ -171,14 +171,14 @@
     <string name="play_tapped_only">केवल टैप किया गया गाना चलाएँ</string>
     <string name="play_tapped_only_subtitle">वरना लाइब्रेरी के बाकी गाने उसके बाद चलते हैं।</string>
     <string name="keep_queue">कतार रखें</string>
-    <string name="keep_queue_subtitle">Comfort दोबारा खुलने पर पिछली कतार, रुकी हुई, वापस लाता है।</string>
+    <string name="keep_queue_subtitle">Flux दोबारा खुलने पर पिछली कतार, रुकी हुई, वापस लाता है।</string>
     <string name="report_an_issue">समस्या की रिपोर्ट करें</string>
     <string name="issue_bug">कुछ काम नहीं कर रहा</string>
     <string name="issue_bug_subtitle">ऐप बंद होना, कोई बटन जो कुछ नहीं करता, कोई स्क्रीन जो गलत दिखती है।</string>
     <string name="issue_site">कोई साइट डाउनलोड नहीं हो रही</string>
     <string name="issue_site_subtitle">किसी साइट के लिंक विफल होते हैं, या गलत चीज़ डाउनलोड होती है।</string>
     <string name="issue_idea">सुझाव दें</string>
-    <string name="issue_idea_subtitle">कुछ ऐसा जो Comfort कर सकता है, या बेहतर कर सकता है।</string>
+    <string name="issue_idea_subtitle">कुछ ऐसा जो Flux कर सकता है, या बेहतर कर सकता है।</string>
     <string name="report_an_issue_subtitle">GitHub पर एक छोटा फ़ॉर्म खोलता है जिसमें आपका संस्करण (%1$s) भरा होता है।</string>
     <string name="player_background">कवर पृष्ठभूमि</string>
     <string name="player_background_subtitle">प्लेयर की पृष्ठभूमि गाने का धुंधला कवर है। बंद होने पर सादी गहरी पृष्ठभूमि।</string>
@@ -309,9 +309,9 @@
     <string name="trim_filenames">फ़ाइल नाम छोटे करें</string>
     <string name="caps_long_titles_at_150_characters">लंबे शीर्षकों को 150 अक्षरों पर काटता है (केवल डिफ़ॉल्ट फ़ाइल-नाम फ़ॉर्मेट पर लागू)।</string>
     <string name="download_location">डाउनलोड का स्थान</string>
-    <string name="saving_to_the_default_download_comfort">डिफ़ॉल्ट Download/Comfort फ़ोल्डर में सहेजा जा रहा है।</string>
+    <string name="saving_to_the_default_download_comfort">डिफ़ॉल्ट Download/Flux फ़ोल्डर में सहेजा जा रहा है।</string>
     <string name="saving_to_x">\"%1$s\" में सहेजा जा रहा है।</string>
-    <string name="selected_folder_is_inaccessible_or_permission">चुना गया फ़ोल्डर उपलब्ध नहीं है या अनुमति चली गई। डिफ़ॉल्ट Download/Comfort फ़ोल्डर पर लौटा जा रहा है।</string>
+    <string name="selected_folder_is_inaccessible_or_permission">चुना गया फ़ोल्डर उपलब्ध नहीं है या अनुमति चली गई। डिफ़ॉल्ट Download/Flux फ़ोल्डर पर लौटा जा रहा है।</string>
     <string name="custom_folders_won_t_automatically_appear">कस्टम फ़ोल्डर Photos/Gallery ऐप में अपने-आप नहीं दिखेंगे — केवल डिफ़ॉल्ट स्थान मीडिया के रूप में इंडेक्स होता है।</string>
     <string name="choose_folder">फ़ोल्डर चुनें</string>
     <string name="use_default">डिफ़ॉल्ट इस्तेमाल करें</string>
@@ -355,8 +355,8 @@
     <string name="or_paste_raw_cookies_manually">या कुकी हाथ से चिपकाएँ</string>
     <string name="cookies_txt_contents">cookies.txt की सामग्री</string>
     <string name="please_paste_cookie_text_first">कृपया पहले कुकी टेक्स्ट चिपकाएँ।</string>
-    <string name="detected_json_format_comfort_requires_netscape">JSON फ़ॉर्मेट मिला। Comfort को Netscape cookies.txt फ़ॉर्मेट (टैब से अलग कॉलम) चाहिए। कृपया अपने ब्राउज़र एक्सटेंशन से Netscape फ़ॉर्मेट में एक्सपोर्ट करें।</string>
-    <string name="detected_http_header_format_name_value">HTTP हेडर फ़ॉर्मेट (\"name=value\") मिला। Comfort को Netscape cookies.txt फ़ॉर्मेट चाहिए जिसमें डोमेन, पाथ, समाप्ति और मान टैब से अलग हों।</string>
+    <string name="detected_json_format_comfort_requires_netscape">JSON फ़ॉर्मेट मिला। Flux को Netscape cookies.txt फ़ॉर्मेट (टैब से अलग कॉलम) चाहिए। कृपया अपने ब्राउज़र एक्सटेंशन से Netscape फ़ॉर्मेट में एक्सपोर्ट करें।</string>
+    <string name="detected_http_header_format_name_value">HTTP हेडर फ़ॉर्मेट (\"name=value\") मिला। Flux को Netscape cookies.txt फ़ॉर्मेट चाहिए जिसमें डोमेन, पाथ, समाप्ति और मान टैब से अलग हों।</string>
     <string name="couldn_t_find_any_valid_cookies">उस टेक्स्ट में कोई मान्य कुकी नहीं मिली — यह असली, टैब से अलग Netscape फ़ॉर्मेट में होना चाहिए (हर पंक्ति में domain, includeSubdomains, path, secure, expiry, name, value)।</string>
     <string name="cookies_saved_and_applied">कुकी सहेजी और लागू की गईं</string>
     <string name="save_cookies">कुकी सहेजें</string>
@@ -456,7 +456,7 @@
     <string name="monthly">हर महीने</string>
     <string name="x_schedule_time_x">शेड्यूल का %1$s समय: %2$s</string>
     <string name="sharing_mode">शेयरिंग मोड</string>
-    <string name="what_happens_when_you_share_a">Comfort पर लिंक शेयर करने पर क्या होता है।</string>
+    <string name="what_happens_when_you_share_a">Flux पर लिंक शेयर करने पर क्या होता है।</string>
     <string name="view_cookies_for_site_count">%1$s की कुकी देखें, %2$s</string>
     <string name="updates_and_engines">अपडेट और इंजन</string>
     <string name="which_engines_run">कौन-से इंजन चलें</string>
@@ -513,7 +513,7 @@
     <string name="spotify_tracks_via_yt_dlp">Spotify ट्रैक, yt-dlp के ज़रिए</string>
     <string name="about">जानकारी</string>
     <string name="app">ऐप</string>
-    <string name="comfort_version_x_open_project_page">Comfort संस्करण %1$s, प्रोजेक्ट पेज खोलें</string>
+    <string name="comfort_version_x_open_project_page">Flux संस्करण %1$s, प्रोजेक्ट पेज खोलें</string>
     <string name="version_x">संस्करण %1$s</string>
     <string name="credits">आभार</string>
     <string name="python_runtime">Python रनटाइम</string>
@@ -529,7 +529,7 @@
     <string name="auto_update">अपने-आप अपडेट</string>
     <string name="later">बाद में</string>
     <string name="new_update">नया अपडेट</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">नया क्या है</string>
     <string name="update_now">अभी अपडेट करें</string>
     <string name="update_now_x">अभी अपडेट करें · %1$s</string>
@@ -544,7 +544,7 @@
     <string name="stable">स्थिर</string>
     <string name="open_x_website">%1$s की वेबसाइट खोलें</string>
     <string name="every_supported_site_by_engine">हर समर्थित साइट, इंजन के हिसाब से</string>
-    <string name="configure_instant_or_always_ask_what">कॉन्फ़िगर, तुरंत या हमेशा पूछें — Comfort पर शेयर किए गए लिंक के साथ वह क्या करता है।</string>
+    <string name="configure_instant_or_always_ask_what">कॉन्फ़िगर, तुरंत या हमेशा पूछें — Flux पर शेयर किए गए लिंक के साथ वह क्या करता है।</string>
     <string name="how_downloaded_files_are_named">डाउनलोड की गई फ़ाइलों के नाम कैसे रखे जाते हैं।</string>
     <string name="where_downloaded_files_are_saved">डाउनलोड की गई फ़ाइलें कहाँ सहेजी जाती हैं।</string>
     <string name="how_much_space_downloads_are_using">डाउनलोड कितनी जगह ले रहे हैं।</string>
@@ -769,7 +769,7 @@
     <string name="this_video_is_protected">यह वीडियो सुरक्षित है</string>
     <string name="not_the_video_you_want">यह वह वीडियो नहीं जो आप चाहते हैं?</string>
     <string name="the_site_uses_copy_protection_drm">साइट कॉपी सुरक्षा (DRM) इस्तेमाल करती है, इसलिए इसकी रिकॉर्डिंग नहीं चलेगी।</string>
-    <string name="this_player_builds_its_video_from">यह प्लेयर अपना वीडियो टुकड़ों से बनाता है। Comfort चलते समय उन्हें रिकॉर्ड कर सकता है: पेज दोबारा लोड होता है, आप वीडियो अंत तक चलाते हैं, फिर रोकें और सहेजें पर टैप करते हैं।</string>
+    <string name="this_player_builds_its_video_from">यह प्लेयर अपना वीडियो टुकड़ों से बनाता है। Flux चलते समय उन्हें रिकॉर्ड कर सकता है: पेज दोबारा लोड होता है, आप वीडियो अंत तक चलाते हैं, फिर रोकें और सहेजें पर टैप करते हैं।</string>
     <string name="record_while_it_plays">चलते समय रिकॉर्ड करें</string>
     <string name="saving_the_recording">रिकॉर्डिंग सहेजी जा रही है…</string>
     <string name="recorded_to_the_end_x">अंत तक रिकॉर्ड हुआ · %1$s</string>
@@ -964,7 +964,7 @@
     <string name="shows_download_progress_and_completion">डाउनलोड की प्रगति और पूरा होना दिखाता है</string>
     <string name="download_results_channel">पूरे हुए डाउनलोड</string>
     <string name="download_results_channel_description">डाउनलोड पूरा होने या विफल होने पर बताता है</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort बैकग्राउंड में डाउनलोड कर रहा है</string>
+    <string name="comfort_is_downloading_in_the_background">Flux बैकग्राउंड में डाउनलोड कर रहा है</string>
     <string name="starting">शुरू हो रहा है…</string>
     <string name="download_failed">डाउनलोड विफल हुआ</string>
     <string name="downloading_ellipsis">डाउनलोड हो रहा है…</string>
@@ -1232,9 +1232,9 @@
     <string name="queue_help_errors_body">विवरण के लिए कार्ड पर ⓘ दबाएँ, और फिर से कोशिश के लिए फिर कोशिश करें।\n• निजी, उम्र-प्रतिबंधित या साइन-इन वाली पोस्ट: सेटिंग › कुकी और लॉगिन में अपना खाता जोड़ें।\n• रेट-लिमिट: साइट विराम चाहती है; डाउनलोड इंतज़ार करके अपने-आप आगे बढ़ता है।\n• कनेक्शन नहीं: इंतज़ार कर रहे डाउनलोड ऑनलाइन होते ही शुरू होते हैं; चल रहा डाउनलोड फ़ेल हो सकता है, तब फिर कोशिश करें दबाएँ।\n• लिंक समर्थित नहीं: पेज पर मीडिया ढूँढने के लिए उसे होम पर वेब ब्राउज़ करें से खोलें।</string>
     <string name="players">प्लेयर</string>
     <string name="videos_in_phone_player">वीडियो फ़ोन के प्लेयर में खोलें</string>
-    <string name="videos_in_phone_player_subtitle">Comfort के व्यूअर की जगह। तस्वीरें Comfort में ही खुलेंगी।</string>
+    <string name="videos_in_phone_player_subtitle">Flux के व्यूअर की जगह। तस्वीरें Flux में ही खुलेंगी।</string>
     <string name="music_in_phone_player">संगीत फ़ोन के प्लेयर में चलाएँ</string>
-    <string name="music_in_phone_player_subtitle">Comfort के संगीत प्लेयर की जगह।</string>
+    <string name="music_in_phone_player_subtitle">Flux के संगीत प्लेयर की जगह।</string>
     <string name="no_app_to_open_this">इस फ़ोन पर कोई ऐप इसे नहीं खोल सकता</string>
     <string name="video_settings">वीडियो सेटिंग</string>
     <string name="play_videos_with_sound_subtitle">वीडियो आवाज़ के साथ शुरू होते हैं, म्यूट नहीं।</string>
@@ -1250,7 +1250,7 @@
     <string name="view_items">आइटम देखें</string>
     <string name="grid_view">ग्रिड</string>
     <string name="list_view">सूची</string>
-    <string name="batch_item_not_deleted">Android ने Comfort को यह फ़ाइल हटाने नहीं दी (दोबारा इंस्टॉल से पहले सेव की गई): इसे अपनी गैलरी में हटाएँ।</string>
+    <string name="batch_item_not_deleted">Android ने Flux को यह फ़ाइल हटाने नहीं दी (दोबारा इंस्टॉल से पहले सेव की गई): इसे अपनी गैलरी में हटाएँ।</string>
     <string name="welcome_skip">छोड़ें</string>
     <string name="welcome_next">आगे</string>
     <string name="welcome_start">शुरू करें</string>
@@ -1262,14 +1262,14 @@
     <string name="welcome_audio_format">ऑडियो फ़ॉर्मैट</string>
     <string name="welcome_change_later">ये सब बाद में सेटिंग में मिलेंगे।</string>
     <string name="welcome_notifications_title">जानें कब पूरा हुआ</string>
-    <string name="welcome_notifications_body">Comfort डाउनलोड की प्रगति दिखाता है, और पूरा होने या फ़ेल होने पर बताता है।</string>
+    <string name="welcome_notifications_body">Flux डाउनलोड की प्रगति दिखाता है, और पूरा होने या फ़ेल होने पर बताता है।</string>
     <string name="welcome_notifications_allow">सूचनाओं की अनुमति दें</string>
     <string name="welcome_notifications_on">सूचनाएँ चालू हैं</string>
     <string name="welcome_battery_body">ताकि दूसरे ऐप इस्तेमाल करते समय भी डाउनलोड चलते रहें और समय पर शुरू हों। इसके बिना Android का बैटरी सेवर उन्हें रोक सकता है।</string>
     <string name="comic">कॉमिक</string>
     <string name="comics">कॉमिक्स</string>
     <string name="save_chapters_as_cbz">अध्याय .cbz के रूप में सेव करें</string>
-    <string name="save_chapters_as_cbz_subtitle">मंगा या कॉमिक का अध्याय एक कॉमिक फ़ाइल के रूप में सेव होता है, जिसे Comfort या किसी भी कॉमिक ऐप में पढ़ें — गैलरी में अलग-अलग तस्वीरों के बजाय।</string>
+    <string name="save_chapters_as_cbz_subtitle">मंगा या कॉमिक का अध्याय एक कॉमिक फ़ाइल के रूप में सेव होता है, जिसे Flux या किसी भी कॉमिक ऐप में पढ़ें — गैलरी में अलग-अलग तस्वीरों के बजाय।</string>
     <string name="comic_sites">कॉमिक साइटें</string>
     <string name="comic_sites_subtitle">इन साइटों के अध्याय .cbz के रूप में सेव होते हैं।</string>
     <string name="comic_site_add_hint">साइट जोड़ें या लिंक पेस्ट करें</string>
@@ -1287,7 +1287,7 @@
     <string name="welcome_music_body">आपके गाने, बोलों के साथ</string>
     <string name="welcome_allow">अनुमति दें</string>
     <string name="media_access_title">अपने पुनर्स्थापित डाउनलोड दिखाएँ</string>
-    <string name="media_access_body">इन्हें Comfort के पिछले इंस्टॉल ने सेव किया था, इसलिए Android इन्हें इस इंस्टॉल के लिए बंद रखता है। इन्हें यहाँ खोलने के लिए अपनी फ़ोटो, वीडियो और संगीत तक पहुँच की अनुमति दें।</string>
+    <string name="media_access_body">इन्हें Flux के पिछले इंस्टॉल ने सेव किया था, इसलिए Android इन्हें इस इंस्टॉल के लिए बंद रखता है। इन्हें यहाँ खोलने के लिए अपनी फ़ोटो, वीडियो और संगीत तक पहुँच की अनुमति दें।</string>
     <string name="media_access_allow">पहुँच की अनुमति दें</string>
     <string name="comic_converting">.cbz में बदला जा रहा है…</string>
     <string name="reader_settings">रीडर सेटिंग्स</string>

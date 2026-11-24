@@ -22,7 +22,7 @@ object MediaStoreHelper {
      * folder takes any file type (Music/ refuses anything that isn't audio, so a song's .lrc
      * lyrics couldn't sit beside it there), and galleries and music players still index the media
      * in it. */
-    const val RELATIVE_DIR = "Download/Comfort"
+    const val RELATIVE_DIR = "Download/Flux"
 
     /** Android 7-9 save into the public Downloads folder directly ([saveToMediaStore]'s legacy
      * path), which needs WRITE_EXTERNAL_STORAGE — a runtime permission there, declared in the
@@ -37,15 +37,15 @@ object MediaStoreHelper {
 
     /** Whether [uriString] is a file this app saved, as far as the gallery can tell: true for
      * anything that isn't a gallery (MediaStore) Uri — a custom folder's document, the app's own
-     * cached cover — and for a gallery file under Download/Comfort (or the older Pictures/,
-     * Movies/, Music/Comfort folders). False for a gallery Uri that's missing or elsewhere.
+     * cached cover — and for a gallery file under Download/Flux (or the older Pictures/,
+     * Movies/, Music/Flux folders). False for a gallery Uri that's missing or elsewhere.
      *
      * For a restored backup's history (BackupRestore): gallery ids are per phone, so on a new phone
      * an old entry's content://media/.../1234 is whatever unrelated file has that id there — the
      * Library showed it, opened it and offered to delete it. By folder, not owner: Android clears
      * a file's owner when the app is uninstalled, so after a reinstall on the same phone the app's
      * own files would fail an owner check. */
-    fun isComfortMediaFile(context: Context, uriString: String): Boolean {
+    fun isFluxMediaFile(context: Context, uriString: String): Boolean {
         val uri = runCatching { Uri.parse(uriString) }.getOrNull() ?: return false
         if (uri.authority != MediaStore.AUTHORITY) return true
         val path = runCatching {
@@ -69,7 +69,7 @@ object MediaStoreHelper {
     }
 
     /** Where downloads went before they moved to [RELATIVE_DIR] — [organizeSavedFiles] moves them. */
-    private val OLD_RELATIVE_DIRS = listOf("Pictures/Comfort/", "Movies/Comfort/", "Music/Comfort/", "Download/Comfort/")
+    private val OLD_RELATIVE_DIRS = listOf("Pictures/Flux/", "Movies/Flux/", "Music/Flux/", "Download/Flux/")
 
     /** Renames files saved under the old naming to today's (see [OldNames.tidy]) — the poster
      * no longer repeated, no links, X files named after their poster rather than "twitter".
@@ -137,8 +137,8 @@ object MediaStoreHelper {
         }
     }
 
-    /** Moves downloads saved before the Download/Comfort layout (Pictures/, Movies/ and Music/
-     * Comfort, or Download/Comfort's top level) into their [subfolderFor] folders. A MediaStore
+    /** Moves downloads saved before the Download/Flux layout (Pictures/, Movies/ and Music/
+     * Flux, or Download/Flux's top level) into their [subfolderFor] folders. A MediaStore
      * move keeps each file's row, so the Library's links to them keep working. Only files this
      * app owns can be moved; others (saved by an earlier install) stay where they are. Returns
      * how many moved. */
@@ -242,7 +242,7 @@ object MediaStoreHelper {
     }
 
     /** Copies [sourceFile] into the user's configured download location — a custom SAF folder if
-     * one is set, otherwise Download/Comfort's subfolder for its type — and returns its
+     * one is set, otherwise Download/Flux's subfolder for its type — and returns its
      * content Uri. */
     /** [savedAt]: the date the file is saved with (its time in the gallery), now when null — a
      * download's file fetched again ("Download missing items") keeps the download's own. */
@@ -453,7 +453,7 @@ object MediaStoreHelper {
             val collection = legacyCollectionFor(mimeType)
             @Suppress("DEPRECATION")
             val publicRoot = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
-            val publicDir = File(publicRoot, "Comfort/${subfolderFor(sourceFile.name, mimeType)}")
+            val publicDir = File(publicRoot, "Flux/${subfolderFor(sourceFile.name, mimeType)}")
             if (!publicDir.exists()) publicDir.mkdirs()
             val destFile = uniqueFile(publicDir, sourceFile.name)
             try {

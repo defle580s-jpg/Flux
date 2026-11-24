@@ -170,7 +170,7 @@ fun ConstrainedWidth(modifier: Modifier = Modifier, content: @Composable () -> U
 /** A launcher shortcut to act on ([action], MainActivity.SHORTCUT_*); [seq] makes a repeat a new value. */
 data class ShortcutRequest(val action: String, val seq: Int)
 
-/** A notification or intent request to open a downloaded item in Comfort; [seq] makes repeats re-trigger. */
+/** A notification or intent request to open a downloaded item in Flux; [seq] makes repeats re-trigger. */
 data class OpenDownloadRequest(val downloadId: String, val seq: Int)
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -227,7 +227,7 @@ fun MainScreen(
         kotlinx.coroutines.delay(3_000)
         updates.runLaunchChecks()
     }
-    // What those checks found: a new Comfort, or engine updates waiting with auto-update off.
+    // What those checks found: a new Flux, or engine updates waiting with auto-update off.
     UpdatePromptDialog(updates)
     // "Delete from phone" on gallery files Android won't let the app delete on its own (made
     // before a reinstall, say): the system's own dialog asks the user (DownloadsViewModel.deleteConsent).
@@ -414,7 +414,7 @@ fun MainScreen(
     // space under every page shrank frame by frame, during the page change itself, stuttered.
     val miniPlayerByPage = !playedThisRun
 
-    // Completed download notification tap or "Open" action button: open in Comfort.
+    // Completed download notification tap or "Open" action button: open in Flux.
     LaunchedEffect(openDownload) {
         val request = openDownload ?: return@LaunchedEffect
         val targetId = request.downloadId
@@ -1260,14 +1260,14 @@ fun HomeScreen(
             // of only being right on one specific device.
             val screenWidth = androidx.compose.ui.platform.LocalConfiguration.current.screenWidthDp
             val fontScale = androidx.compose.ui.platform.LocalDensity.current.fontScale
-            // Pre-computed target size (availableWidth ~ screenWidth - 96dp across 7 glyphs) so COMFORT
+            // Pre-computed target size (availableWidth ~ screenWidth - 96dp across 7 glyphs) so FLUX
             // renders at full opacity on Frame 1 without being hidden or looping font-size decrements.
             val initialFontSize = remember(screenWidth, fontScale) {
                 ((screenWidth - 96.coerceAtMost(screenWidth - 100)) / 5.5f).coerceIn(24f, 68f).sp
             }
             var wordmarkFontSize by remember(screenWidth, fontScale) { mutableStateOf(initialFontSize) }
             BasicText(
-                "COMFORT",
+                "FLUX",
                 style = TextStyle(
                     color = MaterialTheme.colorScheme.onBackground,
                     fontFamily = CrystalRadioKit,
@@ -1625,7 +1625,7 @@ fun HomeScreen(
                     recentListState.animateScrollToItem(0)
                     }
                 }
-                // Comfort: a tap opens the item in the media viewer, paging through the strip.
+                // Flux: a tap opens the item in the media viewer, paging through the strip.
                 val openViewer = com.comfort.app.ui.viewer.LocalOpenMediaViewer.current
                 LazyRow(
                     state = recentListState,

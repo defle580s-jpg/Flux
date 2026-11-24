@@ -127,7 +127,7 @@ class UpdatesViewModel(application: Application) : AndroidViewModel(application)
     val updatingEngineNames: StateFlow<List<String>> get() = _updatingEngineNames
     private val _updatingEngineNames = MutableStateFlow<List<String>>(emptyList())
 
-    /** What the launch check found, to show as a popup (MainScreen): a new Comfort, or engine
+    /** What the launch check found, to show as a popup (MainScreen): a new Flux, or engine
      * updates waiting because auto-update is off. Each shown once per version, so "Later" isn't
      * asked again until a newer one comes out; Settings > Updates keeps offering it. */
     sealed interface UpdatePrompt {

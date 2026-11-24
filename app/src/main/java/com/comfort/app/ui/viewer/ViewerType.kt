@@ -1,7 +1,7 @@
 /*
- * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Comfort.
+ * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Flux.
  * Its info sheet's two technical-parameter styles, without Photon's variable Google Sans Flex
- * (Comfort doesn't bundle it): same sizes, weights and spacing on the app's own font.
+ * (Flux doesn't bundle it): same sizes, weights and spacing on the app's own font.
  */
 package com.comfort.app.ui.viewer
 

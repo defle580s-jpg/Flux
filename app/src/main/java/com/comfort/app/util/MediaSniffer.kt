@@ -317,7 +317,7 @@ class MediaSniffer(val recorder: MseRecorder) {
         }
 
     companion object {
-        const val JS_NAME = "ComfortSniffer"
+        const val JS_NAME = "FluxSniffer"
         private const val MAX_MEDIA = 400
         private const val MAX_IMAGES = 200
         // Extensionless requests checked per page, at most: a page can make thousands.

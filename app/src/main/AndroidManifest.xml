@@ -39,7 +39,7 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application
-        android:name=".ComfortApp"
+        android:name=".FluxApp"
         android:extractNativeLibs="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -62,7 +62,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <!-- Comic archives (.cbz) open in Comfort's comic reader. -->
+            <!-- Comic archives (.cbz) open in Flux's comic reader. -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -94,7 +94,7 @@
             android:taskAffinity="">
             <!-- android:label distinguishes this from the "Instant" alias below in the
                  Sharesheet — without an explicit label of its own, this fell back to the
-                 <application> tag's own label ("Comfort"), same as the alias's default would,
+                 <application> tag's own label ("Flux"), same as the alias's default would,
                  leaving both entries showing the exact same name with no way to tell them apart.
 
                  singleTask: at most one instance of this Activity ever exists — a share arriving
@@ -111,12 +111,12 @@
                  any task") has to come with it — without it, this Activity defaults to sharing
                  MainActivity's own affinity, and singleTask's "bring the affinity-matching task
                  forward if one already exists" behavior then brings *that whole task* to the
-                 foreground first whenever Comfort already has one backgrounded (a normal app open
+                 foreground first whenever Flux already has one backgrounded (a normal app open
                  earlier, sent to background) — visibly flashing the main app open for a moment
                  before this Activity's own window ends up on top of it. Reproduced live exactly
-                 as reported ("sometimes... it opens Comfort before it opens the preview sheet") —
+                 as reported ("sometimes... it opens Flux before it opens the preview sheet") —
                  a real regression singleTask introduced (the old default launchMode always
-                 launched into the *calling* app's own task, never touching Comfort's). Giving
+                 launched into the *calling* app's own task, never touching Flux's). Giving
                  this its own affinity means singleTask never has another task to go bring
                  forward — there's never anything to flash. excludeFromRecents above already keeps
                  that separate task out of the recent-apps list, so nothing user-visible changes
@@ -211,7 +211,7 @@
         <receiver
             android:name=".music.MusicWidget"
             android:exported="false"
-            android:label="Comfort music">
+            android:label="Flux music">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

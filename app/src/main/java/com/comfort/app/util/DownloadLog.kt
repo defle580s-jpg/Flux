@@ -106,7 +106,7 @@ object DownloadLog {
         }.getOrElse { "(couldn't read the system log: ${it.message})" }
         val info = runCatching { context.packageManager.getPackageInfo(context.packageName, 0) }.getOrNull()
         val header = buildString {
-            appendLine("Comfort ${info?.versionName} (${info?.let { androidx.core.content.pm.PackageInfoCompat.getLongVersionCode(it) }})")
+            appendLine("Flux ${info?.versionName} (${info?.let { androidx.core.content.pm.PackageInfoCompat.getLongVersionCode(it) }})")
             appendLine("Android ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT}), ${Build.MANUFACTURER} ${Build.MODEL}, ${Build.SUPPORTED_ABIS.firstOrNull()}")
             // Not 0 in a work profile or Secure Folder.
             appendLine("User ${android.os.Process.myUserHandle().hashCode()}")

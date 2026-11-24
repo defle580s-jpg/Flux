@@ -110,7 +110,7 @@ fun highlightRowModifier(title: String): Modifier {
             val delta = container.localPositionOf(row, androidx.compose.ui.geometry.Offset.Zero).y - topRoomPx
             highlight.scrollable.animateScrollBy(delta)
         }
-        // Comfort: held long enough to find (it was a 0.45 s faint tint, easy to miss).
+        // Flux: held long enough to find (it was a 0.45 s faint tint, easy to miss).
         flash.animateTo(1f, tween(200))
         delay(1200)
         flash.animateTo(0f, tween(800))

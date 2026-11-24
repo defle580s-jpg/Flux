@@ -124,14 +124,14 @@
     <string name="restore_section">Restaurar</string>
     <string name="restore_description">Traz de volta o que o backup contém. Os downloads que já estão na sua Biblioteca continuam como estão; as configurações do backup substituem as suas.</string>
     <string name="restore_action">Restaurar de um arquivo</string>
-    <string name="restore_not_backup">Esse arquivo não é um backup do Comfort.</string>
+    <string name="restore_not_backup">Esse arquivo não é um backup do Flux.</string>
     <string name="restore_dialog_title">Restaurar backup</string>
     <string name="restore_dialog_contains">Este backup tem %1$s. Restaurar:</string>
     <string name="restore_confirm">Restaurar</string>
     <string name="restore_done">Restaurado: %1$s.</string>
     <string name="restore_failed">Não foi possível restaurar: %1$s</string>
-    <string name="restore_restart_title">Reiniciar o Comfort?</string>
-    <string name="restore_restart_text">As configurações restauradas passam a valer quando o Comfort reiniciar.</string>
+    <string name="restore_restart_title">Reiniciar o Flux?</string>
+    <string name="restore_restart_text">As configurações restauradas passam a valer quando o Flux reiniciar.</string>
     <string name="restore_restart_now">Reiniciar</string>
     <string name="restore_restart_later">Depois</string>
     <string name="home_link_hint">Cole um link ou busque no YouTube</string>
@@ -191,14 +191,14 @@
     <string name="play_tapped_only">Tocar só a música tocada</string>
     <string name="play_tapped_only_subtitle">Senão, as outras músicas da biblioteca vêm depois.</string>
     <string name="keep_queue">Manter a fila</string>
-    <string name="keep_queue_subtitle">Traz de volta a última fila, pausada, ao abrir o Comfort de novo.</string>
+    <string name="keep_queue_subtitle">Traz de volta a última fila, pausada, ao abrir o Flux de novo.</string>
     <string name="report_an_issue">Relatar um problema</string>
     <string name="issue_bug">Algo não funciona</string>
     <string name="issue_bug_subtitle">Um travamento, um botão que não faz nada, uma tela com aparência errada.</string>
     <string name="issue_site">Um site não baixa</string>
     <string name="issue_site_subtitle">Links de um site falham, ou baixam a coisa errada.</string>
     <string name="issue_idea">Sugerir uma ideia</string>
-    <string name="issue_idea_subtitle">Algo que o Comfort poderia fazer, ou fazer melhor.</string>
+    <string name="issue_idea_subtitle">Algo que o Flux poderia fazer, ou fazer melhor.</string>
     <string name="report_an_issue_subtitle">Abre um formulário curto no GitHub com a sua versão (%1$s) já preenchida.</string>
     <string name="player_background">Fundo com a capa</string>
     <string name="player_background_subtitle">O fundo do player é a capa da música, desfocada. Desativado, um fundo escuro simples.</string>
@@ -329,9 +329,9 @@
     <string name="trim_filenames">Encurtar nomes de arquivo</string>
     <string name="caps_long_titles_at_150_characters">Limita títulos longos a 150 caracteres (só vale para o formato de nome padrão).</string>
     <string name="download_location">Local de download</string>
-    <string name="saving_to_the_default_download_comfort">Salvando na pasta padrão Download/Comfort.</string>
+    <string name="saving_to_the_default_download_comfort">Salvando na pasta padrão Download/Flux.</string>
     <string name="saving_to_x">Salvando em \"%1$s\".</string>
-    <string name="selected_folder_is_inaccessible_or_permission">A pasta escolhida está inacessível ou a permissão foi perdida. Usando a pasta padrão Download/Comfort.</string>
+    <string name="selected_folder_is_inaccessible_or_permission">A pasta escolhida está inacessível ou a permissão foi perdida. Usando a pasta padrão Download/Flux.</string>
     <string name="custom_folders_won_t_automatically_appear">Pastas personalizadas não aparecem automaticamente em apps de Fotos/Galeria — só o local padrão é indexado como mídia.</string>
     <string name="choose_folder">Escolher pasta</string>
     <string name="use_default">Usar padrão</string>
@@ -375,8 +375,8 @@
     <string name="or_paste_raw_cookies_manually">Ou cole os cookies manualmente</string>
     <string name="cookies_txt_contents">Conteúdo do cookies.txt</string>
     <string name="please_paste_cookie_text_first">Cole o texto dos cookies primeiro.</string>
-    <string name="detected_json_format_comfort_requires_netscape">Formato JSON detectado. O Comfort precisa do formato cookies.txt do Netscape (colunas separadas por tab). Exporte no formato Netscape pela extensão do seu navegador.</string>
-    <string name="detected_http_header_format_name_value">Formato de cabeçalho HTTP detectado (\"nome=valor\"). O Comfort precisa do formato cookies.txt do Netscape, com domínio, caminho, validade e valores separados por tab.</string>
+    <string name="detected_json_format_comfort_requires_netscape">Formato JSON detectado. O Flux precisa do formato cookies.txt do Netscape (colunas separadas por tab). Exporte no formato Netscape pela extensão do seu navegador.</string>
+    <string name="detected_http_header_format_name_value">Formato de cabeçalho HTTP detectado (\"nome=valor\"). O Flux precisa do formato cookies.txt do Netscape, com domínio, caminho, validade e valores separados por tab.</string>
     <string name="couldn_t_find_any_valid_cookies">Nenhum cookie válido encontrado nesse texto — ele precisa estar no formato Netscape de verdade, separado por tab (domain, includeSubdomains, path, secure, expiry, name, value por linha).</string>
     <string name="cookies_saved_and_applied">Cookies salvos e aplicados</string>
     <string name="save_cookies">Salvar cookies</string>
@@ -476,7 +476,7 @@
     <string name="monthly">Mensal</string>
     <string name="x_schedule_time_x">Horário de %1$s: %2$s</string>
     <string name="sharing_mode">Modo de compartilhamento</string>
-    <string name="what_happens_when_you_share_a">O que acontece quando você compartilha um link com o Comfort.</string>
+    <string name="what_happens_when_you_share_a">O que acontece quando você compartilha um link com o Flux.</string>
     <plurals name="cookie_count">
         <item quantity="one">%d cookie</item>
         <item quantity="many">%d de cookies</item>
@@ -553,7 +553,7 @@
     <string name="spotify_tracks_via_yt_dlp">Faixas do Spotify, pelo yt-dlp</string>
     <string name="about">Sobre</string>
     <string name="app">App</string>
-    <string name="comfort_version_x_open_project_page">Comfort versão %1$s, abrir a página do projeto</string>
+    <string name="comfort_version_x_open_project_page">Flux versão %1$s, abrir a página do projeto</string>
     <string name="version_x">Versão %1$s</string>
     <string name="credits">Créditos</string>
     <string name="python_runtime">Runtime do Python</string>
@@ -569,7 +569,7 @@
     <string name="auto_update">Atualização automática</string>
     <string name="later">Depois</string>
     <string name="new_update">Nova atualização</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">Novidades</string>
     <string name="update_now">Atualizar agora</string>
     <string name="update_now_x">Atualizar agora · %1$s</string>
@@ -599,7 +599,7 @@
         <item quantity="many">%1$s de sites</item>
         <item quantity="other">%1$s sites</item>
     </plurals>
-    <string name="configure_instant_or_always_ask_what">Configurar, Instantâneo ou Sempre perguntar — o que o Comfort faz com um link compartilhado com ele.</string>
+    <string name="configure_instant_or_always_ask_what">Configurar, Instantâneo ou Sempre perguntar — o que o Flux faz com um link compartilhado com ele.</string>
     <string name="how_downloaded_files_are_named">Como os arquivos baixados são nomeados.</string>
     <string name="where_downloaded_files_are_saved">Onde os arquivos baixados são salvos.</string>
     <string name="how_much_space_downloads_are_using">Quanto espaço os downloads estão ocupando.</string>
@@ -851,7 +851,7 @@
     <string name="this_video_is_protected">Este vídeo é protegido</string>
     <string name="not_the_video_you_want">Não é o vídeo que você quer?</string>
     <string name="the_site_uses_copy_protection_drm">O site usa proteção contra cópia (DRM), então uma gravação dele não tocaria.</string>
-    <string name="this_player_builds_its_video_from">Este player monta o vídeo a partir de pedaços. O Comfort pode gravá-los enquanto ele toca: a página recarrega, você reproduz o vídeo até o fim e toca em Parar e salvar.</string>
+    <string name="this_player_builds_its_video_from">Este player monta o vídeo a partir de pedaços. O Flux pode gravá-los enquanto ele toca: a página recarrega, você reproduz o vídeo até o fim e toca em Parar e salvar.</string>
     <string name="record_while_it_plays">Gravar enquanto toca</string>
     <string name="saving_the_recording">Salvando a gravação…</string>
     <string name="recorded_to_the_end_x">Gravado até o fim · %1$s</string>
@@ -1074,7 +1074,7 @@
     <string name="shows_download_progress_and_completion">Mostra o progresso e a conclusão dos downloads</string>
     <string name="download_results_channel">Downloads concluídos</string>
     <string name="download_results_channel_description">Avisa quando um download termina ou falha</string>
-    <string name="comfort_is_downloading_in_the_background">O Comfort está baixando em segundo plano</string>
+    <string name="comfort_is_downloading_in_the_background">O Flux está baixando em segundo plano</string>
     <string name="starting">Iniciando…</string>
     <string name="download_failed">O download falhou</string>
     <string name="downloading_ellipsis">Baixando…</string>
@@ -1266,9 +1266,9 @@
     <string name="queue_help_errors_body">Toque em ⓘ no card para ver os detalhes, e em Tentar de novo para tentar de novo.\n• Posts privados, com restrição de idade ou que exigem login: adicione sua conta em Configurações › Cookies e login.\n• Limite de requisições: o site quer uma pausa; o download espera e continua sozinho.\n• Sem conexão: os downloads esperando começam quando você voltar a ficar on-line; um em andamento pode falhar, então toque em Tentar de novo.\n• Link não compatível: abra com Navegar na web em Início para encontrar a mídia na página.</string>
     <string name="players">Players</string>
     <string name="videos_in_phone_player">Abrir vídeos no player do celular</string>
-    <string name="videos_in_phone_player_subtitle">Em vez do visualizador do Comfort. As imagens continuam abrindo no Comfort.</string>
+    <string name="videos_in_phone_player_subtitle">Em vez do visualizador do Flux. As imagens continuam abrindo no Flux.</string>
     <string name="music_in_phone_player">Tocar música no player do celular</string>
-    <string name="music_in_phone_player_subtitle">Em vez do player de música do Comfort.</string>
+    <string name="music_in_phone_player_subtitle">Em vez do player de música do Flux.</string>
     <string name="no_app_to_open_this">Nenhum app do celular consegue abrir isto</string>
     <string name="video_settings">Configurações de vídeo</string>
     <string name="play_videos_with_sound_subtitle">Os vídeos começam com som, não silenciados.</string>
@@ -1284,7 +1284,7 @@
     <string name="view_items">Ver itens</string>
     <string name="grid_view">Grade</string>
     <string name="list_view">Lista</string>
-    <string name="batch_item_not_deleted">O Android não deixou o Comfort excluir este arquivo (salvo antes de reinstalar): exclua pela galeria.</string>
+    <string name="batch_item_not_deleted">O Android não deixou o Flux excluir este arquivo (salvo antes de reinstalar): exclua pela galeria.</string>
     <string name="welcome_skip">Pular</string>
     <string name="welcome_next">Próximo</string>
     <string name="welcome_start">Começar</string>
@@ -1296,14 +1296,14 @@
     <string name="welcome_audio_format">Formato do áudio</string>
     <string name="welcome_change_later">Tudo isso fica depois nas Configurações.</string>
     <string name="welcome_notifications_title">Saiba quando terminou</string>
-    <string name="welcome_notifications_body">O Comfort mostra o progresso de cada download e avisa quando terminou ou falhou.</string>
+    <string name="welcome_notifications_body">O Flux mostra o progresso de cada download e avisa quando terminou ou falhou.</string>
     <string name="welcome_notifications_allow">Permitir notificações</string>
     <string name="welcome_notifications_on">Notificações ativadas</string>
     <string name="welcome_battery_body">Para os downloads continuarem enquanto você usa outros apps e começarem na hora. Sem isso, a economia de bateria do Android pode pausá-los.</string>
     <string name="comic">Quadrinho</string>
     <string name="comics">Quadrinhos</string>
     <string name="save_chapters_as_cbz">Salvar capítulos como .cbz</string>
-    <string name="save_chapters_as_cbz_subtitle">Um capítulo de mangá ou quadrinho é salvo como um único arquivo, para ler no Comfort ou em qualquer app de quadrinhos, em vez de imagens soltas na galeria.</string>
+    <string name="save_chapters_as_cbz_subtitle">Um capítulo de mangá ou quadrinho é salvo como um único arquivo, para ler no Flux ou em qualquer app de quadrinhos, em vez de imagens soltas na galeria.</string>
     <string name="comic_sites">Sites de quadrinhos</string>
     <string name="comic_sites_subtitle">Os capítulos destes sites são salvos como .cbz.</string>
     <string name="comic_site_add_hint">Adicione um site ou cole um link</string>
@@ -1321,7 +1321,7 @@
     <string name="welcome_music_body">Suas músicas, com a letra</string>
     <string name="welcome_allow">Permitir</string>
     <string name="media_access_title">Mostre seus downloads restaurados</string>
-    <string name="media_access_body">Eles foram salvos por uma instalação anterior do Comfort, então o Android não deixa esta abri-los. Permita o acesso a fotos, vídeos e músicas para abri-los aqui.</string>
+    <string name="media_access_body">Eles foram salvos por uma instalação anterior do Flux, então o Android não deixa esta abri-los. Permita o acesso a fotos, vídeos e músicas para abri-los aqui.</string>
     <string name="media_access_allow">Permitir acesso</string>
     <string name="comic_converting">Convertendo para .cbz…</string>
     <string name="reader_settings">Configurações do leitor</string>

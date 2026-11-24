@@ -118,14 +118,14 @@
     <string name="restore_section">Pulihkan</string>
     <string name="restore_description">Mengembalikan isi cadangan. Unduhan yang sudah ada di Pustaka tetap seperti semula; setelan dari cadangan menggantikan setelan Anda.</string>
     <string name="restore_action">Pulihkan dari file</string>
-    <string name="restore_not_backup">File itu bukan cadangan Comfort.</string>
+    <string name="restore_not_backup">File itu bukan cadangan Flux.</string>
     <string name="restore_dialog_title">Pulihkan cadangan</string>
     <string name="restore_dialog_contains">Cadangan ini berisi %1$s. Pulihkan:</string>
     <string name="restore_confirm">Pulihkan</string>
     <string name="restore_done">%1$s dipulihkan.</string>
     <string name="restore_failed">Tidak bisa memulihkan: %1$s</string>
-    <string name="restore_restart_title">Mulai ulang Comfort?</string>
-    <string name="restore_restart_text">Setelan yang dipulihkan berlaku setelah Comfort dimulai ulang.</string>
+    <string name="restore_restart_title">Mulai ulang Flux?</string>
+    <string name="restore_restart_text">Setelan yang dipulihkan berlaku setelah Flux dimulai ulang.</string>
     <string name="restore_restart_now">Mulai ulang</string>
     <string name="restore_restart_later">Nanti</string>
     <string name="home_link_hint">Tempel tautan atau cari di YouTube</string>
@@ -183,14 +183,14 @@
     <string name="play_tapped_only">Putar hanya lagu yang diketuk</string>
     <string name="play_tapped_only_subtitle">Jika tidak, lagu lain di Pustaka menyusul.</string>
     <string name="keep_queue">Simpan antrean</string>
-    <string name="keep_queue_subtitle">Mengembalikan antrean terakhir, dijeda, saat Comfort dibuka lagi.</string>
+    <string name="keep_queue_subtitle">Mengembalikan antrean terakhir, dijeda, saat Flux dibuka lagi.</string>
     <string name="report_an_issue">Laporkan masalah</string>
     <string name="issue_bug">Ada yang tidak berfungsi</string>
     <string name="issue_bug_subtitle">Aplikasi tertutup, tombol yang tidak berfungsi, layar yang tampak salah.</string>
     <string name="issue_site">Situs tidak bisa diunduh</string>
     <string name="issue_site_subtitle">Tautan dari satu situs gagal, atau mengunduh hal yang salah.</string>
     <string name="issue_idea">Usulkan ide</string>
-    <string name="issue_idea_subtitle">Sesuatu yang bisa dilakukan Comfort, atau dilakukan lebih baik.</string>
+    <string name="issue_idea_subtitle">Sesuatu yang bisa dilakukan Flux, atau dilakukan lebih baik.</string>
     <string name="report_an_issue_subtitle">Membuka formulir singkat di GitHub dengan versi Anda (%1$s) sudah terisi.</string>
     <string name="player_background">Latar sampul</string>
     <string name="player_background_subtitle">Latar pemutar adalah sampul lagu yang diburamkan. Jika mati, latar gelap polos.</string>
@@ -321,9 +321,9 @@
     <string name="trim_filenames">Pangkas nama file</string>
     <string name="caps_long_titles_at_150_characters">Membatasi judul panjang hingga 150 karakter (hanya untuk format nama file bawaan).</string>
     <string name="download_location">Lokasi unduhan</string>
-    <string name="saving_to_the_default_download_comfort">Disimpan ke folder bawaan Download/Comfort.</string>
+    <string name="saving_to_the_default_download_comfort">Disimpan ke folder bawaan Download/Flux.</string>
     <string name="saving_to_x">Disimpan ke \"%1$s\".</string>
-    <string name="selected_folder_is_inaccessible_or_permission">Folder yang dipilih tidak bisa diakses atau izinnya hilang. Kembali ke folder bawaan Download/Comfort.</string>
+    <string name="selected_folder_is_inaccessible_or_permission">Folder yang dipilih tidak bisa diakses atau izinnya hilang. Kembali ke folder bawaan Download/Flux.</string>
     <string name="custom_folders_won_t_automatically_appear">Folder kustom tidak otomatis muncul di aplikasi Foto/Galeri — hanya lokasi bawaan yang diindeks sebagai media.</string>
     <string name="choose_folder">Pilih folder</string>
     <string name="use_default">Pakai bawaan</string>
@@ -365,8 +365,8 @@
     <string name="or_paste_raw_cookies_manually">Atau tempel cookie mentah secara manual</string>
     <string name="cookies_txt_contents">Isi cookies.txt</string>
     <string name="please_paste_cookie_text_first">Tempel teks cookie dulu.</string>
-    <string name="detected_json_format_comfort_requires_netscape">Terdeteksi format JSON. Comfort memerlukan format cookies.txt Netscape (kolom dipisahkan tab). Ekspor dalam format Netscape dari ekstensi browser Anda.</string>
-    <string name="detected_http_header_format_name_value">Terdeteksi format header HTTP (\"name=value\"). Comfort memerlukan format cookies.txt Netscape dengan domain, path, kedaluwarsa, dan nilai yang dipisahkan tab.</string>
+    <string name="detected_json_format_comfort_requires_netscape">Terdeteksi format JSON. Flux memerlukan format cookies.txt Netscape (kolom dipisahkan tab). Ekspor dalam format Netscape dari ekstensi browser Anda.</string>
+    <string name="detected_http_header_format_name_value">Terdeteksi format header HTTP (\"name=value\"). Flux memerlukan format cookies.txt Netscape dengan domain, path, kedaluwarsa, dan nilai yang dipisahkan tab.</string>
     <string name="couldn_t_find_any_valid_cookies">Tidak ada cookie valid di teks itu — harus format Netscape asli yang dipisahkan tab (domain, includeSubdomains, path, secure, expiry, name, value per baris).</string>
     <string name="cookies_saved_and_applied">Cookie disimpan dan diterapkan</string>
     <string name="save_cookies">Simpan cookie</string>
@@ -466,7 +466,7 @@
     <string name="monthly">Bulanan</string>
     <string name="x_schedule_time_x">Waktu jadwal %1$s: %2$s</string>
     <string name="sharing_mode">Mode berbagi</string>
-    <string name="what_happens_when_you_share_a">Apa yang terjadi saat Anda membagikan tautan ke Comfort.</string>
+    <string name="what_happens_when_you_share_a">Apa yang terjadi saat Anda membagikan tautan ke Flux.</string>
     <plurals name="cookie_count">
         <item quantity="one">%d cookie</item>
         <item quantity="other">%d cookie</item>
@@ -539,7 +539,7 @@
     <string name="spotify_tracks_via_yt_dlp">Lagu Spotify, lewat yt-dlp</string>
     <string name="about">Tentang</string>
     <string name="app">Aplikasi</string>
-    <string name="comfort_version_x_open_project_page">Comfort versi %1$s, buka halaman proyek</string>
+    <string name="comfort_version_x_open_project_page">Flux versi %1$s, buka halaman proyek</string>
     <string name="version_x">Versi %1$s</string>
     <string name="credits">Kredit</string>
     <string name="python_runtime">Runtime Python</string>
@@ -555,7 +555,7 @@
     <string name="auto_update">Perbarui otomatis</string>
     <string name="later">Nanti</string>
     <string name="new_update">Pembaruan baru</string>
-    <string name="comfort_x">Comfort %1$s</string>
+    <string name="comfort_x">Flux %1$s</string>
     <string name="whats_new">Yang baru</string>
     <string name="update_now">Perbarui sekarang</string>
     <string name="update_now_x">Perbarui sekarang · %1$s</string>
@@ -582,7 +582,7 @@
         <item quantity="one">%1$s situs</item>
         <item quantity="other">%1$s situs</item>
     </plurals>
-    <string name="configure_instant_or_always_ask_what">Atur, Langsung, atau Selalu tanya — yang dilakukan Comfort dengan tautan yang dibagikan ke sini.</string>
+    <string name="configure_instant_or_always_ask_what">Atur, Langsung, atau Selalu tanya — yang dilakukan Flux dengan tautan yang dibagikan ke sini.</string>
     <string name="how_downloaded_files_are_named">Cara file unduhan diberi nama.</string>
     <string name="where_downloaded_files_are_saved">Tempat file unduhan disimpan.</string>
     <string name="how_much_space_downloads_are_using">Berapa banyak ruang yang dipakai unduhan.</string>
@@ -827,7 +827,7 @@
     <string name="this_video_is_protected">Video ini dilindungi</string>
     <string name="not_the_video_you_want">Bukan video yang Anda cari?</string>
     <string name="the_site_uses_copy_protection_drm">Situs ini memakai perlindungan salinan (DRM), jadi rekamannya tidak akan bisa diputar.</string>
-    <string name="this_player_builds_its_video_from">Pemutar ini menyusun videonya dari potongan-potongan. Comfort bisa merekamnya saat diputar: halaman dimuat ulang, Anda putar video sampai selesai, lalu ketuk Berhenti dan simpan.</string>
+    <string name="this_player_builds_its_video_from">Pemutar ini menyusun videonya dari potongan-potongan. Flux bisa merekamnya saat diputar: halaman dimuat ulang, Anda putar video sampai selesai, lalu ketuk Berhenti dan simpan.</string>
     <string name="record_while_it_plays">Rekam saat diputar</string>
     <string name="saving_the_recording">Menyimpan rekaman…</string>
     <string name="recorded_to_the_end_x">Terekam sampai akhir · %1$s</string>
@@ -1033,7 +1033,7 @@
     <string name="shows_download_progress_and_completion">Menampilkan progres dan penyelesaian unduhan</string>
     <string name="download_results_channel">Unduhan selesai</string>
     <string name="download_results_channel_description">Memberi tahu saat unduhan selesai atau gagal</string>
-    <string name="comfort_is_downloading_in_the_background">Comfort sedang mengunduh di latar belakang</string>
+    <string name="comfort_is_downloading_in_the_background">Flux sedang mengunduh di latar belakang</string>
     <string name="starting">Memulai…</string>
     <string name="download_failed">Unduhan gagal</string>
     <string name="downloading_ellipsis">Mengunduh…</string>
@@ -1229,9 +1229,9 @@
     <string name="queue_help_errors_body">Ketuk ⓘ di kartu untuk detailnya, dan Coba lagi untuk mencoba lagi.\n• Postingan privat, berbatas usia, atau perlu masuk: tambahkan akun Anda di Setelan › Cookie &amp; Login.\n• Dibatasi: situs minta jeda; unduhan menunggu dan berlanjut sendiri.\n• Tanpa koneksi: unduhan yang menunggu mulai saat Anda kembali online; yang berjalan bisa gagal, jadi ketuk Coba lagi.\n• Link tidak didukung: buka dengan Jelajahi web di Beranda untuk menemukan media di halaman.</string>
     <string name="players">Pemutar</string>
     <string name="videos_in_phone_player">Buka video di pemutar ponsel</string>
-    <string name="videos_in_phone_player_subtitle">Sebagai ganti penampil Comfort. Gambar tetap dibuka di Comfort.</string>
+    <string name="videos_in_phone_player_subtitle">Sebagai ganti penampil Flux. Gambar tetap dibuka di Flux.</string>
     <string name="music_in_phone_player">Putar musik di pemutar ponsel</string>
-    <string name="music_in_phone_player_subtitle">Sebagai ganti pemutar musik Comfort.</string>
+    <string name="music_in_phone_player_subtitle">Sebagai ganti pemutar musik Flux.</string>
     <string name="no_app_to_open_this">Tidak ada aplikasi di ponsel ini yang bisa membukanya</string>
     <string name="video_settings">Setelan video</string>
     <string name="play_videos_with_sound_subtitle">Video mulai dengan suara, tidak dibisukan.</string>
@@ -1247,7 +1247,7 @@
     <string name="view_items">Lihat item</string>
     <string name="grid_view">Kisi</string>
     <string name="list_view">Daftar</string>
-    <string name="batch_item_not_deleted">Android tidak mengizinkan Comfort menghapus file ini (disimpan sebelum instal ulang): hapus di galeri.</string>
+    <string name="batch_item_not_deleted">Android tidak mengizinkan Flux menghapus file ini (disimpan sebelum instal ulang): hapus di galeri.</string>
     <string name="welcome_skip">Lewati</string>
     <string name="welcome_next">Berikutnya</string>
     <string name="welcome_start">Mulai</string>
@@ -1259,14 +1259,14 @@
     <string name="welcome_audio_format">Format audio</string>
     <string name="welcome_change_later">Semua ini ada di Setelan nanti.</string>
     <string name="welcome_notifications_title">Tahu kapan selesai</string>
-    <string name="welcome_notifications_body">Comfort menampilkan progres unduhan, dan memberi tahu saat selesai atau gagal.</string>
+    <string name="welcome_notifications_body">Flux menampilkan progres unduhan, dan memberi tahu saat selesai atau gagal.</string>
     <string name="welcome_notifications_allow">Izinkan notifikasi</string>
     <string name="welcome_notifications_on">Notifikasi aktif</string>
     <string name="welcome_battery_body">Agar unduhan tetap berjalan saat Anda memakai aplikasi lain, dan mulai tepat waktu. Tanpa ini, penghemat baterai Android bisa menjedanya.</string>
     <string name="comic">Komik</string>
     <string name="comics">Komik</string>
     <string name="save_chapters_as_cbz">Simpan bab sebagai .cbz</string>
-    <string name="save_chapters_as_cbz_subtitle">Bab manga atau komik disimpan sebagai satu file komik, dibaca di Comfort atau aplikasi komik apa pun, bukan gambar lepas di galeri.</string>
+    <string name="save_chapters_as_cbz_subtitle">Bab manga atau komik disimpan sebagai satu file komik, dibaca di Flux atau aplikasi komik apa pun, bukan gambar lepas di galeri.</string>
     <string name="comic_sites">Situs komik</string>
     <string name="comic_sites_subtitle">Bab dari situs ini disimpan sebagai .cbz.</string>
     <string name="comic_site_add_hint">Tambah situs atau tempel link</string>
@@ -1284,7 +1284,7 @@
     <string name="welcome_music_body">Lagu-lagumu, dengan liriknya</string>
     <string name="welcome_allow">Izinkan</string>
     <string name="media_access_title">Tampilkan unduhan yang dipulihkan</string>
-    <string name="media_access_body">Unduhan ini disimpan oleh instalasi Comfort sebelumnya, jadi Android menutupnya untuk instalasi ini. Izinkan akses ke foto, video, dan musik untuk membukanya di sini.</string>
+    <string name="media_access_body">Unduhan ini disimpan oleh instalasi Flux sebelumnya, jadi Android menutupnya untuk instalasi ini. Izinkan akses ke foto, video, dan musik untuk membukanya di sini.</string>
     <string name="media_access_allow">Izinkan akses</string>
     <string name="comic_converting">Mengonversi ke .cbz…</string>
     <string name="reader_settings">Setelan pembaca</string>

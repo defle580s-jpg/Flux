@@ -28,7 +28,7 @@ object DownloadNotifications {
     // separately from progress.
     const val RESULTS_CHANNEL_ID = "download_results"
 
-    /** The finished/failed notice's channel: the quiet one while Comfort is on screen, where the
+    /** The finished/failed notice's channel: the quiet one while Flux is on screen, where the
      * download's card and the Library already show it — a pop-up over the app said it twice. */
     private fun resultsChannel(context: Context): String {
         val state = android.app.ActivityManager.RunningAppProcessInfo()
@@ -300,7 +300,7 @@ object DownloadNotifications {
             builder.setStyle(NotificationCompat.BigTextStyle().bigText((listOf(text) + notes).joinToString("\n")))
         }
 
-        // Tapping the finished notification or its "Open" action opens the download in Comfort
+        // Tapping the finished notification or its "Open" action opens the download in Flux
         // directly (in Now Playing for audio or the built-in media viewer for video/pictures)
         // instead of delegating to an external viewer app.
         val openIntent = Intent(context, MainActivity::class.java).apply {

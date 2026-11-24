@@ -49,7 +49,7 @@ enum class AudioFormat(val label: String, val codec: String) {
     FLAC("FLAC", "flac"),
 }
 
-/** What a link shared to Comfort does: open the picker/preview sheet, download right away, or ask
+/** What a link shared to Flux does: open the picker/preview sheet, download right away, or ask
  * which in a small sheet (ShareActivity's AskShareModeHandler). */
 enum class ShareMode(val label: String) {
     CONFIGURE("Configure"),
@@ -530,7 +530,7 @@ object GalleryDlPreferences {
     }
 
     /** A user-chosen SAF folder to save downloads into, or null to use the default
-     * Download/Comfort location (the only option that's guaranteed to show up in Gallery apps). */
+     * Download/Flux location (the only option that's guaranteed to show up in Gallery apps). */
     fun getDownloadLocationUri(context: Context): Uri? {
         val stored = prefs(context).getString(KEY_DOWNLOAD_LOCATION_URI, null) ?: return null
         return runCatching { Uri.parse(stored) }.getOrNull()
@@ -681,7 +681,7 @@ object GalleryDlPreferences {
     }
 
     /** Whether downloads saved under the old Pictures/Movies/Music folders have been moved into
-     * Download/Comfort's subfolders (MediaStoreHelper.organizeSavedFiles, once). */
+     * Download/Flux's subfolders (MediaStoreHelper.organizeSavedFiles, once). */
     fun isSavedFilesOrganized(context: Context): Boolean = prefs(context).getBoolean(KEY_SAVED_FILES_ORGANIZED, false)
 
     fun setSavedFilesOrganized(context: Context) {
@@ -1395,7 +1395,7 @@ object GalleryDlPreferences {
     }
 
     /** A user-chosen SAF folder for audio-only downloads specifically — falls back to
-     * [getDownloadLocationUri] (the shared default), then the built-in Download/Comfort
+     * [getDownloadLocationUri] (the shared default), then the built-in Download/Flux
      * location, when unset. Mirrors [getVideoLocationUri] for the video side. */
     fun getAudioLocationUri(context: Context): Uri? {
         val stored = prefs(context).getString(KEY_AUDIO_LOCATION_URI, null) ?: return null

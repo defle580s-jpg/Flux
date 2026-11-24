@@ -111,7 +111,7 @@ object BackupRestore {
             )
     }
 
-    /** Reads [uri]; throws [IllegalArgumentException] if it isn't a Comfort backup. */
+    /** Reads [uri]; throws [IllegalArgumentException] if it isn't a Flux backup. */
     suspend fun read(context: Context, uri: Uri): Backup = withContext(Dispatchers.IO) {
         val text = context.contentResolver.openInputStream(uri)?.use { input ->
             val buffer = java.io.ByteArrayOutputStream()
@@ -121,13 +121,13 @@ object BackupRestore {
                 val n = input.read(chunk)
                 if (n < 0) break
                 total += n
-                require(total <= MAX_BACKUP_BYTES) { "Not a Comfort backup" }
+                require(total <= MAX_BACKUP_BYTES) { "Not a Flux backup" }
                 buffer.write(chunk, 0, n)
             }
             buffer.toString(Charsets.UTF_8.name())
         } ?: error(context.getString(com.comfort.app.R.string.backup_couldnt_open_file))
         val root = runCatching { JSONObject(text) }.getOrNull()
-        require(root != null && root.optString("format") == FORMAT) { "Not a Comfort backup" }
+        require(root != null && root.optString("format") == FORMAT) { "Not a Flux backup" }
         Backup(root)
     }
 
@@ -246,7 +246,7 @@ object BackupRestore {
     }
 
     /** For restored history ([ids]): gallery files that aren't this app's on this phone (see
-     * MediaStoreHelper.isComfortMediaFile — another phone's ids name unrelated files here) are
+     * MediaStoreHelper.isFluxMediaFile — another phone's ids name unrelated files here) are
      * unlinked, and an entry left with none is marked as deleted from the phone: its history stays,
      * pointing at nothing rather than at someone's photo. */
     private fun dropOtherPhonesFiles(context: Context, room: AppDatabase, ids: List<String>) {
@@ -261,7 +261,7 @@ object BackupRestore {
             }
             var files = named.map { it.first }
             var foreign = (listOfNotNull(thumb, media) + files).toSet()
-                .filterTo(mutableSetOf()) { !com.comfort.app.util.MediaStoreHelper.isComfortMediaFile(context, it) }
+                .filterTo(mutableSetOf()) { !com.comfort.app.util.MediaStoreHelper.isFluxMediaFile(context, it) }
             if (foreign.isEmpty()) continue
             // Before giving a file up: the file it names, found by its saved name — moved to another
             // folder (its link still good, or a new one where an app copied it), or copied to this
@@ -299,7 +299,7 @@ object BackupRestore {
     }
 
     /** The phone's file named [name] for a restored link [uri] that isn't one of this app's files
-     * here: the same file moved out of Comfort's folders (the link itself still names it), else the
+     * here: the same file moved out of Flux's folders (the link itself still names it), else the
      * only file on the phone with that name (copied over, or copied by an app on a move). Null when
      * none, or more than one, has it. */
     internal fun relinkByName(context: Context, uri: String, name: String): String? {

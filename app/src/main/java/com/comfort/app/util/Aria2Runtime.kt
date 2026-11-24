@@ -137,7 +137,7 @@ object Aria2Runtime {
                 connectTimeout = 15_000
                 readTimeout = 30_000
                 instanceFollowRedirects = true
-                setRequestProperty("User-Agent", "Comfort")
+                setRequestProperty("User-Agent", "Flux")
                 try {
                     if (responseCode !in 200..299) error("HTTP $responseCode")
                     val total = contentLengthLong

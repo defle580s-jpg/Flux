@@ -1,6 +1,6 @@
 /*
- * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Comfort.
- * Adapted for Comfort: package, imports and the pieces Photon's app provides that Comfort doesn't
+ * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Flux.
+ * Adapted for Flux: package, imports and the pieces Photon's app provides that Flux doesn't
  * (see the notes where they were changed).
  */
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class, androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
@@ -362,7 +362,7 @@ suspend fun extractDetailedExif(context: Context, item: GalleryItem): DetailedEx
         } catch (_: Exception) {}
     }
 
-    // Comfort: a video has no EXIF and BitmapFactory can't read one — its own track size,
+    // Flux: a video has no EXIF and BitmapFactory can't read one — its own track size,
     // turned for its rotation (Photon showed "Unknown Resolution" for every video).
     if ((imgW <= 0 || imgH <= 0) && item.isVideo) {
         try {

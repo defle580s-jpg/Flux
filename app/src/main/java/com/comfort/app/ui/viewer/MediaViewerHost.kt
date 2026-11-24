@@ -53,7 +53,7 @@ val LocalOpenMediaViewer = staticCompositionLocalOf<(MediaViewerRequest) -> Unit
 val LocalViewerBottomBarHeight = staticCompositionLocalOf<androidx.compose.runtime.MutableState<androidx.compose.ui.unit.Dp>?> { null }
 
 /**
- * Photon Gallery's viewer (MediaViewerScreen) over Comfort's Library: each download's saved file as
+ * Photon Gallery's viewer (MediaViewerScreen) over Flux's Library: each download's saved file as
  * one of Photon's GalleryItems, read from MediaStore; favourite, rename and delete through the
  * Library's own actions — a delete hides the item at once and the snackbar's Undo brings it back,
  * the same as in the Library (rememberUndoableDelete). A post with several files (a carousel) is
@@ -106,7 +106,7 @@ fun MediaViewerHost(
     Box(modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.surfaceContainerLowest)) {
         val all = resolved
         if (all == null) {
-            // Comfort: the tapped item's Library thumbnail while its files are looked up (a moment),
+            // Flux: the tapped item's Library thumbnail while its files are looked up (a moment),
             // where the viewer will show it, rather than an empty page flashing first.
             request.downloads.firstOrNull { it.id == request.startId }?.let { tapped ->
                 val file = tapped.mediaUri ?: tapped.thumbnailPath

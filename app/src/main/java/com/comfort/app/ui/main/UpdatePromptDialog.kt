@@ -57,7 +57,7 @@ import com.comfort.app.viewmodel.UpdatesViewModel
 import com.comfort.app.viewmodel.UpdatesViewModel.UpdatePrompt
 import kotlinx.coroutines.launch
 
-/** The launch check's popup (UpdatesViewModel.prompt), a bottom sheet: a new Comfort, or engine
+/** The launch check's popup (UpdatesViewModel.prompt), a bottom sheet: a new Flux, or engine
  * updates waiting because auto-update is off. Update starts it here and the sheet stays up with
  * its progress until it's done (the app's installer then opens); Later just closes it. Hard to
  * swipe away by accident, like the other sheets (rememberSturdySheetState). */
@@ -362,7 +362,7 @@ private fun EngineUpdatePrompt(updates: UpdatesViewModel, prompt: UpdatePrompt.E
 private fun plainNotes(markdown: String): String = markdown
     .lines()
     .map { line -> line.replace(Regex("^#{1,6}\\s*"), "").replace(Regex("^[*-]\\s+"), "• ") }
-    .dropWhile { it.isBlank() || it.trim().startsWith("Comfort ") }
+    .dropWhile { it.isBlank() || it.trim().startsWith("Flux ") }
     .takeWhile { it.trim() != "Downloads" }
     .joinToString("\n")
     .replace(Regex("\\*\\*(.+?)\\*\\*"), "$1")

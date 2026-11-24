@@ -1,6 +1,6 @@
 /*
- * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Comfort.
- * Adapted for Comfort: package, imports and the pieces Photon's app provides that Comfort doesn't
+ * Ported from Photon Gallery (https://github.com/Bn5prS/Photon_Gallery), GPL-3.0, like Flux.
+ * Adapted for Flux: package, imports and the pieces Photon's app provides that Flux doesn't
  * (see the notes where they were changed).
  */
 package com.comfort.app.ui.viewer
@@ -155,9 +155,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 
 
 
-// Comfort: the items and what the buttons do come from the caller (MediaViewerHost) instead of
+// Flux: the items and what the buttons do come from the caller (MediaViewerHost) instead of
 // Photon's GalleryViewModel; Photon's own defaults stand in for its settings (no forced max
-// brightness, no blurred backdrop, no delete confirmation — Comfort's delete has Undo instead of
+// brightness, no blurred backdrop, no delete confirmation — Flux's delete has Undo instead of
 // a recycle bin). Photon's OCR search highlight, album copy/move, private vault and photo editor
 // have no counterpart here and were left out; the ⋮ menu moved into the bottom toolbar.
 @OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class, androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
@@ -284,14 +284,14 @@ fun MediaViewerScreen(
 
     var showUi by remember { mutableStateOf(true) }
 
-    // Comfort: videos' sound is one setting for the whole viewer (muted to start unless Settings'
+    // Flux: videos' sound is one setting for the whole viewer (muted to start unless Settings'
     // "Play videos with sound" is on — Photon's "Autoplay with sound"),
     // so it carries over from video to video; volume up unmutes (see the key handler below).
     var videosMuted by remember { mutableStateOf(startMuted) }
     // Whether the video on screen is playing (reported by its VideoPlayerItem).
     var currentVideoPlaying by remember { mutableStateOf(true) }
 
-    // Comfort: the controls hide by themselves only until they're tapped back — then they stay
+    // Flux: the controls hide by themselves only until they're tapped back — then they stay
     // until tapped away (showControlsByTap).
     var autoHide by remember { mutableStateOf(true) }
     fun showControlsByTap() {
@@ -299,7 +299,7 @@ fun MediaViewerScreen(
         autoHide = false
     }
 
-    // Auto hide UI after 6 seconds of inactivity (e.g., no swiping/page change). Comfort: 6 s, not
+    // Auto hide UI after 6 seconds of inactivity (e.g., no swiping/page change). Flux: 6 s, not
     // Photon's 4, and never while the video on screen is paused, so its controls stay at hand.
     val pausedVideo = currentItem?.isVideo == true && !currentVideoPlaying
     LaunchedEffect(showUi, autoHide, pagerState.isScrollInProgress, pagerState.currentPage, pausedVideo) {
@@ -309,7 +309,7 @@ fun MediaViewerScreen(
         }
     }
 
-    // Comfort: volume up unmutes, as in most galleries; the key isn't consumed, so it still turns
+    // Flux: volume up unmutes, as in most galleries; the key isn't consumed, so it still turns
     // the volume up. The viewer takes focus so the key reaches it.
     val keyFocus = remember { androidx.compose.ui.focus.FocusRequester() }
     LaunchedEffect(Unit) { runCatching { keyFocus.requestFocus() } }
@@ -321,7 +321,7 @@ fun MediaViewerScreen(
     // The ⋮ sheet's Settings and Details (videos).
     var videoSettingsOpen by remember { mutableStateOf(false) }
     var videoDetailsOpen by remember { mutableStateOf(false) }
-    // Comfort: the tracks of the video on screen (with its page, so a page swiped away doesn't
+    // Flux: the tracks of the video on screen (with its page, so a page swiped away doesn't
     // leave its tracks behind), and which picker of the ⋮ menu is open.
     var pageTracks by remember { mutableStateOf<Pair<Int, VideoTracks?>?>(null) }
     var trackPicker by remember { mutableStateOf<Int?>(null) }
@@ -353,7 +353,7 @@ fun MediaViewerScreen(
         }
     }
 
-    // Comfort: the ⋮ menu's track pickers.
+    // Flux: the ⋮ menu's track pickers.
     pageTracks?.takeIf { it.first == pagerState.currentPage }?.second?.let { tracks ->
         trackPicker?.let { type ->
             TrackPickerDialog(
@@ -417,11 +417,11 @@ fun MediaViewerScreen(
     // Vertical drag offset (px). When the user drags the image downward at
     // 1× zoom, this translates the pager and fades the black scrim.
     val dismissOffsetY = remember { Animatable(0f) }
-    // Comfort: only a drag down closes the viewer (a drag up opens the info sheet), so only that
+    // Flux: only a drag down closes the viewer (a drag up opens the info sheet), so only that
     // one fades and shrinks the page.
     val dismissProgress = (dismissOffsetY.value.coerceAtLeast(0f) / 600f).coerceIn(0f, 1f)
 
-    // Comfort: with the controls hidden, the bands above and below the picture go black and the
+    // Flux: with the controls hidden, the bands above and below the picture go black and the
     // system bars hide, as in other galleries; they come back with the controls.
     val backdrop by androidx.compose.animation.animateColorAsState(
         if (showUi) MaterialTheme.colorScheme.surfaceContainerLowest else Color.Black,
@@ -513,7 +513,7 @@ fun MediaViewerScreen(
                             val velocity = velocityTracker.calculateVelocity().y
                             coroutineScope.launch {
                                 val current = dismissOffsetY.value
-                                // Comfort: down closes, up opens the info sheet (Photon closed on both).
+                                // Flux: down closes, up opens the info sheet (Photon closed on both).
                                 if (current > 0f && (current > dismissThreshold || velocity > velocityThreshold)) {
                                     // Commit dismiss — trigger existing back transition
                                     onBack()
@@ -543,13 +543,13 @@ fun MediaViewerScreen(
                     ) { change, dragAmount ->
                         velocityTracker.addPointerInputChange(change)
                         coroutineScope.launch {
-                            // Comfort: upward, the page only follows a little (it opens the sheet).
+                            // Flux: upward, the page only follows a little (it opens the sheet).
                             val step = if (dismissOffsetY.value + dragAmount < 0f) dragAmount * 0.35f else dragAmount
                             dismissOffsetY.snapTo(dismissOffsetY.value + step)
                         }
                     }
                 },
-            // Comfort: by id (unique per page, unlike the file's Uri across posts), so the page on
+            // Flux: by id (unique per page, unlike the file's Uri across posts), so the page on
             // screen stays put while the host fills in the pages around it.
             key = { page -> galleryItems.getOrNull(page)?.id ?: page.toString() }
         ) { page ->
@@ -564,7 +564,7 @@ fun MediaViewerScreen(
                     .size(coil.size.Size.ORIGINAL)
                     .memoryCachePolicy(CachePolicy.ENABLED)
                     .diskCachePolicy(CachePolicy.ENABLED)
-                    // Comfort: the Library's thumbnail of it (Photon's grid key isn't Comfort's).
+                    // Flux: the Library's thumbnail of it (Photon's grid key isn't Flux's).
                     .placeholderMemoryCacheKey(com.comfort.app.util.thumbnailCacheKey(item.id))
                     .crossfade(true)
                     .build()
@@ -606,9 +606,9 @@ fun MediaViewerScreen(
                             onMutedChange = { videosMuted = it },
                             onPlayingChange = { playing -> if (page == pagerState.currentPage) currentVideoPlaying = playing },
                             onTracksChange = { tracks -> pageTracks = page to tracks },
-                            // Comfort: above a carousel's filmstrip.
+                            // Flux: above a carousel's filmstrip.
                             controlsBottomPadding = if (galleryItems.count { groupKey(it) == groupKey(item) } > 1) 64.dp + FILMSTRIP_SPACE else 64.dp,
-                            // Comfort: zoomed like a photo (pinch, double-tap, pan); the zoom
+                            // Flux: zoomed like a photo (pinch, double-tap, pan); the zoom
                             // takes the taps too.
                             modifier = Modifier
                                 .fillMaxSize()
@@ -962,7 +962,7 @@ fun MediaViewerScreen(
             ) {
                 val currentItem = galleryItems.getOrNull(pagerState.currentPage)
 
-                // Comfort: a carousel's files as a filmstrip over the toolbar.
+                // Flux: a carousel's files as a filmstrip over the toolbar.
                 val group = remember(galleryItems, currentItem) {
                     currentItem?.let { cur -> galleryItems.filter { groupKey(it) == groupKey(cur) } }.orEmpty()
                 }
@@ -996,7 +996,7 @@ fun MediaViewerScreen(
                         horizontalArrangement = Arrangement.spacedBy(4.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        // Comfort: Photon's recycle-bin branch is gone (no bin here), sharing has no
+                        // Flux: Photon's recycle-bin branch is gone (no bin here), sharing has no
                         // metadata-stripping setting, Edit hands the file to an editor app for
                         // pictures too (Photon's own editor isn't ported), Delete goes through the
                         // caller (with Undo), and the ⋮ menu lives here instead of the top bar.
@@ -1088,7 +1088,7 @@ fun MediaViewerScreen(
                                         if (onRedownload != null) {
                                             ViewerMenuOption(androidx.compose.material.icons.Icons.Outlined.Refresh, stringResource(R.string.redownload), onClick = { close(); onRedownload(menuItem) })
                                         }
-                                        // Comfort: a downloaded video's subtitles, and its audio tracks when it has dubs.
+                                        // Flux: a downloaded video's subtitles, and its audio tracks when it has dubs.
                                         val tracks = pageTracks?.takeIf { it.first == pagerState.currentPage }?.second
                                         if (menuItem.isVideo && tracks != null) {
                                             if (tracks.subtitles.isNotEmpty()) {

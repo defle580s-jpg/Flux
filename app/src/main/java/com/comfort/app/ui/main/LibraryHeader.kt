@@ -338,7 +338,7 @@ internal fun LibraryHeader(
                 TextButton(onClick = onClearDeleted) { Text(stringResource(R.string.clear_all)) }
             }
             // A file put back from the gallery's recycle bin isn't seen again: the gallery gives it a
-            // new identity Comfort has no access to (it would need permission to read all your
+            // new identity Flux has no access to (it would need permission to read all your
             // photos). Download again is the way back.
             Text(
                 stringResource(R.string.restored_files_stay_deleted),
