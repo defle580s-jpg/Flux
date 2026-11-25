@@ -1168,6 +1168,7 @@ fun HomeScreen(
     // the "Instant" Sharesheet entry does (ShareActivity's InstantShareHandler), duplicate handling
     // and message included. Configure is the other button.
     fun downloadNow(link: String) {
+        try { val act = homeContext as? android.app.Activity; if (act != null) { InterstitialManager.load(homeContext); InterstitialManager.show(act) {} } } catch (e: Exception) {}
         router.download(link) { result ->
             android.widget.Toast.makeText(homeContext, startedMessage(homeContext, result), android.widget.Toast.LENGTH_SHORT).show()
         }

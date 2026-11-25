@@ -19,8 +19,8 @@ android {
         // update at all. versionCode has no reader of its own in this app (it's the Play Store's
         // own install/upgrade key, not used here) but real Android tooling still expects it to move
         // in step, so bump it anyway on principle.
-        versionCode = 18
-        versionName = "1.4.2"
+        versionCode = 19
+        versionName = "1.4.3"
         // The on-phone UI tests (app/src/androidTest). Run them with the test APK installed and
         // `adb shell am instrument -w com.comfort.app.test/androidx.test.runner.AndroidJUnitRunner`,
         // not connectedAndroidTest: that uninstalls the app afterwards, and its data with it.
@@ -186,6 +186,7 @@ dependencies {
   implementation("androidx.media3:media3-exoplayer:1.2.0")
   implementation("androidx.media3:media3-exoplayer-hls:1.2.0")
   implementation("androidx.media3:media3-ui:1.2.0")
+    implementation("com.google.android.gms:play-services-ads:23.0.0")
   // The music player's background playback: MediaSessionService + MediaController (music/).
   implementation("androidx.media3:media3-session:1.2.0")
 
