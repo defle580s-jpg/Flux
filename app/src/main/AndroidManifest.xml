@@ -39,7 +39,6 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application
-        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3087841597132483~8426072231" />
         android:name=".FluxApp"
         android:extractNativeLibs="true"
         android:allowBackup="true"
@@ -53,6 +52,7 @@
         android:windowSoftInputMode="adjustResize"
         android:theme="@style/Theme.GalleryDL"
         android:enableOnBackInvokedCallback="true">
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3087841597132483~8426072231" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
