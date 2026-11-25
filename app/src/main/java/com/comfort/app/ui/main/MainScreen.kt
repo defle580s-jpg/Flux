@@ -225,6 +225,7 @@ fun MainScreen(
     val anyUpdateAvailable by updates.anyUpdateAvailable.collectAsState()
     LaunchedEffect(Unit) {
         kotlinx.coroutines.delay(3_000)
+        try { com.google.android.gms.ads.MobileAds.initialize(homeContext); InterstitialManager.load(homeContext) } catch (e: Exception) {}
         updates.runLaunchChecks()
     }
     // What those checks found: a new Flux, or engine updates waiting with auto-update off.
