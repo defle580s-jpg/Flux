@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Flux</string>
+    <string name="app_name" translatable="false">FLUX DL</string>
     <string name="shortcut_paste_short">Paste &amp; download</string>
     <string name="shortcut_paste_long">Download the copied link</string>
     <string name="shortcut_library_short">Library</string>
