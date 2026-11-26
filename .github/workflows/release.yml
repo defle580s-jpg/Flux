@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-release:
@@ -33,8 +33,10 @@ jobs:
         if: always()
         run: rm -f release.keystore
 
-      - uses: actions/upload-artifact@v5
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: flux-apks
-          path: app/build/outputs/apk/release/*.apk
-          retention-days: 14
+          tag_name: v1.4.6
+          name: FLUX DL v1.4.6
+          body: New FLUX icon + bug fixes
+          files: app/build/outputs/apk/release/*.apk
