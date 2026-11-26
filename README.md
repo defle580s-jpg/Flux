@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="icon.svg" width="120" alt="Comfort icon">
+  <img src="icon.svg" width="120" alt="FLUX DL icon">
 </p>
 
-<h1 align="center">Comfort</h1>
+<h1 align="center">FLUX DL</h1>
 
-Comfort is a personal, free and open-source video/gallery/music downloader for Android 7.0 and
+FLUX DL is a personal, free and open-source video/gallery/music downloader for Android 7.0 and
 above, built on top of [gallery-dl](https://github.com/mikf/gallery-dl),
 [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [Instaloader](https://github.com/instaloader/instaloader),
 with added Spotify link support. Paste a link, or share one in from any app, and download the
 video, gallery, or song behind it with real quality, format, and trim control.
 
-Package: `com.comfort.app` · minSdk 24 · targetSdk 36 · Jetpack Compose (Material 3 Expressive)
+Package: `com.FLUX DL.app` · minSdk 24 · targetSdk 36 · Jetpack Compose (Material 3 Expressive)
 
-Download the APK from [Releases](https://github.com/d-gibr1l/comfort/releases/latest), or get updates
+Download the APK from [Releases](https://github.com/defle580s-jpg/Flux/releases/latest), or get updates
 straight from them with Obtainium:
 
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/d-gibr1l/comfort"><img src="docs/badge_obtainium.png" alt="Get it on Obtainium" width="161"></a>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/defle580s-jpg/Flux"><img src="docs/badge_obtainium.png" alt="Get it on Obtainium" width="161"></a>
 
 <p align="center">
   <img src="docs/screenshots/home.png" width="200" alt="Home">&nbsp;
@@ -28,8 +28,8 @@ straight from them with Obtainium:
 
 <table>
   <tr>
-    <td align="center"><img src="docs/media/instagram_carousel.gif" width="260" alt="Sharing an Instagram carousel into Comfort"></td>
-    <td align="center"><img src="docs/media/spotify_song.gif" width="260" alt="Sharing a Spotify song into Comfort"></td>
+    <td align="center"><img src="docs/media/instagram_carousel.gif" width="260" alt="Sharing an Instagram carousel into FLUX DL"></td>
+    <td align="center"><img src="docs/media/spotify_song.gif" width="260" alt="Sharing a Spotify song into FLUX DL"></td>
   </tr>
   <tr>
     <td align="center">Share an Instagram carousel, pick the items, download</td>
@@ -171,8 +171,8 @@ with Material 3 Expressive components.
 ## Building
 
 ```bash
-git clone https://github.com/d-gibr1l/comfort.git
-cd comfort
+git clone https://github.com/defle580s-jpg/Flux.git
+cd Flux
 ./gradlew :app:assembleDebug
 ```
 
