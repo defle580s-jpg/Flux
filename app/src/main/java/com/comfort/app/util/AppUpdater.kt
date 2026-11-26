@@ -27,7 +27,7 @@ import kotlinx.coroutines.withContext
  * APKs attached, named like the build's own splits: "Flux-1.2.0-arm64-v8a.apk", ...,
  * "Flux-1.2.0-universal.apk" — see fetchLatest for how one is picked. */
 object AppUpdater {
-    private const val REPO = "d-gibr1l/comfort"
+    private const val REPO = "defle580s-jpg/Flux"
     private val KNOWN_ABIS = listOf("arm64-v8a", "armeabi-v7a", "armeabi", "x86_64", "x86")
 
     /** The release's version as a file-name part: digits, letters, dots and dashes only. A tag
