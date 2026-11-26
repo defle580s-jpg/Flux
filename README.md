@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="icon.svg" width="120" alt="FLUX DL icon">
 </p>
 
 <h1 align="center">FLUX DL</h1>
@@ -18,7 +17,6 @@ straight from them with Obtainium:
 <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/defle580s-jpg/Flux"><img src="docs/badge_obtainium.png" alt="Get it on Obtainium" width="161"></a>
 
 <p align="center">
-  <img src="docs/screenshots/home.png" width="200" alt="Home">&nbsp;
   <img src="docs/screenshots/preview_video.png" width="200" alt="Video preview sheet">&nbsp;
   <img src="docs/screenshots/preview_song.png" width="200" alt="Song preview sheet">&nbsp;
   <img src="docs/screenshots/queue.png" width="200" alt="Download queue">
