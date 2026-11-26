@@ -1,3 +1,4 @@
+<p align="center"><img src="icon.png" width="120" alt="FLUX DL icon"></p>
 <p align="center">
 </p>
 
